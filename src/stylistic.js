@@ -21,6 +21,17 @@ export default [
 					"minItems": 3,
 				},
 			],
+			"@stylistic/arrow-parens": [
+				"error", "always", {
+					"requireForBlockBody": true
+				},
+			],
+			"@stylistic/arrow-spacing": [
+				"error", {
+					"before": true,
+					"after": true
+				},
+			],
 		},
 	},
 ];
