@@ -23,14 +23,17 @@ export default [
 			],
 			"@stylistic/arrow-parens": [
 				"error", "always", {
-					"requireForBlockBody": true
+					"requireForBlockBody": true,
 				},
 			],
 			"@stylistic/arrow-spacing": [
 				"error", {
 					"before": true,
-					"after": true
+					"after": true,
 				},
+			],
+			"@stylistic/block-spacing": [
+				"error", "always",
 			],
 		},
 	},
