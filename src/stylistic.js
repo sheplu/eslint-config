@@ -35,6 +35,11 @@ export default [
 			"@stylistic/block-spacing": [
 				"error", "always",
 			],
+			"@stylistic/brace-style": [
+				"error", "stroustrup", {
+					"allowSingleLine": false
+				},
+			],
 		},
 	},
 ];
