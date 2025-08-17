@@ -98,6 +98,11 @@ export default [
 					},
 				},
 			],
+			"@stylistic/computed-property-spacing": [
+				"error", "never", {
+					"enforceForClassMembers": true,
+				},
+			],
 		},
 	},
 ];
