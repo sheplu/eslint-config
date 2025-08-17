@@ -36,7 +36,7 @@ export default [
 				"error", "always",
 			],
 			"@stylistic/brace-style": [
-				"error", "stroustrup", {
+				"error", "1tbs", {
 					"allowSingleLine": false
 				},
 			],
