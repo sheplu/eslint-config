@@ -142,6 +142,20 @@ export default [
 			"@stylistic/function-paren-newline": [
 				"error", "multiline",
 			],
+			"@stylistic/generator-star-spacing": [
+				"error", {
+					"before": true,
+					"after": false,
+					"anonymous": {
+						"before": true,
+						"after": false,
+					},
+					"method": {
+						"before": true,
+						"after": false,
+					},
+				},
+			],
 			"@stylistic/implicit-arrow-linebreak": [
 				"error", "beside",
 			],
