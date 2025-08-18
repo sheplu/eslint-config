@@ -142,6 +142,9 @@ export default [
 			"@stylistic/function-paren-newline": [
 				"error", "multiline",
 			],
+			"@stylistic/implicit-arrow-linebreak": [
+				"error", "beside",
+			],
 		},
 	},
 ];
