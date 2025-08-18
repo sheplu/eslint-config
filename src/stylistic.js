@@ -130,6 +130,9 @@ export default [
 			"@stylistic/dot-location": [
 				"error", "property",
 			],
+			"@stylistic/eol-last": [
+				"error", "always",
+			],
 		},
 	},
 ];
