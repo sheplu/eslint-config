@@ -127,6 +127,9 @@ export default [
 					"TSModuleBlock": "always",
 				},
 			],
+			"@stylistic/dot-location": [
+				"error", "property",
+			],
 		},
 	},
 ];
