@@ -133,6 +133,15 @@ export default [
 			"@stylistic/eol-last": [
 				"error", "always",
 			],
+			"@stylistic/function-call-argument-newline": [
+				"error", "consistent",
+			],
+			"@stylistic/function-call-spacing": [
+				"error", "never",
+			],
+			"@stylistic/function-paren-newline": [
+				"error", "multiline",
+			],
 		},
 	},
 ];
