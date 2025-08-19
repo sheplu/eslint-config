@@ -179,6 +179,12 @@ export default [
 					},
 				}
 			],
+			"@stylistic/keyword-spacing": [
+				"error", {
+					"before": true,
+					"after": false,
+				},
+			],
 		},
 	},
 ];
