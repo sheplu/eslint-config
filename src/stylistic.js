@@ -195,6 +195,46 @@ export default [
 			"@stylistic/linebreak-style": [
 				"error", "unix",
 			],
+			"@stylistic/lines-around-comment": [
+				"error", {
+					"beforeBlockComment": true,
+					"afterBlockComment": false,
+					"beforeLineComment": true,
+					"afterLineComment": false,
+					"allowBlockStart": true,
+					"allowBlockEnd": false,
+					"allowObjectStart": true,
+					"allowObjectEnd": false,
+					"allowArrayStart": true,
+					"allowArrayEnd": false,
+					"allowClassStart": true,
+					"allowClassEnd": false,
+					"allowEnumStart": true,
+					"allowEnumEnd": false,
+					"allowInterfaceStart": true,
+					"allowInterfaceEnd": false,
+					"allowModuleStart": true,
+					"allowModuleEnd": false,
+					"allowTypeStart": true,
+					"allowTypeEnd": false,
+					"applyDefaultIgnorePatterns": true,
+					"ignorePattern": "slint",
+					"afterHashbangComment": true,
+				},
+			],
+			"@stylistic/lines-between-class-members": [
+				"error", {
+					"enforce": [
+						{ blankLine: "always", prev: "*", next: "*" },
+						{ blankLine: "always", prev: "method", next: "method" },
+						{ blankLine: "always", prev: "field", next: "method" },
+						{ blankLine: "never", prev: "field", next: "field" },
+					],
+				}, {
+					"exceptAfterSingleLine": false,
+					"exceptAfterOverload": false,
+				},
+			]
 		},
 	},
 ];
