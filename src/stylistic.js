@@ -185,6 +185,13 @@ export default [
 					"after": false,
 				},
 			],
+			"@stylistic/line-comment-position": [
+				"error", {
+					"position": "above",
+					"ignorePattern": "slint",
+					"applyDefaultIgnorePatterns": true,
+				},
+			],
 		},
 	},
 ];
