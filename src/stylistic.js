@@ -165,6 +165,20 @@ export default [
 			"@stylistic/indent-binary-ops": [
 				"error", "tab",
 			],
+			"@stylistic/key-spacing": [
+				"error", {
+					"singleLine": {
+						"beforeColon": false,
+						"afterColon": true,
+						"mode": "strict",
+					},
+					"multiLine": {
+						"beforeColon": false,
+						"afterColon": true,
+						"mode": "strict",
+					},
+				}
+			],
 		},
 	},
 ];
