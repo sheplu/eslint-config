@@ -159,6 +159,12 @@ export default [
 			"@stylistic/implicit-arrow-linebreak": [
 				"error", "beside",
 			],
+			"@stylistic/indent": [
+				"error", "tab",
+			],
+			"@stylistic/indent-binary-ops": [
+				"error", "tab",
+			],
 		},
 	},
 ];
