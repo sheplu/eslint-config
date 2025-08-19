@@ -234,7 +234,26 @@ export default [
 					"exceptAfterSingleLine": false,
 					"exceptAfterOverload": false,
 				},
-			]
+			],
+			"@stylistic/max-len": [
+				"error", {
+					"code": 100,
+					"tabWidth": 4,
+					"comments": 140,
+					"ignorePattern": null,
+					"ignoreComments": false,
+					"ignoreTrailingComments": false,
+					"ignoreUrls": true,
+					"ignoreStrings": false,
+					"ignoreTemplateLiterals": false,
+					"ignoreRegExpLiterals": true,
+				},
+			],
+			"@stylistic/max-statements-per-line": [
+				"error", {
+					"max": 1,
+				},
+			],
 		},
 	},
 ];
