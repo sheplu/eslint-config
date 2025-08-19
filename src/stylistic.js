@@ -192,6 +192,9 @@ export default [
 					"applyDefaultIgnorePatterns": true,
 				},
 			],
+			"@stylistic/linebreak-style": [
+				"error", "unix",
+			],
 		},
 	},
 ];
