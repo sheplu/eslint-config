@@ -277,6 +277,11 @@ export default [
 			"@stylistic/new-parens": [
 				"error", "always",
 			],
+			"@stylistic/newline-per-chained-call": [
+				"error", {
+					"ignoreChainWithDepth": 3,
+				},
+			],
 		},
 	},
 ];
