@@ -266,6 +266,14 @@ export default [
 					"multilineDetection": "brackets",
 				},
 			],
+			"@stylistic/multiline-comment-style": [
+				"error", "starred-block",
+			],
+			"@stylistic/multiline-ternary": [
+				"error", "always", {
+					"ignoreJSX": false,
+				},
+			],
 		},
 	},
 ];
