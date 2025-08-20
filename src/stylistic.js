@@ -274,6 +274,9 @@ export default [
 					"ignoreJSX": false,
 				},
 			],
+			"@stylistic/new-parens": [
+				"error", "always",
+			],
 		},
 	},
 ];
