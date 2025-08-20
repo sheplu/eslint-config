@@ -253,6 +253,19 @@ export default [
 					"max": 1,
 				},
 			],
+			"@stylistic/member-delimiter-style": [
+				"error", {
+					"multiline": {
+						"delimiter": "semi",
+						"requireLast": true,
+					},
+					"singleline": {
+						"delimiter": "semi",
+						"requireLast": true,
+					},
+					"multilineDetection": "brackets",
+				},
+			],
 		},
 	},
 ];
