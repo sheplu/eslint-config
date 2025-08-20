@@ -282,6 +282,82 @@ export default [
 					"ignoreChainWithDepth": 3,
 				},
 			],
+			"@stylistic/no-confusing-arrow": [
+				"error", {
+					"allowParens": true,
+					"onlyOneSimpleParam": false,
+				},
+			],
+			"@stylistic/no-extra-parens": [
+				"error", "all", {
+					"conditionalAssign": false,
+					"returnAssign": false,
+					"nestedBinaryExpressions": false,
+					"ternaryOperandBinaryExpressions": false,
+					"enforceForArrowConditionals": false,
+					"enforceForSequenceExpressions": false,
+					"enforceForNewInMemberExpressions": false,
+					"enforceForFunctionPrototypeMethods": false,
+					"allowParensAfterCommentPattern": "@type",
+					"nestedConditionalExpressions": false,
+					"allowNodesInSpreadElement": {
+						"ConditionalExpression": false,
+						"LogicalExpression": false,
+						"AwaitExpression": false,
+					},
+					"ignoreJSX": "none",
+				},
+			],
+			"@stylistic/no-extra-semi": [
+				"error",
+			],
+			"@stylistic/no-floating-decimal": [
+				"error",
+			],
+			"@stylistic/no-mixed-operators": [
+				"error", {
+					"allowSamePrecedence": true,
+					"groups": [
+						["+", "-", "*", "/", "%", "**"],
+						["&", "|", "^", "~", "<<", ">>", ">>>"],
+						["==", "!=", "===", "!==", ">", ">=", "<", "<="],
+						["&&", "||"],
+						["in", "instanceof"],
+						["??"],
+						["?:"],
+					],
+				},
+			],
+			"@stylistic/no-mixed-spaces-and-tabs": [
+				"error",
+			],
+			"@stylistic/no-multi-spaces": [
+				"error", {
+					"ignoreEOLComments": false,
+					"includeTabs": true,
+				},
+			],
+			"@stylistic/no-multiple-empty-lines": [
+				"error", {
+					"max": 1,
+					"maxBOF": 0,
+					"maxEOF": 0,
+				},
+			],
+			"@stylistic/no-tabs": [
+				"error", {
+					allowIndentationTabs: true,
+				},
+			],
+			"@stylistic/no-trailing-spaces": [
+				"error", {
+					"skipBlankLines": false,
+					"ignoreComments": false,
+				},
+			],
+			"@stylistic/no-whitespace-before-property": [
+				"error",
+			],
 		},
 	},
 ];
