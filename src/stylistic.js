@@ -399,6 +399,9 @@ export default [
 			"@stylistic/no-whitespace-before-property": [
 				"error",
 			],
+			"@stylistic/nonblock-statement-body-position": [
+				"error", "beside",
+			],
 		},
 	},
 ];
