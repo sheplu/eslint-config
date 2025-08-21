@@ -205,7 +205,7 @@ export default [
 						"function": { "after": true, },
 						"get": { "after": true, },
 						"if": { "after": true, },
-						"import": { "after": false, },
+						"import": { "after": true, },
 						"in": { "after": true, },
 						"let": { "after": true, },
 						"new": { "after": true, },
