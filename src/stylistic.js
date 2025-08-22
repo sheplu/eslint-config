@@ -513,6 +513,52 @@ export default [
 				"error",
 				"last",
 			],
+			"@stylistic/space-before-blocks": [
+				"error", { 
+					"functions": "always",
+					"keywords": "always",
+					"classes": "always",
+					"modules": "always",
+				},
+			],
+			"@stylistic/space-before-function-paren": [
+				"error", {
+					"anonymous": "always",
+					"named": "never",
+					"asyncArrow": "always",
+					"catch": "always",
+				},
+			],
+			"@stylistic/space-in-parens": [
+				"error", "never", {
+					"exceptions": [],
+				},
+			],
+			"@stylistic/space-infix-ops": [
+				"error", {
+					"int32Hint": false,
+					"ignoreTypes": false,
+				},
+			],
+			"@stylistic/space-unary-ops": [
+				"error", {
+					"words": true,
+					"nonwords": false,
+					"overrides": {
+						"new": true,
+						"delete": true,
+						"typeof": true,
+						"void": true,
+						"yield": true,
+						"-": true,
+						"+": true,
+						"--": false,
+						"++": false,
+						"|": true,
+						"||": true,
+					},
+				},
+			],
 		},
 	},
 ];
