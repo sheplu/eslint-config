@@ -494,6 +494,9 @@ export default [
 					"ignoreStringLiterals": false,
 				},
 			],
+			"@stylistic/rest-spread-spacing": [
+				"error", "never",
+			],
 		},
 	},
 ];
