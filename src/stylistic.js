@@ -480,6 +480,13 @@ export default [
 				{ blankLine: "always", prev: "import", next: "*" },
 				{ blankLine: "never", prev: "*", next: "import" },
 			],
+			"@stylistic/quote-props": [
+				"error", "consistent-as-needed", {
+					"keywords": true,
+					"unnecessary": true,
+					"numbers": true,
+				},
+			],
 			"@stylistic/quotes": [
 				"error", "single", {
 					"avoidEscape": true,
