@@ -600,6 +600,12 @@ export default [
 			"@stylistic/type-named-tuple-spacing": [
 				"error",
 			],
+			"@stylistic/wrap-iife": [
+				"error", "outside",
+			],
+			"@stylistic/wrap-regex": [
+				"error",
+			],
 		},
 	},
 ];
