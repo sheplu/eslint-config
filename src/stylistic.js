@@ -447,6 +447,15 @@ export default [
 					"objectsInObjects": true,
 				},
 			],
+			"@stylistic/object-property-newline": [
+				"error", {
+					"allowAllPropertiesOnSameLine": true,
+
+				}
+			],
+			"@stylistic/operator-linebreak": [
+				"error", "after",
+			],
 		},
 	},
 ];
