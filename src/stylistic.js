@@ -459,6 +459,13 @@ export default [
 			"@stylistic/operator-linebreak": [
 				"error", "after",
 			],
+			"@stylistic/padded-blocks": [
+				"error", {
+					"blocks": "never",
+					"classes": "never",
+					"switches": "never",
+				},
+			],
 		},
 	},
 ];
