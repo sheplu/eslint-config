@@ -584,6 +584,22 @@ export default [
 			"@stylistic/template-tag-spacing": [
 				"error", "never",
 			],
+			"@stylistic/type-annotation-spacing": [
+				"error", { 
+					"before": false,
+					"after": true,
+					"overrides": {
+						"colon": { "before": false, "after": true },
+						"arrow": { "before": true, "after": true },
+					},
+				},
+			],
+			"@stylistic/type-generic-spacing": [
+				"error",
+			],
+			"@stylistic/type-named-tuple-spacing": [
+				"error",
+			],
 		},
 	},
 ];
