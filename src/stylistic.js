@@ -497,6 +497,22 @@ export default [
 			"@stylistic/rest-spread-spacing": [
 				"error", "never",
 			],
+			"@stylistic/semi": [
+				"error", "always", {
+					"omitLastInOneLineBlock": false,
+					"omitLastInOneLineClassBody": false,
+				},
+			],
+			"@stylistic/semi-spacing": [
+				"error", {
+					"before": false,
+					"after": true,
+				},
+			],
+			"@stylistic/semi-style": [
+				"error",
+				"last",
+			],
 		},
 	},
 ];
