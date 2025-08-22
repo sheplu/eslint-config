@@ -480,6 +480,13 @@ export default [
 				{ blankLine: "always", prev: "import", next: "*" },
 				{ blankLine: "never", prev: "*", next: "import" },
 			],
+			"@stylistic/quotes": [
+				"error", "single", {
+					"avoidEscape": true,
+					"allowTemplateLiterals": "avoidEscape",
+					"ignoreStringLiterals": false,
+				},
+			],
 		},
 	},
 ];
