@@ -453,6 +453,9 @@ export default [
 
 				}
 			],
+			"@stylistic/one-var-declaration-per-line": [
+				"error", "initializations",
+			],
 			"@stylistic/operator-linebreak": [
 				"error", "after",
 			],
