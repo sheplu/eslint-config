@@ -572,6 +572,12 @@ export default [
 					},
 				},
 			],
+			"@stylistic/switch-colon-spacing": [
+				"error", {
+					"after": true,
+					"before": false,
+				},
+			],
 		},
 	},
 ];
