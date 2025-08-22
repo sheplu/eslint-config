@@ -578,6 +578,12 @@ export default [
 					"before": false,
 				},
 			],
+			"@stylistic/template-curly-spacing": [
+				"error", "never",
+			],
+			"@stylistic/template-tag-spacing": [
+				"error", "never",
+			],
 		},
 	},
 ];
