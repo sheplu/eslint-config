@@ -606,6 +606,12 @@ export default [
 			"@stylistic/wrap-regex": [
 				"error",
 			],
+			"@stylistic/yield-star-spacing": [
+				"error", {
+					"before": false,
+					"after": true,
+				},
+			],
 		},
 	},
 ];
