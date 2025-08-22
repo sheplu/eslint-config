@@ -402,6 +402,51 @@ export default [
 			"@stylistic/nonblock-statement-body-position": [
 				"error", "beside",
 			],
+			"@stylistic/object-curly-newline": [
+				"error", {
+					"ObjectExpression": {
+						"multiline": true,
+						"minProperties": 3,
+						"consistent": true,
+					},
+					"ObjectPattern": {
+						"multiline": true,
+						"minProperties": 3,
+						"consistent": true,
+					},
+					"ImportDeclaration": {
+						"multiline": true,
+						"minProperties": 3,
+						"consistent": true,
+					},
+					"ExportDeclaration": {
+						"multiline": true,
+						"minProperties": 3,
+						"consistent": true,
+					},
+					"TSTypeLiteral": {
+						"multiline": true,
+						"minProperties": 3,
+						"consistent": true,
+					},
+					"TSInterfaceBody": {
+						"multiline": true,
+						"minProperties": 3,
+						"consistent": true,
+					},
+					"TSEnumBody": {
+						"multiline": true,
+						"minProperties": 3,
+						"consistent": true,
+					},
+				},
+			],
+			"@stylistic/object-curly-spacing": [
+				"error", "always", {
+					"arraysInObjects": true,
+					"objectsInObjects": true,
+				},
+			],
 		},
 	},
 ];
