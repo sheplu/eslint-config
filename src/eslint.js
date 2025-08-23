@@ -14,6 +14,11 @@ export default [
             "for-direction": [
                 "error",
             ],
+            "getter-return": [
+                "error", {
+                    "allowImplicit": false,
+                },
+            ],
         },
     },
 ];
