@@ -19,6 +19,9 @@ export default [
                     "allowImplicit": false,
                 },
             ],
+            "no-async-promise-executor": [
+                "error", 
+            ],
         },
     },
 ];
