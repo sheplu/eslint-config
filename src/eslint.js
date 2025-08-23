@@ -8,6 +8,9 @@ export default [
                     "allowVoid": false,
                 },
             ],
+            "constructor-super": [
+                "error",
+            ],
         },
     },
 ];
