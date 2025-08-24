@@ -28,6 +28,9 @@ export default [
             "no-class-assign": [
                 "error",
             ],
+            "no-compare-neg-zero": [
+                "error",
+            ],
         },
     },
 ];
