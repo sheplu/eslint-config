@@ -25,6 +25,9 @@ export default [
             "no-await-in-loop": [
                 "error",
             ],
+            "no-class-assign": [
+                "error",
+            ],
         },
     },
 ];
