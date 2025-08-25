@@ -61,6 +61,9 @@ export default [
             "no-dupe-else-if": [
                 "error",
             ],
+            "no-dupe-keys": [
+                "error",
+            ],
         },
     },
 ];
