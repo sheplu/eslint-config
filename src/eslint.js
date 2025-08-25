@@ -64,6 +64,9 @@ export default [
             "no-dupe-keys": [
                 "error",
             ],
+            "no-duplicate-case": [
+                "error",
+            ],
         },
     },
 ];
