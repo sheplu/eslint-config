@@ -73,6 +73,11 @@ export default [
             "no-empty-character-class": [
                 "error",
             ],
+            "no-empty-pattern": [
+                "error", {
+                    "allowObjectPatternsAsParameters": false,
+                },
+            ],
         },
     },
 ];
