@@ -37,6 +37,9 @@ export default [
             "no-const-assign": [
                 "error",
             ],
+            "no-constant-binary-expression": [
+                "error",
+            ],
         },
     },
 ];
