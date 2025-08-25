@@ -34,6 +34,9 @@ export default [
             "no-cond-assign": [
                 "error", "always",
             ],
+            "no-const-assign": [
+                "error",
+            ],
         },
     },
 ];
