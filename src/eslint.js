@@ -55,6 +55,9 @@ export default [
             "no-dupe-args": [
                 "error",
             ],
+            "no-dupe-class-members": [
+                "error",
+            ],
         },
     },
 ];
