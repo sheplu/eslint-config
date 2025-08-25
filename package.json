@@ -1,7 +1,7 @@
 {
   "name": "@sheplu/eslint-config",
   "version": "0.1.0",
-  "description": "",
+  "description": "A simple ESLint config based on recommended rules and stylistic formatting",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,19 @@
     "type": "git",
     "url": "git+https://github.com/sheplu/eslint-config.git"
   },
-  "keywords": [],
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "eslint-stylistic",
+    "eslint-recommended",
+    "stylistic",
+    "linter",
+    "sheplu",
+    "styleguide",
+    "javascript",
+    "code-style"
+  ],
   "author": "",
   "license": "ISC",
   "type": "module",
