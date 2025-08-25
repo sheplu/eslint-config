@@ -58,6 +58,9 @@ export default [
             "no-dupe-class-members": [
                 "error",
             ],
+            "no-dupe-else-if": [
+                "error",
+            ],
         },
     },
 ];
