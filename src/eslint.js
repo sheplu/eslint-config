@@ -43,6 +43,9 @@ export default [
             "no-constant-condition": [
                 "error",
             ],
+            "no-constructor-return": [
+                "error",
+            ],
         },
     },
 ];
