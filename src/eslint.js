@@ -49,6 +49,9 @@ export default [
             "no-control-regex": [
                 "error",
             ],
+            "no-debugger": [
+                "error",
+            ],
         },
     },
 ];
