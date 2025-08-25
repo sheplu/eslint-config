@@ -46,6 +46,9 @@ export default [
             "no-constructor-return": [
                 "error",
             ],
+            "no-control-regex": [
+                "error",
+            ],
         },
     },
 ];
