@@ -70,6 +70,9 @@ export default [
             "no-duplicate-imports": [
                 "error",
             ],
+            "no-empty-character-class": [
+                "error",
+            ],
         },
     },
 ];
