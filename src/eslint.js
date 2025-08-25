@@ -67,6 +67,9 @@ export default [
             "no-duplicate-case": [
                 "error",
             ],
+            "no-duplicate-imports": [
+                "error",
+            ],
         },
     },
 ];
