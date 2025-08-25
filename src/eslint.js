@@ -52,6 +52,9 @@ export default [
             "no-debugger": [
                 "error",
             ],
+            "no-dupe-args": [
+                "error",
+            ],
         },
     },
 ];
