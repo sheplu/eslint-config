@@ -116,6 +116,11 @@ export default [
             "no-loss-of-precision": [
                 "error", 
             ],
+            "no-misleading-character-class": [
+                "error", {
+                    "allowEscape": true,
+                },
+            ],
         },
     },
 ];
