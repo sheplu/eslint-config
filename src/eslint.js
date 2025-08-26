@@ -78,6 +78,9 @@ export default [
                     "allowObjectPatternsAsParameters": false,
                 },
             ],
+            "no-ex-assign": [
+                "error",
+            ],
         },
     },
 ];
