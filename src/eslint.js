@@ -94,6 +94,11 @@ export default [
             "no-import-assign": [
                 "error",
             ],
+            "no-inner-declarations": [
+                "error", "both", {
+                    "blockScopedFunctions": "disallow",
+                },
+            ],
         },
     },
 ];
