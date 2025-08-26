@@ -99,6 +99,11 @@ export default [
                     "blockScopedFunctions": "disallow",
                 },
             ],
+            "no-invalid-regexp": [
+                "error", {
+                    "allowConstructorFlags": [],
+                },
+            ],
         },
     },
 ];
