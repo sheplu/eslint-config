@@ -113,6 +113,9 @@ export default [
                     "skipJSXText": false,
                 },
             ],
+            "no-loss-of-precision": [
+                "error", 
+            ],
         },
     },
 ];
