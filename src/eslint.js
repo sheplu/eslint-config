@@ -88,6 +88,9 @@ export default [
                     "reportUnusedFallthroughComment": true,
                 },
             ],
+            "no-func-assign": [
+                "error",
+            ],
         },
     },
 ];
