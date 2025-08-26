@@ -81,6 +81,13 @@ export default [
             "no-ex-assign": [
                 "error",
             ],
+            "no-fallthrough": [
+                "error", {
+                    "commentPattern": "break[\\s]*omitted",
+                    "allowEmptyCase": false,
+                    "reportUnusedFallthroughComment": true,
+                },
+            ],
         },
     },
 ];
