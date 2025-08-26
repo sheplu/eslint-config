@@ -104,6 +104,15 @@ export default [
                     "allowConstructorFlags": [],
                 },
             ],
+            "no-irregular-whitespace": [
+                "error", {
+                    "skipStrings": false,
+                    "skipComments": false,
+                    "skipRegExps": false,
+                    "skipTemplates": false,
+                    "skipJSXText": false,
+                },
+            ],
         },
     },
 ];
