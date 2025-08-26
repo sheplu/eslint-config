@@ -91,6 +91,9 @@ export default [
             "no-func-assign": [
                 "error",
             ],
+            "no-import-assign": [
+                "error",
+            ],
         },
     },
 ];
