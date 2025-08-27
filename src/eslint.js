@@ -127,6 +127,11 @@ export default [
             "no-obj-calls": [
                 "error",
             ],
+            "no-promise-executor-return": [
+                "error", {
+                    "allowVoid": false,
+                },
+            ],
         },
     },
 ];
