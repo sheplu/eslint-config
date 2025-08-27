@@ -132,6 +132,9 @@ export default [
                     "allowVoid": false,
                 },
             ],
+            "no-prototype-builtins": [
+                "error", 
+            ],
         },
     },
 ];
