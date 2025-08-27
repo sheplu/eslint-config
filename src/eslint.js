@@ -121,6 +121,9 @@ export default [
                     "allowEscape": true,
                 },
             ],
+            "no-new-native-nonconstructor": [
+                "error",
+            ],
         },
     },
 ];
