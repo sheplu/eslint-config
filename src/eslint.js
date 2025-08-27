@@ -124,6 +124,9 @@ export default [
             "no-new-native-nonconstructor": [
                 "error",
             ],
+            "no-obj-calls": [
+                "error",
+            ],
         },
     },
 ];
