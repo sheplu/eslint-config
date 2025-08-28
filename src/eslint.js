@@ -149,6 +149,9 @@ export default [
             "no-sparse-arrays": [
                 "error",
             ],
+            "no-template-curly-in-string": [
+                "error",
+            ],
         },
     },
 ];
