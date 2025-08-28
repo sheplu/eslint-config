@@ -152,6 +152,9 @@ export default [
             "no-template-curly-in-string": [
                 "error",
             ],
+            "no-this-before-super": [
+                "error",
+            ],
         },
     },
 ];
