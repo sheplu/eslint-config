@@ -163,6 +163,9 @@ export default [
                     "typeof": true,
                 },
             ],
+            "no-unexpected-multiline": [
+                "error",
+            ],
         },
     },
 ];
