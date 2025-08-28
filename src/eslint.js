@@ -135,6 +135,11 @@ export default [
             "no-prototype-builtins": [
                 "error", 
             ],
+            "no-self-assign": [
+                "error", {
+                    "props": true,
+                },
+            ],
         },
     },
 ];
