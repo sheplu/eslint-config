@@ -158,6 +158,11 @@ export default [
             "no-unassigned-vars": [
                 "error",
             ],
+            "no-undef": [
+                "error", {
+                    "typeof": true,
+                },
+            ],
         },
     },
 ];
