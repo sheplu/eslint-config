@@ -143,6 +143,9 @@ export default [
             "no-self-compare": [
                 "error",
             ],
+            "no-setter-return": [
+                "error",
+            ],
         },
     },
 ];
