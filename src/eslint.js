@@ -155,6 +155,9 @@ export default [
             "no-this-before-super": [
                 "error",
             ],
+            "no-unassigned-vars": [
+                "error",
+            ],
         },
     },
 ];
