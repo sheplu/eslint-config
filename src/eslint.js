@@ -146,6 +146,9 @@ export default [
             "no-setter-return": [
                 "error",
             ],
+            "no-sparse-arrays": [
+                "error",
+            ],
         },
     },
 ];
