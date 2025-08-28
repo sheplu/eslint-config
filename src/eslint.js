@@ -140,6 +140,9 @@ export default [
                     "props": true,
                 },
             ],
+            "no-self-compare": [
+                "error",
+            ],
         },
     },
 ];
