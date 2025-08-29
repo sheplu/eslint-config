@@ -166,6 +166,9 @@ export default [
             "no-unexpected-multiline": [
                 "error",
             ],
+            "no-unmodified-loop-condition": [
+                "error",
+            ],
         },
     },
 ];
