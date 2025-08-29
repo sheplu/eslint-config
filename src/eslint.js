@@ -169,6 +169,9 @@ export default [
             "no-unmodified-loop-condition": [
                 "error",
             ],
+            "no-unreachable": [
+                "error",
+            ],
         },
     },
 ];
