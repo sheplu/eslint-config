@@ -172,6 +172,11 @@ export default [
             "no-unreachable": [
                 "error",
             ],
+            "no-unreachable-loop": [
+                "error", {
+                    "ignore": [],
+                },
+            ],
         },
     },
 ];
