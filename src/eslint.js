@@ -191,7 +191,22 @@ export default [
                 },
             ],
             "no-unused-private-class-members": [
-                "error", 
+                "error",
+            ],
+            "no-unused-vars": [
+                "error", {
+                    "vars": "all",
+                    "varsIgnorePattern": "",
+                    "args": "all",
+                    "argsIgnorePattern": "",
+                    "caughtErrors": "all",
+                    "caughtErrorsIgnorePattern": "",
+                    "destructuredArrayIgnorePattern": "",
+                    "ignoreClassWithStaticInitBlock": "",
+                    "ignoreRestSiblings": false,
+                    "ignoreUsingDeclarations": false,
+                    "reportUsedIgnorePattern": false,
+                },
             ],
         },
     },
