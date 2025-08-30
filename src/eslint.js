@@ -222,6 +222,9 @@ export default [
             "no-useless-assignment": [
                 "error",
             ],
+            "no-useless-backreference": [
+                "error",
+            ],
         },
     },
 ];
