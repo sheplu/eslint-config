@@ -190,6 +190,9 @@ export default [
                     "disallowArithmeticOperators": true,
                 },
             ],
+            "no-unused-private-class-members": [
+                "error", 
+            ],
         },
     },
 ];
