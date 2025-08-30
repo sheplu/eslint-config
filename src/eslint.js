@@ -20,7 +20,7 @@ export default [
                 },
             ],
             "no-async-promise-executor": [
-                "error", 
+                "error",
             ],
             "no-await-in-loop": [
                 "error",
@@ -114,7 +114,7 @@ export default [
                 },
             ],
             "no-loss-of-precision": [
-                "error", 
+                "error",
             ],
             "no-misleading-character-class": [
                 "error", {
@@ -133,7 +133,7 @@ export default [
                 },
             ],
             "no-prototype-builtins": [
-                "error", 
+                "error",
             ],
             "no-self-assign": [
                 "error", {
