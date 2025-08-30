@@ -208,6 +208,17 @@ export default [
                     "reportUsedIgnorePattern": false,
                 },
             ],
+            "no-use-before-define": [
+                "error", {
+                    "functions": true,
+                    "classes": true,
+                    "variables": true,
+                    "allowNamedExports": false,
+                    "enums": true,
+                    "typedefs": true,
+                    "ignoreTypeReferences": false,
+                },
+            ],
         },
     },
 ];
