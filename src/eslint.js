@@ -180,6 +180,11 @@ export default [
             "no-unsafe-finally": [
                 "error",
             ],
+            "no-unsafe-negation": [
+                "error", {
+                    "enforceForOrderingRelations": true,
+                },
+            ],
         },
     },
 ];
