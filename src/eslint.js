@@ -177,6 +177,9 @@ export default [
                     "ignore": [],
                 },
             ],
+            "no-unsafe-finally": [
+                "error",
+            ],
         },
     },
 ];
