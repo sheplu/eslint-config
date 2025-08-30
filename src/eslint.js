@@ -230,6 +230,12 @@ export default [
                     "allowProperties": true,
                 },
             ],
+            "use-isnan": [
+                "error", {
+                    "enforceForSwitchCase": true,
+                    "enforceForIndexOf": true,
+                },
+            ],
         },
     },
 ];
