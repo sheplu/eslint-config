@@ -225,6 +225,11 @@ export default [
             "no-useless-backreference": [
                 "error",
             ],
+            "require-atomic-updates": [
+                "error", {
+                    "allowProperties": true,
+                },
+            ],
         },
     },
 ];
