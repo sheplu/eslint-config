@@ -236,6 +236,11 @@ export default [
                     "enforceForIndexOf": true,
                 },
             ],
+            "valid-typeof": [
+                "error", {
+                    "requireStringLiterals": true,
+                },
+            ],
         },
     },
 ];
