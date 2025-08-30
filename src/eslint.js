@@ -185,6 +185,11 @@ export default [
                     "enforceForOrderingRelations": true,
                 },
             ],
+            "no-unsafe-optional-chaining": [
+                "error", {
+                    "disallowArithmeticOperators": true,
+                },
+            ],
         },
     },
 ];
