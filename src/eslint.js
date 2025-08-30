@@ -219,6 +219,9 @@ export default [
                     "ignoreTypeReferences": false,
                 },
             ],
+            "no-useless-assignment": [
+                "error",
+            ],
         },
     },
 ];
