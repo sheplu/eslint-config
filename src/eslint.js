@@ -241,6 +241,14 @@ export default [
                     "requireStringLiterals": true,
                 },
             ],
+            "accessor-pairs": [
+                "error", {
+                    "setWithoutGet": true,
+                    "getWithoutSet": true,
+                    "enforceForClassMembers": true,
+                    "enforceForTSTypes": true,
+                },
+            ],
         },
     },
 ];
