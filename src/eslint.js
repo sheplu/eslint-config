@@ -257,6 +257,15 @@ export default [
             "block-scoped-var": [
                 "error",
             ],
+            "camelcase": [
+                "error", {
+                    "properties": "always",
+                    "ignoreDestructuring": false,
+                    "ignoreImports": false,
+                    "ignoreGlobals": false,
+                    "allow": [],
+                },
+            ],
         },
     },
 ];
