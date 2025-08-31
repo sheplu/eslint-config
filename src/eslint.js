@@ -202,7 +202,7 @@ export default [
                     "caughtErrors": "all",
                     "caughtErrorsIgnorePattern": "",
                     "destructuredArrayIgnorePattern": "",
-                    "ignoreClassWithStaticInitBlock": "",
+                    "ignoreClassWithStaticInitBlock": false,
                     "ignoreRestSiblings": false,
                     "ignoreUsingDeclarations": false,
                     "reportUsedIgnorePattern": false,
