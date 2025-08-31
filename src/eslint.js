@@ -254,6 +254,9 @@ export default [
                     "requireReturnForObjectLiteral": true,
                 },
             ],
+            "block-scoped-var": [
+                "error",
+            ],
         },
     },
 ];
