@@ -249,6 +249,11 @@ export default [
                     "enforceForTSTypes": true,
                 },
             ],
+            "arrow-body-style": [
+                "error", "as-needed", {
+                    "requireReturnForObjectLiteral": true,
+                },
+            ],
         },
     },
 ];
