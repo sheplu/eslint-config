@@ -295,6 +295,9 @@ export default [
             "consistent-this": [
                 "error", "that",
             ],
+            "curly": [
+                "error", "all",
+            ],
         },
     },
 ];
