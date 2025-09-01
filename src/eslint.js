@@ -281,6 +281,12 @@ export default [
                     "ignoreClassesWithImplements": "public-fields",
                 },
             ],
+            "complexity": [
+                "error", {
+                    "max": 15,
+                    "variant": "modified",
+                }, 
+            ],
         },
     },
 ];
