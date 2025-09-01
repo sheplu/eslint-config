@@ -292,6 +292,9 @@ export default [
                     "treatUndefinedAsUnspecified": true,
                 }
             ],
+            "consistent-this": [
+                "error", "that",
+            ],
         },
     },
 ];
