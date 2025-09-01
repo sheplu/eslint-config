@@ -266,6 +266,13 @@ export default [
                     "allow": [],
                 },
             ],
+            "capitalized-comments": [
+                "error", "always", {
+                    "ignorePattern": "slint",
+                    "ignoreInlineComments": false,
+                    "ignoreConsecutiveComments": false,
+                },
+            ],
         },
     },
 ];
