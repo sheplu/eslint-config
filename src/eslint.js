@@ -298,6 +298,11 @@ export default [
             "curly": [
                 "error", "all",
             ],
+            "default-case": [
+                "error", {
+                    "commentPattern": "",
+                },
+            ],
         },
     },
 ];
