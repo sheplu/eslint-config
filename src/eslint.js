@@ -287,6 +287,11 @@ export default [
                     "variant": "modified",
                 }, 
             ],
+            "consistent-return": [
+                "error", {
+                    "treatUndefinedAsUnspecified": true,
+                }
+            ],
         },
     },
 ];
