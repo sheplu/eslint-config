@@ -273,6 +273,14 @@ export default [
                     "ignoreConsecutiveComments": false,
                 },
             ],
+            "class-methods-use-this": [
+                "error", {
+                    "exceptMethods": [],
+                    "enforceForClassFields": true,
+                    "ignoreOverrideMethods": false,
+                    "ignoreClassesWithImplements": "public-fields",
+                },
+            ],
         },
     },
 ];
