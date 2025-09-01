@@ -303,6 +303,9 @@ export default [
                     "commentPattern": "",
                 },
             ],
+            "default-case-last": [
+                "error",
+            ],
         },
     },
 ];
