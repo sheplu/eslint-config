@@ -318,6 +318,9 @@ export default [
             "eqeqeq": [
                 "error", "always",
             ],
+            "func-name-matching": [
+                "error", "never",
+            ],
         },
     },
 ];
