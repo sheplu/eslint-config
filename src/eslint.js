@@ -306,6 +306,9 @@ export default [
             "default-case-last": [
                 "error",
             ],
+            "default-param-last": [
+                "error",
+            ]
         },
     },
 ];
