@@ -321,6 +321,11 @@ export default [
             "func-name-matching": [
                 "error", "never",
             ],
+            "func-names": [
+                "error", "always", {
+                    "generators": "always",
+                },
+            ],
         },
     },
 ];
