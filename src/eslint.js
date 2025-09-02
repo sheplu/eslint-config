@@ -315,6 +315,9 @@ export default [
                     "allowPattern": "",
                 },
             ],
+            "eqeqeq": [
+                "error", "always",
+            ],
         },
     },
 ];
