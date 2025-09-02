@@ -326,6 +326,15 @@ export default [
                     "generators": "always",
                 },
             ],
+            "func-style": [
+                "error", "declaration", {
+                    "allowArrowFunctions": false,
+                    "allowTypeAnnotation": true,
+                    "overrides": {
+                        "namedExports": "declaration"
+                    },
+                },
+            ],
         },
     },
 ];
