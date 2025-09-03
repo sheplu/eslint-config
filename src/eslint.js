@@ -343,6 +343,9 @@ export default [
             "guard-for-in": [
                 "error",
             ],
+            "id-denylist": [
+                "error", "data", "err", "e", "cb", "callback",
+            ],
         },
     },
 ];
