@@ -340,6 +340,9 @@ export default [
                     "enforceForTSTypes": true,
                 },
             ],
+            "guard-for-in": [
+                "error",
+            ],
         },
     },
 ];
