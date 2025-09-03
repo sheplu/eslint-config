@@ -346,6 +346,15 @@ export default [
             "id-denylist": [
                 "error", "data", "err", "e", "cb", "callback",
             ],
+            "id-length": [
+                "error", {
+                    "min": 3,
+                    "max": 20,
+                    "properties": "always",
+                    "exceptions": [],
+                    "exceptionPatterns": [],
+                },
+            ],
         },
     },
 ];
