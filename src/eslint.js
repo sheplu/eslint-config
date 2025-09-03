@@ -335,6 +335,11 @@ export default [
                     },
                 },
             ],
+            "grouped-accessor-pairs": [
+                "error", "getBeforeSet", {
+                    "enforceForTSTypes": true,
+                },
+            ],
         },
     },
 ];
