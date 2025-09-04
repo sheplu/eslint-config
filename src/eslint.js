@@ -355,6 +355,9 @@ export default [
                     "exceptionPatterns": [],
                 },
             ],
+            "id-match": [
+                "off",
+            ],
         },
     },
 ];
