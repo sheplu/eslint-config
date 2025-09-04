@@ -358,6 +358,11 @@ export default [
             "id-match": [
                 "off",
             ],
+            "init-declarations": [
+                "error", "always", {
+                    "ignoreForLoopInit": false,
+                },
+            ],
         },
     },
 ];
