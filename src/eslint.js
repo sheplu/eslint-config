@@ -363,6 +363,11 @@ export default [
                     "ignoreForLoopInit": false,
                 },
             ],
+            "logical-assignment-operators": [
+                "error", "always", {
+                    "enforceForIfStatements": true,
+                },
+            ],
         },
     },
 ];
