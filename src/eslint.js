@@ -368,6 +368,12 @@ export default [
                     "enforceForIfStatements": true,
                 },
             ],
+            "max-classes-per-file": [
+                "error", {
+                    "ignoreExpressions": false,
+                    "max": 2,
+                },
+            ],
         },
     },
 ];
