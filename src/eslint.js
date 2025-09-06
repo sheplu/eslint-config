@@ -374,6 +374,11 @@ export default [
                     "max": 2,
                 },
             ],
+            "max-depth": [
+                "error", {
+                    "max": 3,
+                },
+            ],
         },
     },
 ];
