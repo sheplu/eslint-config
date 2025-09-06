@@ -434,6 +434,9 @@ export default [
                     "int32Hint": true,
                 },
             ],
+            "no-caller": [
+                "error", 
+            ]
         },
     },
 ];
