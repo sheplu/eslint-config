@@ -411,6 +411,17 @@ export default [
                     "ignoreTopLevelFunctions": false,
                 },
             ],
+            "new-cap": [
+                "error", {
+                    "newIsCap": true,
+                    "capIsNew": true,
+                    "newIsCapExceptions": [],
+                    "newIsCapExceptionPattern": "",
+                    "capIsNewExceptions": [],
+                    "capIsNewExceptionPattern": "",
+                    "properties": true,
+                },
+            ],
         },
     },
 ];
