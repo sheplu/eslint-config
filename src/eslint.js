@@ -405,6 +405,12 @@ export default [
                     "countVoidThis": true,
                 }, 
             ],
+            "max-statements": [
+                "error", {
+                    "max": 10,
+                    "ignoreTopLevelFunctions": false,
+                },
+            ],
         },
     },
 ];
