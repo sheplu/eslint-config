@@ -379,6 +379,13 @@ export default [
                     "max": 3,
                 },
             ],
+            "max-lines": [
+                "error", {
+                    "max": "400",
+                    "skipBlankLines": true,
+                    "skipComments": true,
+                },
+            ],
         },
     },
 ];
