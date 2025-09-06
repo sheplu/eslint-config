@@ -386,6 +386,14 @@ export default [
                     "skipComments": true,
                 },
             ],
+            "max-lines-per-function": [
+                "error", {
+                    "max": "40",
+                    "skipBlankLines": true,
+                    "skipComments": true,
+                    "IIFEs": true,
+                },
+            ],
         },
     },
 ];
