@@ -428,6 +428,12 @@ export default [
             "no-array-constructor": [
                 "error", 
             ],
+            "no-bitwise": [
+                "error", {
+                    "allow": [],
+                    "int32Hint": true,
+                },
+            ],
         },
     },
 ];
