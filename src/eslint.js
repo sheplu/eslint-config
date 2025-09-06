@@ -425,6 +425,9 @@ export default [
             "no-alert": [
                 "error",
             ],
+            "no-array-constructor": [
+                "error", 
+            ],
         },
     },
 ];
