@@ -394,6 +394,11 @@ export default [
                     "IIFEs": true,
                 },
             ],
+            "max-nested-callbacks": [
+                "error", {
+                    "max": 3,
+                },
+            ],
         },
     },
 ];
