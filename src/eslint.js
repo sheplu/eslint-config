@@ -422,6 +422,9 @@ export default [
                     "properties": true,
                 },
             ],
+            "no-alert": [
+                "error",
+            ],
         },
     },
 ];
