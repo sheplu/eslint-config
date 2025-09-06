@@ -399,6 +399,12 @@ export default [
                     "max": 3,
                 },
             ],
+            "max-params": [
+                "error", {
+                    "max": 4,
+                    "countVoidThis": true,
+                }, 
+            ],
         },
     },
 ];
