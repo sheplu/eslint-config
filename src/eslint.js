@@ -488,6 +488,11 @@ export default [
             "no-extra-bind": [
                 "error",
             ],
+            "no-extra-boolean-cast": [
+                "error", {
+                    "enforceForInnerExpressions": true,
+                },
+            ],
         },
     },
 ];
