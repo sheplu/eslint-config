@@ -445,6 +445,9 @@ export default [
                     "allow": [],
                 },
             ],
+            "no-continue": [
+                "error",
+            ],
         },
     },
 ];
