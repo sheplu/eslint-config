@@ -480,6 +480,11 @@ export default [
                     "allowIndirect": false,
                 },
             ],
+            "no-extend-native": [
+                "error", {
+                    "exceptions": false,
+                },
+            ],
         },
     },
 ];
