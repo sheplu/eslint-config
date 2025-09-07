@@ -459,6 +459,11 @@ export default [
                     "allowElseIf": true,
                 },
             ],
+            "no-empty": [
+                "error", {
+                    "allowEmptyCatch": false,
+                },
+            ],
         },
     },
 ];
