@@ -485,6 +485,9 @@ export default [
                     "exceptions": false,
                 },
             ],
+            "no-extra-bind": [
+                "error",
+            ],
         },
     },
 ];
