@@ -440,6 +440,11 @@ export default [
             "no-case-declarations": [
                 "error", 
             ],
+            "no-console": [
+                "error", {
+                    "allow": [],
+                },
+            ],
         },
     },
 ];
