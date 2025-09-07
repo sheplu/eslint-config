@@ -472,6 +472,9 @@ export default [
             "no-empty-static-block": [
                 "error",
             ],
+            "no-eq-null": [
+                "error",
+            ],
         },
     },
 ];
