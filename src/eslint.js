@@ -464,6 +464,11 @@ export default [
                     "allowEmptyCatch": false,
                 },
             ],
+            "no-empty-function": [
+                "error", {
+                    "allow": [],
+                },
+            ],
         },
     },
 ];
