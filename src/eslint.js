@@ -436,7 +436,10 @@ export default [
             ],
             "no-caller": [
                 "error", 
-            ]
+            ],
+            "no-case-declarations": [
+                "error", 
+            ],
         },
     },
 ];
