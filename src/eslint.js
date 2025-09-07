@@ -451,6 +451,9 @@ export default [
             "no-delete-var": [
                 "error",
             ],
+            "no-div-regex": [
+                "error",
+            ],
         },
     },
 ];
