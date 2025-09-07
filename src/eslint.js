@@ -469,6 +469,9 @@ export default [
                     "allow": [],
                 },
             ],
+            "no-empty-static-block": [
+                "error",
+            ],
         },
     },
 ];
