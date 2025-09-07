@@ -475,6 +475,11 @@ export default [
             "no-eq-null": [
                 "error",
             ],
+            "no-eval": [
+                "error", {
+                    "allowIndirect": false,
+                },
+            ],
         },
     },
 ];
