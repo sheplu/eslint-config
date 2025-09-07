@@ -454,6 +454,11 @@ export default [
             "no-div-regex": [
                 "error",
             ],
+            "no-else-return": [
+                "error", {
+                    "allowElseIf": true,
+                },
+            ],
         },
     },
 ];
