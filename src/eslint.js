@@ -493,6 +493,9 @@ export default [
                     "enforceForInnerExpressions": true,
                 },
             ],
+            "no-extra-label": [
+                "error",
+            ],
         },
     },
 ];
