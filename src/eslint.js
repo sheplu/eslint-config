@@ -448,6 +448,9 @@ export default [
             "no-continue": [
                 "error",
             ],
+            "no-delete-var": [
+                "error",
+            ],
         },
     },
 ];
