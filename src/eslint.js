@@ -496,6 +496,11 @@ export default [
             "no-extra-label": [
                 "error",
             ],
+            "no-global-assign": [
+                "error", {
+                    "exceptions": [],
+                },
+            ],
         },
     },
 ];
