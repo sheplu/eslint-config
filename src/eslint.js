@@ -565,6 +565,9 @@ export default [
                     "ignoreNonDeclaration": false,
                 },
             ],
+            "no-multi-str": [
+                "error", 
+            ],
         },
     },
 ];
