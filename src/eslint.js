@@ -589,6 +589,9 @@ export default [
             "no-object-constructor": [
                 "error",
             ],
+            "no-octal": [
+                "error",
+            ],
         },
     },
 ];
