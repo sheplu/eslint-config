@@ -528,6 +528,9 @@ export default [
                     "capIsConstructor": true,
                 },
             ],
+            "no-iterator": [
+                "error",
+            ],
         },
     },
 ];
