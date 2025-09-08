@@ -537,6 +537,9 @@ export default [
             "no-labels": [
                 "error",
             ],
+            "no-lone-blocks": [
+                "error",
+            ],
         },
     },
 ];
