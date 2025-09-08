@@ -560,6 +560,11 @@ export default [
                     "ignoreTypeIndexes": false,
                 },
             ],
+            "no-multi-assign": [
+                "error", {
+                    "ignoreNonDeclaration": false,
+                },
+            ],
         },
     },
 ];
