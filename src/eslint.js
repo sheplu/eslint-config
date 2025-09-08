@@ -510,6 +510,11 @@ export default [
                     "allow": [],
                 },
             ],
+            "no-implicit-globals": [
+                "error", {
+                    "lexicalBindings": true,
+                },
+            ],
         },
     },
 ];
