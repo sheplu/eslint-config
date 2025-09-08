@@ -592,6 +592,9 @@ export default [
             "no-octal": [
                 "error",
             ],
+            "no-octal-escape": [
+                "error",
+            ],
         },
     },
 ];
