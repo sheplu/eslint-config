@@ -531,6 +531,9 @@ export default [
             "no-iterator": [
                 "error",
             ],
+            "no-label-var": [
+                "error",
+            ],
         },
     },
 ];
