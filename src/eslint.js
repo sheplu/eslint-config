@@ -586,6 +586,9 @@ export default [
             "no-nonoctal-decimal-escape": [
                 "error",
             ],
+            "no-object-constructor": [
+                "error",
+            ],
         },
     },
 ];
