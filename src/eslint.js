@@ -534,6 +534,9 @@ export default [
             "no-label-var": [
                 "error",
             ],
+            "no-labels": [
+                "error",
+            ],
         },
     },
 ];
