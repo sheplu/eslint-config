@@ -518,6 +518,11 @@ export default [
             "no-implied-eval": [
                 "error", 
             ],
+            "no-inline-comments": [
+                "error", {
+                    "ignorePattern": "slint",
+                },
+            ],
         },
     },
 ];
