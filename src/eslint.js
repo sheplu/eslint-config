@@ -568,6 +568,9 @@ export default [
             "no-multi-str": [
                 "error", 
             ],
+            "no-negated-condition": [
+                "error",
+            ],
         },
     },
 ];
