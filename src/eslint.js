@@ -543,6 +543,9 @@ export default [
             "no-lonely-if": [
                 "error",
             ],
+            "no-loop-func": [
+                "error",
+            ],
         },
     },
 ];
