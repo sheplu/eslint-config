@@ -546,6 +546,20 @@ export default [
             "no-loop-func": [
                 "error",
             ],
+            "no-magic-numbers": [
+                "error", {
+                    "ignore": [],
+                    "ignoreArrayIndexes": false,
+                    "ignoreDefaultValues": false,
+                    "ignoreClassFieldInitialValues": false,
+                    "enforceConst": true,
+                    "detectObjects": true,
+                    "ignoreEnums": false,
+                    "ignoreNumericLiteralTypes": false,
+                    "ignoreReadonlyClassProperties": false,
+                    "ignoreTypeIndexes": false,
+                },
+            ],
         },
     },
 ];
