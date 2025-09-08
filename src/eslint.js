@@ -583,6 +583,9 @@ export default [
             "no-new-wrappers": [
                 "error",
             ],
+            "no-nonoctal-decimal-escape": [
+                "error",
+            ],
         },
     },
 ];
