@@ -540,6 +540,9 @@ export default [
             "no-lone-blocks": [
                 "error",
             ],
+            "no-lonely-if": [
+                "error",
+            ],
         },
     },
 ];
