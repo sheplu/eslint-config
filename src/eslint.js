@@ -515,6 +515,9 @@ export default [
                     "lexicalBindings": true,
                 },
             ],
+            "no-implied-eval": [
+                "error", 
+            ],
         },
     },
 ];
