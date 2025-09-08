@@ -580,6 +580,9 @@ export default [
             "no-new-func": [
                 "error",
             ],
+            "no-new-wrappers": [
+                "error",
+            ],
         },
     },
 ];
