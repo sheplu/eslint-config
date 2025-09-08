@@ -577,6 +577,9 @@ export default [
             "no-new": [
                 "error",
             ],
+            "no-new-func": [
+                "error",
+            ],
         },
     },
 ];
