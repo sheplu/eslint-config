@@ -523,6 +523,11 @@ export default [
                     "ignorePattern": "slint",
                 },
             ],
+            "no-invalid-this": [
+                "error", {
+                    "capIsConstructor": true,
+                },
+            ],
         },
     },
 ];
