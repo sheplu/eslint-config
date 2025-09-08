@@ -574,6 +574,9 @@ export default [
             "no-nested-ternary": [
                 "error",
             ],
+            "no-new": [
+                "error",
+            ],
         },
     },
 ];
