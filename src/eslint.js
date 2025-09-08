@@ -501,6 +501,15 @@ export default [
                     "exceptions": [],
                 },
             ],
+            "no-implicit-coercion": [
+                "error", {
+                    "boolean": true,
+                    "number": true,
+                    "string": true,
+                    "disallowTemplateShorthand": true,
+                    "allow": [],
+                },
+            ],
         },
     },
 ];
