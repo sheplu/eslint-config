@@ -631,6 +631,13 @@ export default [
                     },
                 },
             ],
+            "no-restricted-globals": [
+                "error", {
+                    "globals": [],
+                    "checkGlobalObject": true,
+                    "globalObjects": [],
+                },
+            ],
         },
     },
 ];
