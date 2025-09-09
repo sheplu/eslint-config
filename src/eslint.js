@@ -602,6 +602,11 @@ export default [
                     "ignorePropertyModificationsForRegex": [],
                 },
             ],
+            "no-plusplus": [
+                "error", {
+                    "allowForLoopAfterthoughts": false,
+                },
+            ],
         },
     },
 ];
