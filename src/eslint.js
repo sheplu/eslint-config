@@ -595,6 +595,13 @@ export default [
             "no-octal-escape": [
                 "error",
             ],
+            "no-param-reassign": [
+                "error", {
+                    "props": true,
+                    "ignorePropertyModificationsFor": [],
+                    "ignorePropertyModificationsForRegex": [],
+                },
+            ],
         },
     },
 ];
