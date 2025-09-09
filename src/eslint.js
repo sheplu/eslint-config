@@ -610,6 +610,11 @@ export default [
             "no-proto": [
                 "error",
             ],
+            "no-redeclare": [
+                "error", {
+                    "builtinGlobals": true,
+                },
+            ],
         },
     },
 ];
