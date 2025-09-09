@@ -607,6 +607,9 @@ export default [
                     "allowForLoopAfterthoughts": false,
                 },
             ],
+            "no-proto": [
+                "error",
+            ],
         },
     },
 ];
