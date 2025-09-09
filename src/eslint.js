@@ -618,6 +618,19 @@ export default [
             "no-regex-spaces": [
                 "error",
             ],
+            "no-restricted-exports": [
+                "error", {
+                    "restrictedNamedExports": [],
+                    "restrictedNamedExportsPattern": "",
+                    "restrictDefaultExports": {
+                        "direct": true,
+                        "named": true,
+                        "defaultFrom": true,
+                        "namedFrom": true,
+                        "namespaceFrom": true,
+                    },
+                },
+            ],
         },
     },
 ];
