@@ -615,6 +615,9 @@ export default [
                     "builtinGlobals": true,
                 },
             ],
+            "no-regex-spaces": [
+                "error",
+            ],
         },
     },
 ];
