@@ -638,6 +638,9 @@ export default [
                     "globalObjects": [],
                 },
             ],
+            "no-restricted-imports": [
+                "error",
+            ],
         },
     },
 ];
