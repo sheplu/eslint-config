@@ -641,6 +641,9 @@ export default [
             "no-restricted-imports": [
                 "error",
             ],
+            "no-restricted-properties": [
+                "error",
+            ],
         },
     },
 ];
