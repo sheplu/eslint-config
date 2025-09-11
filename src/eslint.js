@@ -650,6 +650,9 @@ export default [
             "no-return-assign": [
                 "error", "always",
             ],
+            "no-script-url": [
+                "error",
+            ],
         },
     },
 ];
