@@ -647,6 +647,9 @@ export default [
             "no-restricted-syntax": [
                 "error",
             ],
+            "no-return-assign": [
+                "error", "always",
+            ],
         },
     },
 ];
