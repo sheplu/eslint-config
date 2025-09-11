@@ -653,6 +653,11 @@ export default [
             "no-script-url": [
                 "error",
             ],
+            "no-sequences": [
+                "error", {
+                    "allowInParentheses": false,
+                },
+            ],
         },
     },
 ];
