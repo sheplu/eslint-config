@@ -682,6 +682,9 @@ export default [
             "no-undef-init": [
                 "error",
             ],
+            "no-undefined": [
+                "error",
+            ],
         },
     },
 ];
