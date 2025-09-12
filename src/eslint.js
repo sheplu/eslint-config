@@ -685,6 +685,19 @@ export default [
             "no-undefined": [
                 "error",
             ],
+            "no-underscore-dangle": [
+                "error", {
+                    "allow": [],
+                    "allowAfterThis": false,
+                    "allowAfterSuper": false,
+                    "allowAfterThisConstructor": false,
+                    "enforceInMethodNames": true,
+                    "enforceInClassFields": true,
+                    "allowInArrayDestructuring": false,
+                    "allowInObjectDestructuring": false,
+                    "allowFunctionParams": false,
+                },
+            ],
         },
     },
 ];
