@@ -673,6 +673,9 @@ export default [
                     "reportGlobalThis": true,
                 },
             ],
+            "no-ternary": [
+                "error",
+            ],
         },
     },
 ];
