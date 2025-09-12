@@ -658,6 +658,16 @@ export default [
                     "allowInParentheses": false,
                 },
             ],
+            "no-shadow": [
+                "error", {
+                    "builtinGlobals": true,
+                    "hoist": "all",
+                    "allow": [],
+                    "ignoreOnInitialization": false,
+                    "ignoreTypeValueShadow": false,
+                    "ignoreFunctionTypeParameterNameValueShadow": false,
+                },
+            ],
         },
     },
 ];
