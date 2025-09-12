@@ -676,6 +676,9 @@ export default [
             "no-ternary": [
                 "error",
             ],
+            "no-throw-literal": [
+                "error", 
+            ],
         },
     },
 ];
