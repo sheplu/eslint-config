@@ -679,6 +679,9 @@ export default [
             "no-throw-literal": [
                 "error", 
             ],
+            "no-undef-init": [
+                "error",
+            ],
         },
     },
 ];
