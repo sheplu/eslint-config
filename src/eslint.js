@@ -668,6 +668,11 @@ export default [
                     "ignoreFunctionTypeParameterNameValueShadow": false,
                 },
             ],
+            "no-shadow-restricted-names": [
+                "error", {
+                    "reportGlobalThis": true,
+                },
+            ],
         },
     },
 ];
