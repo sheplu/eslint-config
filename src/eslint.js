@@ -712,6 +712,9 @@ export default [
                     "ignoreDirectives": false,
                 },
             ],
+            "no-unused-labels": [
+                "error",
+            ],
         },
     },
 ];
