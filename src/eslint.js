@@ -703,6 +703,15 @@ export default [
                     "defaultAssignment": false,
                 },
             ],
+            "no-unused-expressions": [
+                "error", {
+                    "allowShortCircuit": false,
+                    "allowTernary": false,
+                    "allowTaggedTemplates": false,
+                    "enforceForJSX": true,
+                    "ignoreDirectives": false,
+                },
+            ],
         },
     },
 ];
