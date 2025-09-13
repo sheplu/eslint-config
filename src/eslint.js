@@ -715,6 +715,9 @@ export default [
             "no-unused-labels": [
                 "error",
             ],
+            "no-useless-call": [
+                "error",
+            ],
         },
     },
 ];
