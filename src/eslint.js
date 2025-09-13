@@ -718,6 +718,9 @@ export default [
             "no-useless-call": [
                 "error",
             ],
+            "no-useless-catch": [
+                "error",
+            ],
         },
     },
 ];
