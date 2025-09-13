@@ -698,6 +698,11 @@ export default [
                     "allowFunctionParams": false,
                 },
             ],
+            "no-unneeded-ternary": [
+                "error", {
+                    "defaultAssignment": false,
+                },
+            ],
         },
     },
 ];
