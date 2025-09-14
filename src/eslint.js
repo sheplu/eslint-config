@@ -748,6 +748,11 @@ export default [
             "no-var": [
                 "error",
             ],
+            "no-void": [
+                "error", {
+                    "allowAsStatement": false,
+                },
+            ],
         },
     },
 ];
