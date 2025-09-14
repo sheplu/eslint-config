@@ -732,6 +732,9 @@ export default [
             "no-useless-constructor": [
                 "error",
             ],
+            "no-useless-escape": [
+                "error",
+            ],
         },
     },
 ];
