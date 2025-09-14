@@ -721,6 +721,11 @@ export default [
             "no-useless-catch": [
                 "error",
             ],
+            "no-useless-computed-key": [
+                "error", {
+                    "enforceForClassMembers": true,
+                },
+            ],
         },
     },
 ];
