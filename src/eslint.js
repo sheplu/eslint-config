@@ -729,6 +729,9 @@ export default [
             "no-useless-concat": [
                 "error",
             ],
+            "no-useless-constructor": [
+                "error",
+            ],
         },
     },
 ];
