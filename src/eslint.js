@@ -726,6 +726,9 @@ export default [
                     "enforceForClassMembers": true,
                 },
             ],
+            "no-useless-concat": [
+                "error",
+            ],
         },
     },
 ];
