@@ -742,6 +742,9 @@ export default [
                     "ignoreDestructuring": false,
                 },
             ],
+            "no-useless-return": [
+                "error",
+            ],
         },
     },
 ];
