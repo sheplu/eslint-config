@@ -753,6 +753,13 @@ export default [
                     "allowAsStatement": false,
                 },
             ],
+            "no-warning-comments": [
+                "error", {
+                    "terms": [],
+                    "location": "start",
+                    "decoration": [],
+                },
+            ],
         },
     },
 ];
