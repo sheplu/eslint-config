@@ -745,6 +745,9 @@ export default [
             "no-useless-return": [
                 "error",
             ],
+            "no-var": [
+                "error",
+            ],
         },
     },
 ];
