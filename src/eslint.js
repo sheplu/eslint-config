@@ -735,6 +735,13 @@ export default [
             "no-useless-escape": [
                 "error",
             ],
+            "no-useless-rename": [
+                "error", {
+                    "ignoreImport": false,
+                    "ignoreExport": false,
+                    "ignoreDestructuring": false,
+                },
+            ],
         },
     },
 ];
