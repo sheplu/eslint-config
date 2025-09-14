@@ -760,6 +760,9 @@ export default [
                     "decoration": [],
                 },
             ],
+            "no-with": [
+                "error",
+            ],
         },
     },
 ];
