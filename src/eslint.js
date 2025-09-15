@@ -763,6 +763,14 @@ export default [
             "no-with": [
                 "error",
             ],
+            "object-shorthand": [
+                "error", "consistent-as-needed", {
+                    "avoidQuotes": true,
+                    "ignoreConstructors": true,
+                    "methodsIgnorePattern": "",
+                    "avoidExplicitReturnArrows": false,
+                }
+            ]
         },
     },
 ];
