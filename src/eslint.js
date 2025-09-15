@@ -812,6 +812,9 @@ export default [
 					"enforceForRenamedProperties": true,
 				},
 			],
+			"prefer-exponentiation-operator": [
+				"error",
+			],
 		},
 	},
 ];
