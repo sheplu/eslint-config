@@ -769,8 +769,20 @@ export default [
                     "ignoreConstructors": true,
                     "methodsIgnorePattern": "",
                     "avoidExplicitReturnArrows": false,
-                }
-            ]
+                },
+            ],
+            "one-var": [
+                "error", "never", {
+                    "var": "never",
+                    "let": "never",
+                    "const": "never",
+                    "using": "never",
+                    "awaitUsing": "never",
+                    "separateRequires": true,
+                    "initialized": "never",
+                    "uninitialized": "never",
+                },
+            ],
         },
     },
 ];
