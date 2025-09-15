@@ -786,6 +786,12 @@ export default [
             "operator-assignment": [
                 "error", "never",
             ],
+            "prefer-arrow-callback": [
+                "error", {
+                    "allowNamedFunctions": false,
+                    "allowUnboundThis": false,
+                },
+            ],
         },
     },
 ];
