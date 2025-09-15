@@ -818,6 +818,9 @@ export default [
 			"prefer-named-capture-group": [
 				"error",
 			],
+			"prefer-numeric-literals": [
+				"error",
+			],
 		},
 	},
 ];
