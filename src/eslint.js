@@ -798,6 +798,20 @@ export default [
                     "ignoreReadBeforeAssign": true,
                 },
             ],
+            "prefer-destructuring": [
+                "error", {
+                    "VariableDeclarator": {
+                        "array": true,
+                        "object": true
+                    },
+                    "AssignmentExpression": {
+                        "array": true,
+                        "object": true
+                    },
+                }, {
+                    "enforceForRenamedProperties": true,
+                },
+            ],
         },
     },
 ];
