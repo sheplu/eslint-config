@@ -783,6 +783,9 @@ export default [
                     "uninitialized": "never",
                 },
             ],
+            "operator-assignment": [
+                "error", "never",
+            ],
         },
     },
 ];
