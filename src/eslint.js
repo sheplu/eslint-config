@@ -815,6 +815,9 @@ export default [
 			"prefer-exponentiation-operator": [
 				"error",
 			],
+			"prefer-named-capture-group": [
+				"error",
+			],
 		},
 	},
 ];
