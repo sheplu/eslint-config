@@ -792,6 +792,12 @@ export default [
                     "allowUnboundThis": false,
                 },
             ],
+            "prefer-const": [
+                "error", {
+                    "destructuring": "any",
+                    "ignoreReadBeforeAssign": true,
+                },
+            ],
         },
     },
 ];
