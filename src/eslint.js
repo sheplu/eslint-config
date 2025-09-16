@@ -843,6 +843,9 @@ export default [
 			"prefer-spread": [
 				"error",
 			],
+			"prefer-template": [
+				"error",
+			],
 		},
 	},
 ];
