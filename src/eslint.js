@@ -837,6 +837,9 @@ export default [
 					"disallowRedundantWrapping": true,
 				},
 			],
+			"prefer-rest-params": [
+				"error",
+			],
 		},
 	},
 ];
