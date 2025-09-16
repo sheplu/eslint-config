@@ -854,6 +854,9 @@ export default [
 			"radix": [
 				"error", "always",
 			],
+			"require-await": [
+				"error",
+			],
 		},
 	},
 ];
