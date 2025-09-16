@@ -832,6 +832,11 @@ export default [
 					"allowEmptyReject": false,
 				},
 			],
+			"prefer-regex-literals": [
+				"error", {
+					"disallowRedundantWrapping": true,
+				},
+			],
 		},
 	},
 ];
