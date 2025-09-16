@@ -846,6 +846,11 @@ export default [
 			"prefer-template": [
 				"error",
 			],
+			"preserve-caught-error": [
+				"error", {
+					"requireCatchParameter": true,
+				},
+			],
 		},
 	},
 ];
