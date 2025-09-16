@@ -824,6 +824,9 @@ export default [
 			"prefer-object-has-own": [
 				"error",
 			],
+			"prefer-object-spread": [
+				"error",
+			],
 		},
 	},
 ];
