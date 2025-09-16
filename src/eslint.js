@@ -821,6 +821,9 @@ export default [
 			"prefer-numeric-literals": [
 				"error",
 			],
+			"prefer-object-has-own": [
+				"error",
+			],
 		},
 	},
 ];
