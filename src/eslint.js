@@ -827,6 +827,11 @@ export default [
 			"prefer-object-spread": [
 				"error",
 			],
+			"prefer-promise-reject-errors": [
+				"error", {
+					"allowEmptyReject": false,
+				},
+			],
 		},
 	},
 ];
