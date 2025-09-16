@@ -840,6 +840,9 @@ export default [
 			"prefer-rest-params": [
 				"error",
 			],
+			"prefer-spread": [
+				"error",
+			],
 		},
 	},
 ];
