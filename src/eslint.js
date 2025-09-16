@@ -851,6 +851,9 @@ export default [
 					"requireCatchParameter": true,
 				},
 			],
+			"radix": [
+				"error", "always",
+			],
 		},
 	},
 ];
