@@ -349,7 +349,7 @@ export default [
 			"id-length": [
 				"error", {
 					"min": 3,
-					"max": 20,
+					"max": 25,
 					"properties": "always",
 					"exceptions": [],
 					"exceptionPatterns": [],
@@ -404,7 +404,7 @@ export default [
 				},
 			],
 			"max-statements": [
-				"error", 10, {
+				"error", 15, {
 					"ignoreTopLevelFunctions": false,
 				},
 			],
@@ -547,7 +547,7 @@ export default [
 					"ignoreArrayIndexes": false,
 					"ignoreDefaultValues": false,
 					"ignoreClassFieldInitialValues": false,
-					"enforceConst": true,
+					"enforceConst": false,
 					"detectObjects": true,
 					"ignoreEnums": false,
 					"ignoreNumericLiteralTypes": false,
