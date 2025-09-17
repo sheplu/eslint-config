@@ -883,6 +883,11 @@ export default [
 					"ignoreComputedKeys": false,
 				},
 			],
+			"sort-vars": [
+				"error", {
+					"ignoreCase": false,
+				},
+			],
 		},
 	},
 ];
