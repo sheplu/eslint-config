@@ -857,6 +857,11 @@ export default [
 			"require-await": [
 				"error",
 			],
+			"require-unicode-regexp": [
+				"error", {
+					"requireFlag": "v",
+				},
+			],
 		},
 	},
 ];
