@@ -359,9 +359,7 @@ export default [
 				"off",
 			],
 			"init-declarations": [
-				"error", "always", {
-					"ignoreForLoopInit": false,
-				},
+				"error", "always",
 			],
 			"logical-assignment-operators": [
 				"error", "always", {
@@ -381,14 +379,14 @@ export default [
 			],
 			"max-lines": [
 				"error", {
-					"max": "400",
+					"max": 400,
 					"skipBlankLines": true,
 					"skipComments": true,
 				},
 			],
 			"max-lines-per-function": [
 				"error", {
-					"max": "40",
+					"max": 40,
 					"skipBlankLines": true,
 					"skipComments": true,
 					"IIFEs": true,
@@ -406,8 +404,7 @@ export default [
 				},
 			],
 			"max-statements": [
-				"error", {
-					"max": 10,
+				"error", 10, {
 					"ignoreTopLevelFunctions": false,
 				},
 			],
@@ -441,9 +438,7 @@ export default [
 				"error",
 			],
 			"no-console": [
-				"error", {
-					"allow": [],
-				},
+				"error",
 			],
 			"no-continue": [
 				"error",
@@ -482,7 +477,7 @@ export default [
 			],
 			"no-extend-native": [
 				"error", {
-					"exceptions": false,
+					"exceptions": [],
 				},
 			],
 			"no-extra-bind": [
@@ -755,32 +750,25 @@ export default [
 			],
 			"no-warning-comments": [
 				"error", {
-					"terms": [],
+					"terms": ["todo", "fixme"],
 					"location": "start",
-					"decoration": [],
+					"decoration": ["@"],
 				},
 			],
 			"no-with": [
 				"error",
 			],
 			"object-shorthand": [
-				"error", "consistent-as-needed", {
-					"avoidQuotes": true,
-					"ignoreConstructors": true,
-					"methodsIgnorePattern": "",
-					"avoidExplicitReturnArrows": false,
-				},
+				"error", "consistent-as-needed",
 			],
 			"one-var": [
-				"error", "never", {
+				"error", {
 					"var": "never",
 					"let": "never",
 					"const": "never",
 					"using": "never",
 					"awaitUsing": "never",
 					"separateRequires": true,
-					"initialized": "never",
-					"uninitialized": "never",
 				},
 			],
 			"operator-assignment": [
