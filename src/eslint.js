@@ -897,6 +897,12 @@ export default [
 			"vars-on-top": [
 				"error",
 			],
+			"yoda": [
+				"error", "never", {
+					"exceptRange": false,
+					"onlyEquality": false,
+				},
+			],
 		},
 	},
 ];
