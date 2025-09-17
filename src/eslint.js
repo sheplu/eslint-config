@@ -874,6 +874,15 @@ export default [
 					"allowSeparatedGroups": false,
 				},
 			],
+			"sort-keys": [
+				"error", "asc", {
+					"caseSensitive": true,
+					"minKeys": 2,
+					"natural": true,
+					"allowLineSeparatedGroups": false,
+					"ignoreComputedKeys": false,
+				},
+			],
 		},
 	},
 ];
