@@ -903,6 +903,9 @@ export default [
 					"onlyEquality": false,
 				},
 			],
+			"unicode-bom": [
+				"error", "never",
+			],
 		},
 	},
 ];
