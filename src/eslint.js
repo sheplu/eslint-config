@@ -862,6 +862,9 @@ export default [
 					"requireFlag": "v",
 				},
 			],
+			"require-yield": [
+				"error",
+			],
 		},
 	},
 ];
