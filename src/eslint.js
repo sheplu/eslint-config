@@ -888,6 +888,9 @@ export default [
 					"ignoreCase": false,
 				},
 			],
+			"strict": [
+				"error", "safe",
+			],
 		},
 	},
 ];
