@@ -894,6 +894,9 @@ export default [
 			"symbol-description": [
 				"error",
 			],
+			"vars-on-top": [
+				"error",
+			],
 		},
 	},
 ];
