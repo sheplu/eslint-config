@@ -891,6 +891,9 @@ export default [
 			"strict": [
 				"error", "safe",
 			],
+			"symbol-description": [
+				"error",
+			],
 		},
 	},
 ];
