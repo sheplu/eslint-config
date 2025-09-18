@@ -187,6 +187,11 @@ export default [
 					"singleline": "consistent",
 				},
 			],
+			"@stylistic/jsx-curly-spacing": [
+				"error", {
+					"when": "always",
+				},
+			],
 			"@stylistic/key-spacing": [
 				"error", {
 					"singleLine": {
