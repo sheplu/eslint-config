@@ -165,6 +165,9 @@ export default [
 			"@stylistic/indent-binary-ops": [
 				"error", "tab",
 			],
+			"@stylistic/jsx-child-element-spacing": [
+				"error",
+			],
 			"@stylistic/key-spacing": [
 				"error", {
 					"singleLine": {
