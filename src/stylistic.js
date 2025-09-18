@@ -168,6 +168,9 @@ export default [
 			"@stylistic/jsx-child-element-spacing": [
 				"error",
 			],
+			"@stylistic/jsx-closing-bracket-location": [
+				"error", "tag-aligned",
+			],
 			"@stylistic/key-spacing": [
 				"error", {
 					"singleLine": {
