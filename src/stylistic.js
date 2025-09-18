@@ -171,6 +171,9 @@ export default [
 			"@stylistic/jsx-closing-bracket-location": [
 				"error", "tag-aligned",
 			],
+			"@stylistic/jsx-closing-tag-location": [
+				"error", "tag-aligned",
+			],
 			"@stylistic/key-spacing": [
 				"error", {
 					"singleLine": {
