@@ -174,6 +174,13 @@ export default [
 			"@stylistic/jsx-closing-tag-location": [
 				"error", "tag-aligned",
 			],
+			"@stylistic/jsx-curly-brace-presence": [
+				"error", {
+					"props": "never",
+					"children": "never",
+					"propElementValues": "never",
+				},
+			],
 			"@stylistic/key-spacing": [
 				"error", {
 					"singleLine": {
