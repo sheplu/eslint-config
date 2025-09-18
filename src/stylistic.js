@@ -181,6 +181,12 @@ export default [
 					"propElementValues": "never",
 				},
 			],
+			"@stylistic/jsx-curly-newline": [
+				"error", {
+					"multiline": "consistent",
+					"singleline": "consistent",
+				},
+			],
 			"@stylistic/key-spacing": [
 				"error", {
 					"singleLine": {
