@@ -221,6 +221,11 @@ export default [
 					"allowMultilines": false,
 				},
 			],
+			"@stylistic/jsx-one-expression-per-line": [
+				"error", {
+					"allow": "none",
+				},
+			],
 			"@stylistic/key-spacing": [
 				"error", {
 					"singleLine": {
