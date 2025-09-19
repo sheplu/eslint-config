@@ -207,6 +207,14 @@ export default [
 					"ignoreTernaryOperator": false,
 				},
 			],
+			"@stylistic/jsx-max-props-per-line": [
+				"error", {
+					"maximum":  {
+						"single": 1,
+						"multi": 1,
+					},
+				},
+			],
 			"@stylistic/key-spacing": [
 				"error", {
 					"singleLine": {
