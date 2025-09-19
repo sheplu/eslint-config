@@ -215,6 +215,12 @@ export default [
 					},
 				},
 			],
+			"@stylistic/jsx-newline": [
+				"error", {
+					"prevent": false,
+					"allowMultilines": false,
+				},
+			],
 			"@stylistic/key-spacing": [
 				"error", {
 					"singleLine": {
