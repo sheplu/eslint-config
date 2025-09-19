@@ -192,6 +192,9 @@ export default [
 					"when": "always",
 				},
 			],
+			"@stylistic/jsx-equals-spacing": [
+				"error", "never",
+			],
 			"@stylistic/key-spacing": [
 				"error", {
 					"singleLine": {
