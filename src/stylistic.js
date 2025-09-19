@@ -201,6 +201,12 @@ export default [
 			"@stylistic/jsx-function-call-newline": [
 				"error", "multiline",
 			],
+			"@stylistic/jsx-indent-props": [
+				"error", {
+					"indentMode": "tab",
+					"ignoreTernaryOperator": false,
+				},
+			],
 			"@stylistic/key-spacing": [
 				"error", {
 					"singleLine": {
