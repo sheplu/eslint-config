@@ -195,6 +195,9 @@ export default [
 			"@stylistic/jsx-equals-spacing": [
 				"error", "never",
 			],
+			"@stylistic/jsx-first-prop-new-line": [
+				"error", "multiline-multiprop",
+			],
 			"@stylistic/key-spacing": [
 				"error", {
 					"singleLine": {
