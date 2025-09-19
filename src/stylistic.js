@@ -198,6 +198,9 @@ export default [
 			"@stylistic/jsx-first-prop-new-line": [
 				"error", "multiline-multiprop",
 			],
+			"@stylistic/jsx-function-call-newline": [
+				"error", "multiline",
+			],
 			"@stylistic/key-spacing": [
 				"error", {
 					"singleLine": {
