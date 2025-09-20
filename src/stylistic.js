@@ -234,6 +234,9 @@ export default [
 					"ignore": [],
 				},
 			],
+			"@stylistic/jsx-quotes": [
+				"error", "prefer-double",
+			],
 			"@stylistic/key-spacing": [
 				"error", {
 					"singleLine": {
