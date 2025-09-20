@@ -256,6 +256,14 @@ export default [
 					"locale": "auto",
 				},
 			],
+			"@stylistic/jsx-tag-spacing": [
+				"error", {
+					"closingSlash": "never",
+					"beforeSelfClosing": "always",
+					"afterOpening": "never",
+					"beforeClosing": "never",
+				}
+			],
 			"@stylistic/key-spacing": [
 				"error", {
 					"singleLine": {
