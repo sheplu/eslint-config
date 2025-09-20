@@ -243,6 +243,19 @@ export default [
 					"html": false,
 				},
 			],
+			"@stylistic/jsx-sort-props": [
+				"error", {
+					"ignoreCase": false,
+					"callbackLast": true,
+					"shorthandFirst": false,
+					"shorthandLast": true,
+					"multiline": "last",
+					"noSortAlphabetically": false,
+					"reservedFirst": true,
+					"reservedLast": [],
+					"locale": "auto",
+				},
+			],
 			"@stylistic/key-spacing": [
 				"error", {
 					"singleLine": {
