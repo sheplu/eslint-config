@@ -237,6 +237,12 @@ export default [
 			"@stylistic/jsx-quotes": [
 				"error", "prefer-double",
 			],
+			"@stylistic/jsx-self-closing-comp": [
+				"error", {
+					"component": false,
+					"html": false,
+				},
+			],
 			"@stylistic/key-spacing": [
 				"error", {
 					"singleLine": {
