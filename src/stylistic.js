@@ -264,6 +264,18 @@ export default [
 					"beforeClosing": "never",
 				}
 			],
+			"@stylistic/jsx-wrap-multilines": [
+				"error", {
+					"declaration": "parens",
+					"assignment": "parens",
+					"return": "parens",
+					"arrow": "parens",
+					"condition": "ignore",
+					"logical": "ignore",
+					"prop": "ignore",
+					"propertyValue": "ignore",
+				},
+			],
 			"@stylistic/key-spacing": [
 				"error", {
 					"singleLine": {
