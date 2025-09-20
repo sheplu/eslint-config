@@ -226,6 +226,14 @@ export default [
 					"allow": "none",
 				},
 			],
+			"@stylistic/jsx-pascal-case": [
+				"error", {
+					"allowAllCaps": false,
+					"allowLeadingUnderscore": false,
+					"allowNamespace": false,
+					"ignore": [],
+				},
+			],
 			"@stylistic/key-spacing": [
 				"error", {
 					"singleLine": {
