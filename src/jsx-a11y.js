@@ -36,6 +36,11 @@ export default [
             "jsx-a11y/aria-unsupported-elements": [
                 "error",
             ],
+            "jsx-a11y/autocomplete-valid": [
+                "error", {
+                    "inputComponents": ["Input", "FormField"],
+                },
+            ],
         },
     },
 ];
