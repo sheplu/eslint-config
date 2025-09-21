@@ -11,7 +11,14 @@ export default [
             ],
             "jsx-a11y/anchor-has-content": [
                 "error", {
-                    "components": [ "Anchor" ],
+                    "components": ["Anchor"],
+                },
+            ],
+            "jsx-a11y/anchor-is-valid": [
+                "error", {
+                    "components": ["Link"],
+                    "specialLink": ["hrefLeft", "hrefRight"],
+                    "aspects": ["noHref", "invalidHref", "preferButton"],
                 },
             ],
         },
