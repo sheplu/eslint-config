@@ -24,6 +24,9 @@ export default [
             "jsx-a11y/aria-activedescendant-has-tabindex": [
                 "error",
             ],
+            "jsx-a11y/aria-props": [
+                "error",
+            ],
         },
     },
 ];
