@@ -30,6 +30,9 @@ export default [
             "jsx-a11y/aria-proptypes": [
                 "error",
             ],
+            "jsx-a11y/aria-role": [
+                "error",
+            ],
         },
     },
 ];
