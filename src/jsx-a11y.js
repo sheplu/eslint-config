@@ -44,6 +44,9 @@ export default [
             "jsx-a11y/click-events-have-key-events": [
                 "error",
             ],
+            "jsx-a11y/control-has-associated-label": [
+                "error",
+            ],
         },
     },
 ];
