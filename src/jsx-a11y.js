@@ -9,6 +9,11 @@ export default [
                     "words": ['click here', 'here', 'link', 'a link', 'learn more'],
                 },
             ],
+            "jsx-a11y/anchor-has-content": [
+                "error", {
+                    "components": [ "Anchor" ],
+                },
+            ],
         },
     },
 ];
