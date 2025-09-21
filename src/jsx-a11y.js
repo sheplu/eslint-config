@@ -27,6 +27,9 @@ export default [
             "jsx-a11y/aria-props": [
                 "error",
             ],
+            "jsx-a11y/aria-proptypes": [
+                "error",
+            ],
         },
     },
 ];
