@@ -21,6 +21,9 @@ export default [
                     "aspects": ["noHref", "invalidHref", "preferButton"],
                 },
             ],
+            "jsx-a11y/aria-activedescendant-has-tabindex": [
+                "error",
+            ],
         },
     },
 ];
