@@ -71,6 +71,9 @@ export default [
             "jsx-a11y/lang": [
                 "error",
             ],
+            "jsx-a11y/media-has-caption": [
+                "error",
+            ],
         },
     },
 ];
