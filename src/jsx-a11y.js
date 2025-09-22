@@ -67,7 +67,10 @@ export default [
             ],
             "jsx-a11y/label-has-associated-control": [
                 "error",
-            ]
+            ],
+            "jsx-a11y/lang": [
+                "error",
+            ],
         },
     },
 ];
