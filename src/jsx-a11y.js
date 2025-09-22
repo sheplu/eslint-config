@@ -53,6 +53,9 @@ export default [
             "jsx-a11y/html-has-lang": [
                 "error",
             ],
+            "jsx-a11y/iframe-has-title": [
+                "error",
+            ],
         },
     },
 ];
