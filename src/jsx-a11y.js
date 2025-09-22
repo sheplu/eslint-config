@@ -56,6 +56,12 @@ export default [
             "jsx-a11y/iframe-has-title": [
                 "error",
             ],
+            "jsx-a11y/img-redundant-alt": [
+                "error", {
+                    "components": [],
+                    "words": [],
+                },
+            ],
         },
     },
 ];
