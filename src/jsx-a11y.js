@@ -50,6 +50,9 @@ export default [
             "jsx-a11y/heading-has-content": [
                 "error",
             ],
+            "jsx-a11y/html-has-lang": [
+                "error",
+            ],
         },
     },
 ];
