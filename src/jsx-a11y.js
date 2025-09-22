@@ -77,6 +77,9 @@ export default [
             "jsx-a11y/mouse-events-have-key-events": [
                 "error",
             ],
+            "jsx-a11y/no-access-key": [
+                "error",
+            ],
         },
     },
 ];
