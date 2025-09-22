@@ -74,6 +74,9 @@ export default [
             "jsx-a11y/media-has-caption": [
                 "error",
             ],
+            "jsx-a11y/mouse-events-have-key-events": [
+                "error",
+            ],
         },
     },
 ];
