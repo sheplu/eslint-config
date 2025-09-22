@@ -47,6 +47,9 @@ export default [
             "jsx-a11y/control-has-associated-label": [
                 "error",
             ],
+            "jsx-a11y/heading-has-content": [
+                "error",
+            ],
         },
     },
 ];
