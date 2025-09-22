@@ -62,6 +62,9 @@ export default [
                     "words": [],
                 },
             ],
+            "jsx-a11y/interactive-supports-focus": [
+                "error",
+            ],
         },
     },
 ];
