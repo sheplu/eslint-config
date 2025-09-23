@@ -86,6 +86,11 @@ export default [
             "jsx-a11y/no-autofocus": [
                 "error",
             ],
+            "jsx-a11y/no-distracting-elements": [
+                "error", {
+                    "elements": ["marquee", "blink"],
+                },
+            ],
         },
     },
 ];
