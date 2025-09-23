@@ -83,6 +83,9 @@ export default [
             "jsx-a11y/no-aria-hidden-on-focusable": [
                 "error",
             ],
+            "jsx-a11y/no-autofocus": [
+                "error",
+            ],
         },
     },
 ];
