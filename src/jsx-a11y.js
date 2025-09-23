@@ -91,6 +91,9 @@ export default [
                     "elements": ["marquee", "blink"],
                 },
             ],
+            "jsx-a11y/no-interactive-element-to-noninteractive-role": [
+                "error",
+            ],
         },
     },
 ];
