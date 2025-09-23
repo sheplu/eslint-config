@@ -122,6 +122,11 @@ export default [
                     allowExpressionValues: true,
                 },
             ],
+            "jsx-a11y/no-redundant-roles": [
+                "error", {
+                    "nav": ['navigation'],
+                },
+            ],
         },
     },
 ];
