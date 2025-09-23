@@ -94,6 +94,18 @@ export default [
             "jsx-a11y/no-interactive-element-to-noninteractive-role": [
                 "error",
             ],
+            "jsx-a11y/no-noninteractive-element-interactions": [
+                "error", {
+                    handlers: [
+                        'onClick',
+                        'onMouseDown',
+                        'onMouseUp',
+                        'onKeyPress',
+                        'onKeyDown',
+                        'onKeyUp',
+                    ],
+                },
+            ],
         },
     },
 ];
