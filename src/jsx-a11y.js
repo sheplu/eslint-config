@@ -140,6 +140,9 @@ export default [
                     "allowExpressionValues": true,
                 },
             ],
+            "jsx-a11y/prefer-tag-over-role": [
+                "error",
+            ],
         },
     },
 ];
