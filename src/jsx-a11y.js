@@ -117,9 +117,9 @@ export default [
             ],
             "jsx-a11y/no-noninteractive-tabindex": [
                 "error", {
-                    tags: [],
-                    roles: ['tabpanel'],
-                    allowExpressionValues: true,
+                    "tags": [],
+                    "roles": ['tabpanel'],
+                    "allowExpressionValues": true,
                 },
             ],
             "jsx-a11y/no-redundant-roles": [
