@@ -152,6 +152,9 @@ export default [
             "jsx-a11y/scope": [
                 "error",
             ],
+            "jsx-a11y/tabindex-no-positive": [
+                "error",
+            ],
         },
     },
 ];
