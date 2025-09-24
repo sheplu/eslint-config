@@ -143,6 +143,9 @@ export default [
             "jsx-a11y/prefer-tag-over-role": [
                 "error",
             ],
+            "jsx-a11y/role-has-required-aria-props": [
+                "error",
+            ],
         },
     },
 ];
