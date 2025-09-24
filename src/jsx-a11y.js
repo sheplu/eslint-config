@@ -146,6 +146,9 @@ export default [
             "jsx-a11y/role-has-required-aria-props": [
                 "error",
             ],
+            "jsx-a11y/role-supports-aria-props": [
+                "error",
+            ],
         },
     },
 ];
