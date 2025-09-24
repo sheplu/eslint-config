@@ -20,7 +20,7 @@ export default [
                     "allowFootnoteDefinitions": [],
                 },
             ],
-            "no-duplicate-headings": [
+            "markdown/no-duplicate-headings": [
                 "error", {
                     "checkSiblingsOnly": false,
                 },
