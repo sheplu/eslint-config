@@ -11,6 +11,9 @@ export default [
                     "frontmatterTitle": "",
                 },
             ],
+            "markdown/no-bare-urls": [
+                "error",
+            ],
         },
     },
 ];
