@@ -14,6 +14,12 @@ export default [
             "markdown/no-bare-urls": [
                 "error",
             ],
+            "markdown/no-duplicate-definitions": [
+                "error", {
+                    "allowDefinitions": ["//"],
+                    "allowFootnoteDefinitions": [],
+                },
+            ],
         },
     },
 ];
