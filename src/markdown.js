@@ -6,6 +6,11 @@ export default [
                     "required": [],
                 },
             ],
+            "markdown/heading-increment": [
+                "error", {
+                    "frontmatterTitle": "",
+                },
+            ],
         },
     },
 ];
