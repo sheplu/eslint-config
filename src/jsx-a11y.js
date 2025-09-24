@@ -149,6 +149,9 @@ export default [
             "jsx-a11y/role-supports-aria-props": [
                 "error",
             ],
+            "jsx-a11y/scope": [
+                "error",
+            ],
         },
     },
 ];
