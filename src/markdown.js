@@ -20,6 +20,11 @@ export default [
                     "allowFootnoteDefinitions": [],
                 },
             ],
+            "no-duplicate-headings": [
+                "error", {
+                    "checkSiblingsOnly": false,
+                },
+            ],
         },
     },
 ];
