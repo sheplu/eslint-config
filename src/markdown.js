@@ -25,6 +25,13 @@ export default [
                     "checkSiblingsOnly": false,
                 },
             ],
+            "markdown/no-empty-definitions": [
+                "error", {
+                    "allowDefinitions": ["//"],
+                    "allowFootnoteDefinitions": ["note"],
+                    "checkFootnoteDefinitions": true,
+                },
+            ],
         },
     },
 ];
