@@ -38,6 +38,12 @@ export default [
             "markdown/no-empty-links": [
                 "error",
             ],
+            "markdown/no-html": [
+                "error", {
+                    "allowed": [],
+                    "allowedIgnoreCase": false,
+                },
+            ],
         },
     },
 ];
