@@ -32,6 +32,9 @@ export default [
                     "checkFootnoteDefinitions": true,
                 },
             ],
+            "markdown/no-empty-images": [
+                "error",
+            ],
         },
     },
 ];
