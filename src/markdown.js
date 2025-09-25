@@ -52,6 +52,11 @@ export default [
                     "checkClosedHeadings": true,
                 }
             ],
+            "markdown/no-missing-label-refs": [
+                "error", {
+                    "allowLabels": [],
+                },
+            ],
         },
     },
 ];
