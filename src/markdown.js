@@ -47,6 +47,11 @@ export default [
             "markdown/no-invalid-label-refs": [
                 "error",
             ],
+            "markdown/no-missing-atx-heading-space": [
+                "error", {
+                    "checkClosedHeadings": true,
+                }
+            ],
         },
     },
 ];
