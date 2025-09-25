@@ -35,6 +35,9 @@ export default [
             "markdown/no-empty-images": [
                 "error",
             ],
+            "markdown/no-empty-links": [
+                "error",
+            ],
         },
     },
 ];
