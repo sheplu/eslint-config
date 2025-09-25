@@ -57,6 +57,12 @@ export default [
                     "allowLabels": [],
                 },
             ],
+            "markdown/no-missing-link-fragments": [
+                "error", {
+                    "ignoreCase": false,
+                    "allowPattern": "",
+                },
+            ],
         },
     },
 ];
