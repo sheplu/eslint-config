@@ -44,6 +44,9 @@ export default [
                     "allowedIgnoreCase": false,
                 },
             ],
+            "markdown/no-invalid-label-refs": [
+                "error",
+            ],
         },
     },
 ];
