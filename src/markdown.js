@@ -63,6 +63,11 @@ export default [
                     "allowPattern": "",
                 },
             ],
+            "markdown/no-multiple-h1": [
+                "error", {
+                    "frontmatterTitle": "",
+                },
+            ],
         },
     },
 ];
