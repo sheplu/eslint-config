@@ -71,6 +71,9 @@ export default [
             "markdown/no-reference-like-urls": [
                 "error", 
             ],
+            "markdown/no-reversed-media-syntax": [
+                "error",
+            ],
         },
     },
 ];
