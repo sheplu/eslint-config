@@ -68,6 +68,9 @@ export default [
                     "frontmatterTitle": "",
                 },
             ],
+            "markdown/no-reference-like-urls": [
+                "error", 
+            ],
         },
     },
 ];
