@@ -88,6 +88,11 @@ export default [
             "markdown/require-alt-text": [
                 "error",
             ],
+            "markdown/table-column-count": [
+                "error", {
+                    "checkMissingCells": true,
+                },
+            ],
         },
     },
 ];
