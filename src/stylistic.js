@@ -246,7 +246,7 @@ export default [
 			"@stylistic/jsx-sort-props": [
 				"error", {
 					"ignoreCase": false,
-					"callbackLast": true,
+					"callbacksLast": true,
 					"shorthandFirst": false,
 					"shorthandLast": true,
 					"multiline": "last",
