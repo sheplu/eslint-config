@@ -27,6 +27,12 @@ export default [
                     "allowRequiredDefaults": false,
                 },
             ],
+            "react/destructuring-assignment": [
+                "error", {
+                    "ignoreClassFields": false,
+                    "destructureInSignature": true,
+                },
+            ],
         },
     },
 ];
