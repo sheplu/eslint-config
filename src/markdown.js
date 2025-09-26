@@ -74,6 +74,11 @@ export default [
             "markdown/no-reversed-media-syntax": [
                 "error",
             ],
+            "markdown/no-space-in-emphasis": [
+                "error", {
+                    "checkStrikethrough": true,
+                },
+            ],
         },
     },
 ];
