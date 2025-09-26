@@ -9,6 +9,13 @@ export default [
                     "validateNested": true,
                 },
             ],
+            "react/button-has-type": [
+                "error", {
+                    "button": true,
+                    "submit": true,
+                    "reset": true,
+                },
+            ],
         },
     },
 ];
