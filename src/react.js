@@ -16,6 +16,12 @@ export default [
                     "reset": true,
                 },
             ],
+            "react/checked-requires-onchange-or-readonly": [
+                "error", {
+                    "ignoreMissingProperties": false,
+                    "ignoreExclusiveCheckedAttribute": false,
+                },
+            ],
         },
     },
 ];
