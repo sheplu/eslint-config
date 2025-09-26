@@ -79,6 +79,12 @@ export default [
                     "checkStrikethrough": true,
                 },
             ],
+            "markdown/no-unused-definitions": [
+                "error", {
+                    "allowDefinitions": [],
+                    "allowFootnoteDefinitions": [],
+                },
+            ],
         },
     },
 ];
