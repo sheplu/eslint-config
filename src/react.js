@@ -22,6 +22,11 @@ export default [
                     "ignoreExclusiveCheckedAttribute": false,
                 },
             ],
+            "react/default-props-match-prop-types": [
+                "error", {
+                    "allowRequiredDefaults": false,
+                },
+            ],
         },
     },
 ];
