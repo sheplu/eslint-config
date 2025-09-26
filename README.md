@@ -77,3 +77,4 @@ Add common lint commands to your `package.json`:
 * [eslint](https://github.com/eslint/eslint) 
 * [stylistic](https://github.com/eslint-stylistic/eslint-stylistic) 
 * [markdown](https://github.com/eslint/markdown/tree/main)
+* [react](https://github.com/jsx-eslint/eslint-plugin-react)
