@@ -33,6 +33,12 @@ export default [
                     "destructureInSignature": true,
                 },
             ],
+            "react/display-name": [
+                "error", {
+                    "ignoreTranspilerName": true,
+                    "checkContextObjects": true,
+                },
+            ],
         },
     },
 ];
