@@ -66,6 +66,9 @@ export default [
                     "checkChildContextTypes": true,
                 },
             ],
+            "react/forward-ref-uses-ref": [
+                "error",
+            ],
         },
     },
 ];
