@@ -49,6 +49,11 @@ export default [
                     "forbid": [],
                 },
             ],
+            "react/forbid-elements": [
+                "error", {
+                    "forbid": [],
+                },
+            ],
         },
     },
 ];
