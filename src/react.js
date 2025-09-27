@@ -39,6 +39,11 @@ export default [
                     "checkContextObjects": true,
                 },
             ],
+            "react/forbid-component-props": [
+                "error", {
+                    forbid: ['className', 'style'],
+                },
+            ],
         },
     },
 ];
