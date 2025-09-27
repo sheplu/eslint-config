@@ -75,6 +75,11 @@ export default [
                     "unnamedComponents": "function-expression",
                 },
             ],
+            "react/hook-use-state": [
+                "error", {
+                    "allowDestructuredState": false,
+                },
+            ],
         },
     },
 ];
