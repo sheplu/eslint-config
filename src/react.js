@@ -41,7 +41,7 @@ export default [
             ],
             "react/forbid-component-props": [
                 "error", {
-                    forbid: ['className', 'style'],
+                    "forbid": ['className', 'style'],
                 },
             ],
             "react/forbid-dom-props": [
