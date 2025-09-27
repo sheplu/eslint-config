@@ -69,6 +69,12 @@ export default [
             "react/forward-ref-uses-ref": [
                 "error",
             ],
+            "react/function-component-definition": [
+                "error", {
+                    "namedComponents": "function-declaration",
+                    "unnamedComponents": "function-expression",
+                },
+            ],
         },
     },
 ];
