@@ -54,6 +54,11 @@ export default [
                     "forbid": [],
                 },
             ],
+            "react/forbid-foreign-prop-types": [
+                "error", {
+                    "allowInPropTypes": [false],
+                },
+            ],
         },
     },
 ];
