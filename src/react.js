@@ -59,6 +59,13 @@ export default [
                     "allowInPropTypes": [false],
                 },
             ],
+            "react/forbid-prop-types": [
+                "error", {
+                    "forbid": ['any', 'array', 'object'],
+                    "checkContextTypes": true,
+                    "checkChildContextTypes": true,
+                },
+            ],
         },
     },
 ];
