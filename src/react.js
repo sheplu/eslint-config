@@ -83,6 +83,11 @@ export default [
             "react/iframe-missing-sandbox": [
                 "error",
             ],
+            "react/jsx-boolean-value": [
+                "error", "always", {
+                    "never": [],
+                },
+            ],
         },
     },
 ];
