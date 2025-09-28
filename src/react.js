@@ -121,6 +121,13 @@ export default [
 			"react/jsx-equals-spacing": [
 				"error", "never",
 			],
+			"react/jsx-filename-extension": [
+				"error", {
+					"allow": "always",
+					"extensions": [".jsx", ".tsx"],
+					"ignoreFilesWithoutCode": false,
+				},
+			],
 		},
 	},
 ];
