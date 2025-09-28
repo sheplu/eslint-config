@@ -131,6 +131,9 @@ export default [
 			"react/jsx-first-prop-new-line": [
 				"error", "multiline-multiprop",
 			],
+			"react/jsx-fragments": [
+				"error", "element",
+			],
 		},
 	},
 ];
