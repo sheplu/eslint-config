@@ -88,6 +88,9 @@ export default [
                     "never": [],
                 },
             ],
+            "react/jsx-child-element-spacing": [
+                "error",
+            ],
         },
     },
 ];
