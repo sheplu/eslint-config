@@ -118,6 +118,9 @@ export default [
 					"when": "always",
 				},
 			],
+			"react/jsx-equals-spacing": [
+				"error", "never",
+			],
 		},
 	},
 ];
