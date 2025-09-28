@@ -100,6 +100,13 @@ export default [
             "react/jsx-closing-tag-location": [
                 "error", "line-aligned",
             ],
+            "react/jsx-curly-brace-presence": [
+                "error", {
+                    "props": "always",
+                    "children": "always",
+                    "propElementValues": "always",
+                },
+            ],
         },
     },
 ];
