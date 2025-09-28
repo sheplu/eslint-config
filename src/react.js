@@ -134,6 +134,15 @@ export default [
 			"react/jsx-fragments": [
 				"error", "element",
 			],
+			"react/jsx-handler-names": [
+				"error", {
+					"eventHandlerPrefix": "handle",
+					"eventHandlerPropPrefix": "on",
+					"checkLocalVariables": true,
+					"checkInlineFunction": true,
+					"ignoreComponentNames": [],
+				},
+			],
 		},
 	},
 ];
