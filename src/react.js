@@ -128,6 +128,9 @@ export default [
 					"ignoreFilesWithoutCode": false,
 				},
 			],
+			"react/jsx-first-prop-new-line": [
+				"error", "multiline-multiprop",
+			],
 		},
 	},
 ];
