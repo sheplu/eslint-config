@@ -107,6 +107,12 @@ export default [
                     "propElementValues": "always",
                 },
             ],
+            "react/jsx-curly-newline": [
+                "error", {
+					"multiline": "consistent",
+					"singleline": "consistent",
+				},
+            ],
         },
     },
 ];
