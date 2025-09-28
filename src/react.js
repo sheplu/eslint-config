@@ -91,6 +91,12 @@ export default [
             "react/jsx-child-element-spacing": [
                 "error",
             ],
+            "react/jsx-closing-bracket-location": [
+                "error", {
+                    "nonEmpty": "line-aligned",
+                    "selfClosing": "line-aligned",
+                },
+            ],
         },
     },
 ];
