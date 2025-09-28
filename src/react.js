@@ -113,6 +113,11 @@ export default [
 					"singleline": "consistent",
 				},
 			],
+			"react/jsx-curly-spacing": [
+				"error", {
+					"when": "always",
+				},
+			],
 		},
 	},
 ];
