@@ -97,6 +97,9 @@ export default [
                     "selfClosing": "line-aligned",
                 },
             ],
+            "react/jsx-closing-tag-location": [
+                "error", "line-aligned",
+            ],
         },
     },
 ];
