@@ -174,7 +174,13 @@ export default [
 						"multi": 1,
 					},
 				},
-			]
+			],
+			"react/jsx-newline": [
+				"error", {
+					"prevent": false,
+					"allowMultilines": false,
+				},
+			],
 		},
 	},
 ];
