@@ -162,6 +162,11 @@ export default [
 					"warnOnDuplicates": true,
 				},
 			],
+			"react/jsx-max-depth": [
+				"error", {
+					"max": 5,
+				},
+			],
 		},
 	},
 ];
