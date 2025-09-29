@@ -149,6 +149,12 @@ export default [
 					"ignoreTernaryOperator": false,
 				},
 			],
+			"react/jsx-indent": [
+				"error", "tab", {
+					"checkAttributes": true,
+					"indentLogicalExpressions": true,
+				},
+			],
 		},
 	},
 ];
