@@ -181,6 +181,15 @@ export default [
 					"allowMultilines": false,
 				},
 			],
+			"react/jsx-no-bind": [
+				"error", {
+					"ignoreDOMComponents": false,
+					"ignoreRefs": false,
+					"allowArrowFunctions": false,
+					"allowFunctions": false,
+					"allowBind": false,
+				},
+			],
 		},
 	},
 ];
