@@ -190,6 +190,9 @@ export default [
 					"allowBind": false,
 				},
 			],
+			"react/jsx-no-comment-textnodes": [
+				"error",
+			],
 		},
 	},
 ];
