@@ -193,6 +193,9 @@ export default [
 			"react/jsx-no-comment-textnodes": [
 				"error",
 			],
+			"react/jsx-no-constructed-context-values": [
+				"error",
+			],
 		},
 	},
 ];
