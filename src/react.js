@@ -196,6 +196,11 @@ export default [
 			"react/jsx-no-constructed-context-values": [
 				"error",
 			],
+			"react/jsx-no-duplicate-props": [
+				"error", {
+					"ignoreCase": true,
+				},
+			],
 		},
 	},
 ];
