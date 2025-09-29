@@ -155,6 +155,13 @@ export default [
 					"indentLogicalExpressions": true,
 				},
 			],
+			"react/jsx-key": [
+				"error", {
+					"checkFragmentShorthand": true,
+					"checkKeyMustBeforeSpread": true,
+					"warnOnDuplicates": true,
+				},
+			],
 		},
 	},
 ];
