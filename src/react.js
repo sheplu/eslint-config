@@ -143,6 +143,12 @@ export default [
 					"ignoreComponentNames": [],
 				},
 			],
+			"react/jsx-indent-props": [
+				"error", {
+					"indentMode": "tab",
+					"ignoreTernaryOperator": false,
+				},
+			],
 		},
 	},
 ];
