@@ -167,6 +167,14 @@ export default [
 					"max": 5,
 				},
 			],
+			"react/jsx-max-props-per-line": [
+				"error", {
+					"maximum": {
+						"single": 1,
+						"multi": 1,
+					},
+				},
+			]
 		},
 	},
 ];
