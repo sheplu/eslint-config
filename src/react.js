@@ -228,6 +228,11 @@ export default [
 					"allowGlobals": true,
 				},
 			],
+			"react/jsx-no-useless-fragment": [
+				"error", {
+					"allowExpressions": false,
+				},
+			],
 		},
 	},
 ];
