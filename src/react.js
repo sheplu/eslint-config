@@ -206,6 +206,9 @@ export default [
 					"validStrategies": ["ternary"],
 				},
 			],
+			"react/jsx-no-literals": [
+				"error", 
+			],
 		},
 	},
 ];
