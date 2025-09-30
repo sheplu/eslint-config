@@ -214,6 +214,15 @@ export default [
 					"includeFromSettings": true,
 				},
 			],
+			"react/jsx-no-target-blank": [
+				"error", {
+					"allowReferrer": false,
+					"enforceDynamicLinks": true,
+					"warnOnSpreadAttributes": true,
+					"links": true,
+					"forms": true,
+				},
+			],
 		},
 	},
 ];
