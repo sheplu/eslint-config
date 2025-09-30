@@ -201,6 +201,11 @@ export default [
 					"ignoreCase": true,
 				},
 			],
+			"react/jsx-no-leaked-render": [
+				"error", {
+					"validStrategies": ["ternary"],
+				},
+			],
 		},
 	},
 ];
