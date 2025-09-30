@@ -223,6 +223,11 @@ export default [
 					"forms": true,
 				},
 			],
+			"react/jsx-no-undef": [
+				"error", {
+					"allowGlobals": true,
+				},
+			],
 		},
 	},
 ];
