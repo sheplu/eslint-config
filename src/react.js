@@ -209,6 +209,11 @@ export default [
 			"react/jsx-no-literals": [
 				"error", 
 			],
+			"react/jsx-no-script-url": [
+				"error", [], {
+					"includeFromSettings": true,
+				},
+			],
 		},
 	},
 ];
