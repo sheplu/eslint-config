@@ -252,6 +252,14 @@ export default [
 			"react/jsx-props-no-spread-multi": [
 				"error",
 			],
+			"react/jsx-props-no-spreading": [
+				"error", {
+					"html": "enforce",
+					"custom": "enforce",
+					"explicitSpread": "enforce",
+					"exceptions": [],
+				},
+			],
 		},
 	},
 ];
