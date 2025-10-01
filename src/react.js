@@ -233,6 +233,11 @@ export default [
 					"allowExpressions": false,
 				},
 			],
+			"react/jsx-one-expression-per-line": [
+				"error", {
+					"allow": "none",
+				},
+			],
 		},
 	},
 ];
