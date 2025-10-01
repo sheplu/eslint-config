@@ -249,6 +249,9 @@ export default [
 			"react/jsx-props-no-multi-spaces": [
 				"error", 
 			],
+			"react/jsx-props-no-spread-multi": [
+				"error",
+			],
 		},
 	},
 ];
