@@ -246,6 +246,9 @@ export default [
 					"ignore": [],
 				},
 			],
+			"react/jsx-props-no-multi-spaces": [
+				"error", 
+			],
 		},
 	},
 ];
