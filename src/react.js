@@ -238,6 +238,14 @@ export default [
 					"allow": "none",
 				},
 			],
+			"react/jsx-pascal-case": [
+				"error", {
+					"allowAllCaps": false,
+					"allowLeadingUnderscore": false,
+					"allowNamespace": false,
+					"ignore": [],
+				},
+			],
 		},
 	},
 ];
