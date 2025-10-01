@@ -280,6 +280,9 @@ export default [
 					"beforeClosing": "never",
 				},
 			],
+			"react/jsx-uses-react": [
+				"error",
+			],
 		},
 	},
 ];
