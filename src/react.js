@@ -265,6 +265,18 @@ export default [
 					"ignoreCase": false,
 				},
 			],
+			"react/jsx-sort-props": [
+				"error", {
+					"ignoreCase": false,
+					"callbacksLast": true,
+					"shorthandFirst": false,
+					"shorthandLast": true,
+					"multiline": "last",
+					"noSortAlphabetically": false,
+					"reservedFirst": true,
+					"locale": "auto",
+				},
+			],
 		},
 	},
 ];
