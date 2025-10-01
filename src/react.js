@@ -260,11 +260,6 @@ export default [
 					"exceptions": [],
 				},
 			],
-			"react/jsx-sort-default-props": [
-				"error", {
-					"ignoreCase": false,
-				},
-			],
 			"react/jsx-sort-props": [
 				"error", {
 					"ignoreCase": false,
