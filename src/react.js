@@ -283,6 +283,9 @@ export default [
 			"react/jsx-uses-react": [
 				"error",
 			],
+			"react/react/jsx-uses-vars": [
+				"error",
+			],
 		},
 	},
 ];
