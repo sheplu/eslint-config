@@ -309,6 +309,9 @@ export default [
 			"react/no-arrow-function-lifecycle": [
 				"error",
 			],
+			"react/no-children-prop": [
+				"error",
+			],
 		},
 	},
 ];
