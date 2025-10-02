@@ -303,6 +303,9 @@ export default [
 			"react/no-adjacent-inline-elements": [
 				"error",
 			],
+			"react/no-array-index-key": [
+				"error",
+			],
 		},
 	},
 ];
