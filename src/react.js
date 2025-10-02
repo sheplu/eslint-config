@@ -300,6 +300,9 @@ export default [
 			"react/no-access-state-in-setstate": [
 				"error",
 			],
+			"react/no-adjacent-inline-elements": [
+				"error",
+			],
 		},
 	},
 ];
