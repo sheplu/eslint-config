@@ -286,6 +286,17 @@ export default [
 			"react/react/jsx-uses-vars": [
 				"error",
 			],
+			"react/jsx-wrap-multilines": [
+				"error", {
+					"declaration": "parens",
+					"assignment": "parens",
+					"return": "parens",
+					"arrow": "parens",
+					"condition": "ignore",
+					"logical": "ignore",
+					"prop": "ignore",
+				},
+			],
 		},
 	},
 ];
