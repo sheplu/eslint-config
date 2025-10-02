@@ -320,6 +320,9 @@ export default [
 					"customComponentNames": [],
 				},
 			],
+			"react/no-deprecated": [
+				"error",
+			],
 		},
 	},
 ];
