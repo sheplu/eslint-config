@@ -323,6 +323,9 @@ export default [
 			"react/no-deprecated": [
 				"error",
 			],
+			"react/no-did-mount-set-state": [
+				"error", "disallow-in-func",
+			],
 		},
 	},
 ];
