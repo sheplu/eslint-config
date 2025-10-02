@@ -306,6 +306,9 @@ export default [
 			"react/no-array-index-key": [
 				"error",
 			],
+			"react/no-arrow-function-lifecycle": [
+				"error",
+			],
 		},
 	},
 ];
