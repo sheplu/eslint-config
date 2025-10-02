@@ -297,6 +297,9 @@ export default [
 					"prop": "ignore",
 				},
 			],
+			"react/no-access-state-in-setstate": [
+				"error",
+			],
 		},
 	},
 ];
