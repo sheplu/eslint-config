@@ -315,6 +315,11 @@ export default [
 			"react/no-danger-with-children": [
 				"error",
 			],
+			"react/no-danger": [
+				"error", {
+					"customComponentNames": [],
+				},
+			],
 		},
 	},
 ];
