@@ -312,6 +312,9 @@ export default [
 			"react/no-children-prop": [
 				"error",
 			],
+			"react/no-danger-with-children": [
+				"error",
+			],
 		},
 	},
 ];
