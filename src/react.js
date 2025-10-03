@@ -355,6 +355,9 @@ export default [
 			"react/no-redundant-should-component-update": [
 				"error",
 			],
+			"react/no-render-return-value": [
+				"error",
+			],
 		},
 	},
 ];
