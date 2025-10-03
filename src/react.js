@@ -335,6 +335,9 @@ export default [
 			"react/no-find-dom-node": [
 				"error",
 			],
+			"react/no-invalid-html-attribute": [
+				"error",
+			],
 		},
 	},
 ];
