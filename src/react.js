@@ -358,6 +358,9 @@ export default [
 			"react/no-render-return-value": [
 				"error",
 			],
+			"react/no-set-state": [
+				"error",
+			],
 		},
 	},
 ];
