@@ -326,6 +326,9 @@ export default [
 			"react/no-did-mount-set-state": [
 				"error", "disallow-in-func",
 			],
+			"react/no-did-update-set-state": [
+				"error", "disallow-in-func",
+			],
 		},
 	},
 ];
