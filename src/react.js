@@ -341,6 +341,11 @@ export default [
 			"react/no-is-mounted": [
 				"error",
 			],
+			"react/no-multi-comp": [
+				"error", {
+					"ignoreStateless": false,
+				},
+			],
 		},
 	},
 ];
