@@ -361,6 +361,11 @@ export default [
 			"react/no-set-state": [
 				"error",
 			],
+			"react/no-string-refs": [
+				"error", {
+					"noTemplateLiterals": true,
+				},
+			],
 		},
 	},
 ];
