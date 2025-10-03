@@ -352,6 +352,9 @@ export default [
 			"react/no-object-type-as-default-prop": [
 				"error",
 			],
+			"react/no-redundant-should-component-update": [
+				"error",
+			],
 		},
 	},
 ];
