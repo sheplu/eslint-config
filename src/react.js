@@ -329,6 +329,9 @@ export default [
 			"react/no-did-update-set-state": [
 				"error", "disallow-in-func",
 			],
+			"react/no-direct-mutation-state": [
+				"error",
+			],
 		},
 	},
 ];
