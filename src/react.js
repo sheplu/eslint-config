@@ -332,6 +332,9 @@ export default [
 			"react/no-direct-mutation-state": [
 				"error",
 			],
+			"react/no-find-dom-node": [
+				"error",
+			],
 		},
 	},
 ];
