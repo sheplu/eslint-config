@@ -346,6 +346,9 @@ export default [
 					"ignoreStateless": false,
 				},
 			],
+			"react/no-namespace": [
+				"error",
+			],
 		},
 	},
 ];
