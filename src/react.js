@@ -349,6 +349,9 @@ export default [
 			"react/no-namespace": [
 				"error",
 			],
+			"react/no-object-type-as-default-prop": [
+				"error",
+			],
 		},
 	},
 ];
