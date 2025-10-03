@@ -338,6 +338,9 @@ export default [
 			"react/no-invalid-html-attribute": [
 				"error",
 			],
+			"react/no-is-mounted": [
+				"error",
+			],
 		},
 	},
 ];
