@@ -398,6 +398,13 @@ export default [
 			"react/no-unused-class-component-methods": [
 				"error",
 			],
+			"react/no-unused-prop-types": [
+				"error", {
+					"ignore": [],
+					"customValidators": [],
+					"skipShapeProps": false,
+				},
+			],
 		},
 	},
 ];
