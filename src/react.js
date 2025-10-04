@@ -369,6 +369,9 @@ export default [
 			"react/no-this-in-sfc": [
 				"error",
 			],
+			"react/no-typos": [
+				"error",
+			],
 		},
 	},
 ];
