@@ -377,6 +377,12 @@ export default [
 					"forbid": ['>', '"', '\'', '}'],
 				},
 			],
+			"react/no-unknown-property": [
+				"error", {
+					"ignore": [],
+					"requireDataLowercase": true,
+				},
+			],
 		},
 	},
 ];
