@@ -388,6 +388,13 @@ export default [
 					"checkAliases": true,
 				},
 			],
+			"react/no-unstable-nested-components": [
+				"error", {
+					"allowAsProps": false,
+					"customValidators": [],
+					"propNamePattern": "",
+				},
+			],
 		},
 	},
 ];
