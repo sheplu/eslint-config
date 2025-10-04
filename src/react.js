@@ -405,6 +405,9 @@ export default [
 					"skipShapeProps": false,
 				},
 			],
+			"react/no-unused-state": [
+				"error",
+			],
 		},
 	},
 ];
