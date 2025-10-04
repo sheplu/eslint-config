@@ -411,6 +411,9 @@ export default [
 			"react/no-will-update-set-state": [
 				"error", "disallow-in-func",
 			],
+			"react/prefer-es6-class": [
+				"error", "always",
+			],
 		},
 	},
 ];
