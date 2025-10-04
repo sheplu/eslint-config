@@ -366,6 +366,9 @@ export default [
 					"noTemplateLiterals": true,
 				},
 			],
+			"react/no-this-in-sfc": [
+				"error",
+			],
 		},
 	},
 ];
