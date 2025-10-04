@@ -395,6 +395,9 @@ export default [
 					"propNamePattern": "",
 				},
 			],
+			"react/no-unused-class-component-methods": [
+				"error",
+			],
 		},
 	},
 ];
