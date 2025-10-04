@@ -383,6 +383,11 @@ export default [
 					"requireDataLowercase": true,
 				},
 			],
+			"react/no-unsafe": [
+				"error", {
+					"checkAliases": true,
+				},
+			],
 		},
 	},
 ];
