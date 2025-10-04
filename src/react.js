@@ -408,6 +408,9 @@ export default [
 			"react/no-unused-state": [
 				"error",
 			],
+			"react/no-will-update-set-state": [
+				"error", "disallow-in-func",
+			],
 		},
 	},
 ];
