@@ -372,6 +372,11 @@ export default [
 			"react/no-typos": [
 				"error",
 			],
+			"react/no-unescaped-entities": [
+				"error", {
+					"forbid": ['>', '"', '\'', '}'],
+				},
+			],
 		},
 	},
 ];
