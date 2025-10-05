@@ -447,6 +447,9 @@ export default [
 					"allowDecorators": [],
 				},
 			],
+			"react/require-render-return": [
+				"error",
+			],
 		},
 	},
 ];
