@@ -442,6 +442,11 @@ export default [
 					"functions": "defaultArguments",
 				},
 			],
+			"react/require-optimization": [
+				"error", {
+					"allowDecorators": [],
+				},
+			],
 		},
 	},
 ];
