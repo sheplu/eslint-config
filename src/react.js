@@ -435,6 +435,13 @@ export default [
 			"react/react-in-jsx-scope": [
 				"error",
 			],
+			"react/require-default-props": [
+				"error", {
+					"forbidDefaultForRequired": true,
+					"classes": "defaultProps",
+					"functions": "defaultArguments",
+				},
+			],
 		},
 	},
 ];
