@@ -425,6 +425,13 @@ export default [
 					"ignorePureComponents": false,
 				},
 			],
+			"react/prop-types": [
+				"error", {
+					"ignore": [],
+					"customValidators": [],
+					"skipUndeclared": false,
+				},
+			],
 		},
 	},
 ];
