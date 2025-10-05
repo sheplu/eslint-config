@@ -420,6 +420,11 @@ export default [
 			"react/prefer-read-only-props": [
 				"error",
 			],
+			"react/prefer-stateless-function": [
+				"error", {
+					"ignorePureComponents": false,
+				},
+			],
 		},
 	},
 ];
