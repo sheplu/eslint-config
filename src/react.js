@@ -450,6 +450,12 @@ export default [
 			"react/require-render-return": [
 				"error",
 			],
+			"react/self-closing-comp": [
+				"error", {
+					"component": false,
+					"html": false,
+				},
+			],
 		},
 	},
 ];
