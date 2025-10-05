@@ -432,6 +432,9 @@ export default [
 					"skipUndeclared": false,
 				},
 			],
+			"react/react-in-jsx-scope": [
+				"error",
+			],
 		},
 	},
 ];
