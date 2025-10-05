@@ -417,6 +417,9 @@ export default [
 			"react/prefer-exact-props": [
 				"error",
 			],
+			"react/prefer-read-only-props": [
+				"error",
+			],
 		},
 	},
 ];
