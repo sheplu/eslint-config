@@ -414,6 +414,9 @@ export default [
 			"react/prefer-es6-class": [
 				"error", "always",
 			],
+			"react/prefer-exact-props": [
+				"error",
+			],
 		},
 	},
 ];
