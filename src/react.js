@@ -521,6 +521,9 @@ export default [
 					"allow": [],
 				},
 			],
+			"react/void-dom-elements-no-children": [
+				"error",
+			],
 		},
 	},
 ];
