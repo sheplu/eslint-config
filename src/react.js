@@ -510,6 +510,9 @@ export default [
 					"checkTypes": true,
 				},
 			],
+			"react/state-in-constructor": [
+				"error", "always",
+			],
 		},
 	},
 ];
