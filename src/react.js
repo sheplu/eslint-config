@@ -495,6 +495,11 @@ export default [
 					},
 				},
 			],
+			"react/sort-default-props": [
+				"error", {
+					"ignoreCase": false,
+				},
+			],
 		},
 	},
 ];
