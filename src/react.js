@@ -513,6 +513,9 @@ export default [
 			"react/state-in-constructor": [
 				"error", "always",
 			],
+			"react/static-property-placement": [
+				"error", "static public field",
+			],
 		},
 	},
 ];
