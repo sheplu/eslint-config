@@ -500,6 +500,16 @@ export default [
 					"ignoreCase": false,
 				},
 			],
+			"react/sort-prop-types": [
+				"error", {
+					"ignoreCase": false,
+					"callbacksLast": true,
+					"requiredFirst": false,
+					"sortShapeProp": true,
+					"noSortAlphabetically": false,
+					"checkTypes": true,
+				},
+			],
 		},
 	},
 ];
