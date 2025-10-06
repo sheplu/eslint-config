@@ -78,3 +78,4 @@ Add common lint commands to your `package.json`:
 * [stylistic](https://github.com/eslint-stylistic/eslint-stylistic) 
 * [markdown](https://github.com/eslint/markdown/tree/main)
 * [react](https://github.com/jsx-eslint/eslint-plugin-react)
+* [react-hooks](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks)
