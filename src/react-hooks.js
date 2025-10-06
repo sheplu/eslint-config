@@ -6,6 +6,9 @@ export default [
                     "additionalHooks": "()",
                 },
             ],
+            "react-hooks/rules-of-hooks": [
+                "error",
+            ],
         },
     },
 ];
