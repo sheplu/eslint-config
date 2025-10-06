@@ -516,6 +516,11 @@ export default [
 			"react/static-property-placement": [
 				"error", "static public field",
 			],
+			"react/style-prop-object": [
+				"error", {
+					"allow": [],
+				},
+			],
 		},
 	},
 ];
