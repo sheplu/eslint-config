@@ -28,6 +28,9 @@ export default [
             "@typescript-eslint/consistent-generic-constructors": [
                 "error", 
             ],
+            "@typescript-eslint/consistent-indexed-object-style": [
+                "error",
+            ],
         },
     },
 ];
