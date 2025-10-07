@@ -10,6 +10,9 @@ export default [
                     "readOnly": "generic",
                 },
             ],
+            "@typescript-eslint/await-thenable": [
+                "error",
+            ],
         },
     },
 ];
