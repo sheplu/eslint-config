@@ -22,6 +22,9 @@ export default [
             "@typescript-eslint/class-literal-property-style": [
                 "error",
             ],
+            "@typescript-eslint/class-methods-use-this": [
+                "error",
+            ],
         },
     },
 ];
