@@ -19,6 +19,9 @@ export default [
             "@typescript-eslint/ban-tslint-comment": [
                 "error",
             ],
+            "@typescript-eslint/class-literal-property-style": [
+                "error",
+            ],
         },
     },
 ];
