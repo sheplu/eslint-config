@@ -25,6 +25,9 @@ export default [
             "@typescript-eslint/class-methods-use-this": [
                 "error",
             ],
+            "@typescript-eslint/consistent-generic-constructors": [
+                "error", 
+            ],
         },
     },
 ];
