@@ -16,6 +16,9 @@ export default [
             "@typescript-eslint/ban-ts-comment": [
                 "error",
             ],
+            "@typescript-eslint/ban-tslint-comment": [
+                "error",
+            ],
         },
     },
 ];
