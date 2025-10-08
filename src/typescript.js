@@ -56,6 +56,9 @@ export default [
                     "disallowTypeAnnotations": true,
                 },
             ],
+            "@typescript-eslint/default-param-last": [
+                "error",
+            ],
         },
     },
 ];
