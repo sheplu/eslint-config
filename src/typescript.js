@@ -66,6 +66,18 @@ export default [
                     "allowIndexSignaturePropertyAccess": false,
                 },
             ],
+            "@typescript-eslint/explicit-function-return-type": [
+                "error", {
+                    "allowConciseArrowFunctionExpressionsStartingWithVoid": false,
+                    "allowDirectConstAssertionInArrowFunctions": true,
+                    "allowedNames": [],
+                    "allowExpressions": false,
+                    "allowFunctionsWithoutTypeParameters": false,
+                    "allowHigherOrderFunctions": true,
+                    "allowIIFEs": false,
+                    "allowTypedFunctionExpressions": true,
+                },
+            ],
         },
     },
 ];
