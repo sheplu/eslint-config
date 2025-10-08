@@ -41,6 +41,9 @@ export default [
                     "arrayLiteralTypeAssertions": "allow",
                 },
             ],
+            "@typescript-eslint/consistent-type-definitions": [
+                "error", "interface",
+            ],
         },
     },
 ];
