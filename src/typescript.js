@@ -78,6 +78,18 @@ export default [
                     "allowTypedFunctionExpressions": true,
                 },
             ],
+            "@typescript-eslint/explicit-member-accessibility": [
+                "error", {
+                    "accessibility": "explicit",
+                    "overrides": {
+                        "accessors": "explicit",
+                        "constructors": "no-public",
+                        "methods": "explicit",
+                        "properties": "off",
+                        "parameterProperties": "explicit",
+                    },
+                },
+            ],
         },
     },
 ];
