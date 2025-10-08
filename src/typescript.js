@@ -34,6 +34,13 @@ export default [
             "@typescript-eslint/consistent-return": [
                 "error",
             ],
+            "@typescript-eslint/consistent-type-assertions": [
+                "error", {
+                    "assertionStyle": "as",
+                    "objectLiteralTypeAssertions": "allow",
+                    "arrayLiteralTypeAssertions": "allow",
+                },
+            ],
         },
     },
 ];
