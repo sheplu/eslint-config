@@ -59,6 +59,13 @@ export default [
             "@typescript-eslint/default-param-last": [
                 "error",
             ],
+            "@typescript-eslint/dot-notation": [
+                "error", {
+                    "allowPrivateClassPropertyAccess": false,
+                    "allowProtectedClassPropertyAccess": false,
+                    "allowIndexSignaturePropertyAccess": false,
+                },
+            ],
         },
     },
 ];
