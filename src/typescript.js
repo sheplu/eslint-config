@@ -31,6 +31,9 @@ export default [
             "@typescript-eslint/consistent-indexed-object-style": [
                 "error",
             ],
+            "@typescript-eslint/consistent-return": [
+                "error",
+            ],
         },
     },
 ];
