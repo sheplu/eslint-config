@@ -90,6 +90,16 @@ export default [
                     },
                 },
             ],
+            "@typescript-eslint/explicit-module-boundary-types": [
+                "error", {
+                    "allowArgumentsExplicitlyTypedAsAny": false,
+                    "allowDirectConstAssertionInArrowFunctions": true,
+                    "allowedNames": [],
+                    "allowHigherOrderFunctions": true,
+                    "allowOverloadFunctions": false,
+                    "allowTypedFunctionExpressions": true,
+                },
+            ],
         },
     },
 ];
