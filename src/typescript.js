@@ -137,6 +137,11 @@ export default [
                     "ignoreVoidReturningFunctions": false,
                 },
             ],
+            "@typescript-eslint/no-deprecated": [
+                "error", {
+                    "allow": [],
+                },
+            ],
         },
     },
 ];
