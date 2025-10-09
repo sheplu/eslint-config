@@ -130,6 +130,13 @@ export default [
             "@typescript-eslint/no-confusing-non-null-assertion": [
                 "error",
             ],
+            "@typescript-eslint/no-confusing-void-expression": [
+                "error", {
+                    "ignoreArrowShorthand": false,
+                    "ignoreVoidOperator": false,
+                    "ignoreVoidReturningFunctions": false,
+                },
+            ],
         },
     },
 ];
