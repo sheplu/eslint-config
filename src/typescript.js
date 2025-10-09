@@ -112,6 +112,9 @@ export default [
             "@typescript-eslint/member-ordering": [
                 "error",
             ],
+            "@typescript-eslint/naming-convention": [
+                "error",
+            ],
         },
     },
 ];
