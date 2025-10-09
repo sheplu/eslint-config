@@ -207,7 +207,7 @@ export default [
 				},
 			],
 			"react/jsx-no-literals": [
-				"error", 
+				"error",
 			],
 			"react/jsx-no-script-url": [
 				"error", [], {
@@ -247,7 +247,7 @@ export default [
 				},
 			],
 			"react/jsx-props-no-multi-spaces": [
-				"error", 
+				"error",
 			],
 			"react/jsx-props-no-spread-multi": [
 				"error",

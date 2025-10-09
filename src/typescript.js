@@ -1,147 +1,147 @@
 export default [
-    {
-        rules: {
-            "typescript-eslint/adjacent-overload-signatures": [
-                "error",
-            ],
-            "@typescript-eslint/array-type": [
-                "error", {
-                    "default": "generic",
-                    "readOnly": "generic",
-                },
-            ],
-            "@typescript-eslint/await-thenable": [
-                "error",
-            ],
-            "@typescript-eslint/ban-ts-comment": [
-                "error",
-            ],
-            "@typescript-eslint/ban-tslint-comment": [
-                "error",
-            ],
-            "@typescript-eslint/class-literal-property-style": [
-                "error",
-            ],
-            "@typescript-eslint/class-methods-use-this": [
-                "error",
-            ],
-            "@typescript-eslint/consistent-generic-constructors": [
-                "error", 
-            ],
-            "@typescript-eslint/consistent-indexed-object-style": [
-                "error",
-            ],
-            "@typescript-eslint/consistent-return": [
-                "error",
-            ],
-            "@typescript-eslint/consistent-type-assertions": [
-                "error", {
-                    "assertionStyle": "as",
-                    "objectLiteralTypeAssertions": "allow",
-                    "arrayLiteralTypeAssertions": "allow",
-                },
-            ],
-            "@typescript-eslint/consistent-type-definitions": [
-                "error", "interface",
-            ],
-            "@typescript-eslint/consistent-type-exports": [
-                "error", {
-                    "fixMixedExportsWithInlineTypeSpecifier": false,
-                },
-            ],
-            "@typescript-eslint/consistent-type-imports": [
-                "error", {
-                    "prefer": "type-imports",
-                    "fixStyle": "separate-type-imports",
-                    "disallowTypeAnnotations": true,
-                },
-            ],
-            "@typescript-eslint/default-param-last": [
-                "error",
-            ],
-            "@typescript-eslint/dot-notation": [
-                "error", {
-                    "allowPrivateClassPropertyAccess": false,
-                    "allowProtectedClassPropertyAccess": false,
-                    "allowIndexSignaturePropertyAccess": false,
-                },
-            ],
-            "@typescript-eslint/explicit-function-return-type": [
-                "error", {
-                    "allowConciseArrowFunctionExpressionsStartingWithVoid": false,
-                    "allowDirectConstAssertionInArrowFunctions": true,
-                    "allowedNames": [],
-                    "allowExpressions": false,
-                    "allowFunctionsWithoutTypeParameters": false,
-                    "allowHigherOrderFunctions": true,
-                    "allowIIFEs": false,
-                    "allowTypedFunctionExpressions": true,
-                },
-            ],
-            "@typescript-eslint/explicit-member-accessibility": [
-                "error", {
-                    "accessibility": "explicit",
-                    "overrides": {
-                        "accessors": "explicit",
-                        "constructors": "no-public",
-                        "methods": "explicit",
-                        "properties": "off",
-                        "parameterProperties": "explicit",
-                    },
-                },
-            ],
-            "@typescript-eslint/explicit-module-boundary-types": [
-                "error", {
-                    "allowArgumentsExplicitlyTypedAsAny": false,
-                    "allowDirectConstAssertionInArrowFunctions": true,
-                    "allowedNames": [],
-                    "allowHigherOrderFunctions": true,
-                    "allowOverloadFunctions": false,
-                    "allowTypedFunctionExpressions": true,
-                },
-            ],
-            "@typescript-eslint/init-declarations": [
-                "error", "always",
-            ],
-            "@typescript-eslint/max-params": [
-                "error", {
+	{
+		rules: {
+			"@typescript-eslint/adjacent-overload-signatures": [
+				"error",
+			],
+			"@typescript-eslint/array-type": [
+				"error", {
+					"default": "generic",
+					"readOnly": "generic",
+				},
+			],
+			"@typescript-eslint/await-thenable": [
+				"error",
+			],
+			"@typescript-eslint/ban-ts-comment": [
+				"error",
+			],
+			"@typescript-eslint/ban-tslint-comment": [
+				"error",
+			],
+			"@typescript-eslint/class-literal-property-style": [
+				"error",
+			],
+			"@typescript-eslint/class-methods-use-this": [
+				"error",
+			],
+			"@typescript-eslint/consistent-generic-constructors": [
+				"error",
+			],
+			"@typescript-eslint/consistent-indexed-object-style": [
+				"error",
+			],
+			"@typescript-eslint/consistent-return": [
+				"error",
+			],
+			"@typescript-eslint/consistent-type-assertions": [
+				"error", {
+					"assertionStyle": "as",
+					"objectLiteralTypeAssertions": "allow",
+					"arrayLiteralTypeAssertions": "allow",
+				},
+			],
+			"@typescript-eslint/consistent-type-definitions": [
+				"error", "interface",
+			],
+			"@typescript-eslint/consistent-type-exports": [
+				"error", {
+					"fixMixedExportsWithInlineTypeSpecifier": false,
+				},
+			],
+			"@typescript-eslint/consistent-type-imports": [
+				"error", {
+					"prefer": "type-imports",
+					"fixStyle": "separate-type-imports",
+					"disallowTypeAnnotations": true,
+				},
+			],
+			"@typescript-eslint/default-param-last": [
+				"error",
+			],
+			"@typescript-eslint/dot-notation": [
+				"error", {
+					"allowPrivateClassPropertyAccess": false,
+					"allowProtectedClassPropertyAccess": false,
+					"allowIndexSignaturePropertyAccess": false,
+				},
+			],
+			"@typescript-eslint/explicit-function-return-type": [
+				"error", {
+					"allowConciseArrowFunctionExpressionsStartingWithVoid": false,
+					"allowDirectConstAssertionInArrowFunctions": true,
+					"allowedNames": [],
+					"allowExpressions": false,
+					"allowFunctionsWithoutTypeParameters": false,
+					"allowHigherOrderFunctions": true,
+					"allowIIFEs": false,
+					"allowTypedFunctionExpressions": true,
+				},
+			],
+			"@typescript-eslint/explicit-member-accessibility": [
+				"error", {
+					"accessibility": "explicit",
+					"overrides": {
+						"accessors": "explicit",
+						"constructors": "no-public",
+						"methods": "explicit",
+						"properties": "off",
+						"parameterProperties": "explicit",
+					},
+				},
+			],
+			"@typescript-eslint/explicit-module-boundary-types": [
+				"error", {
+					"allowArgumentsExplicitlyTypedAsAny": false,
+					"allowDirectConstAssertionInArrowFunctions": true,
+					"allowedNames": [],
+					"allowHigherOrderFunctions": true,
+					"allowOverloadFunctions": false,
+					"allowTypedFunctionExpressions": true,
+				},
+			],
+			"@typescript-eslint/init-declarations": [
+				"error", "always",
+			],
+			"@typescript-eslint/max-params": [
+				"error", {
 					"max": 4,
 					"countVoidThis": true,
-				}
-            ],
-            "@typescript-eslint/member-ordering": [
-                "error",
-            ],
-            "@typescript-eslint/naming-convention": [
-                "error",
-            ],
-            "@typescript-eslint/no-array-constructor": [
-                "error",
-            ],
-            "@typescript-eslint/no-array-delete": [
-                "error",
-            ],
-            "@typescript-eslint/no-base-to-string": [
-                "error", {
-                    "checkUnknown": true,
-                    "ignoredTypeNames": ['Error',],
-                },
-            ],
-            "@typescript-eslint/no-confusing-non-null-assertion": [
-                "error",
-            ],
-            "@typescript-eslint/no-confusing-void-expression": [
-                "error", {
-                    "ignoreArrowShorthand": false,
-                    "ignoreVoidOperator": false,
-                    "ignoreVoidReturningFunctions": false,
-                },
-            ],
-            "@typescript-eslint/no-deprecated": [
-                "error", {
-                    "allow": [],
-                },
-            ],
-        },
-    },
+				},
+			],
+			"@typescript-eslint/member-ordering": [
+				"error",
+			],
+			"@typescript-eslint/naming-convention": [
+				"error",
+			],
+			"@typescript-eslint/no-array-constructor": [
+				"error",
+			],
+			"@typescript-eslint/no-array-delete": [
+				"error",
+			],
+			"@typescript-eslint/no-base-to-string": [
+				"error", {
+					"checkUnknown": true,
+					"ignoredTypeNames": ['Error',],
+				},
+			],
+			"@typescript-eslint/no-confusing-non-null-assertion": [
+				"error",
+			],
+			"@typescript-eslint/no-confusing-void-expression": [
+				"error", {
+					"ignoreArrowShorthand": false,
+					"ignoreVoidOperator": false,
+					"ignoreVoidReturningFunctions": false,
+				},
+			],
+			"@typescript-eslint/no-deprecated": [
+				"error", {
+					"allow": [],
+				},
+			],
+		},
+	},
 ];

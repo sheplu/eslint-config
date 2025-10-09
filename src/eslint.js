@@ -290,7 +290,7 @@ export default [
 			"consistent-return": [
 				"error", {
 					"treatUndefinedAsUnspecified": true,
-				}
+				},
 			],
 			"consistent-this": [
 				"error", "that",
