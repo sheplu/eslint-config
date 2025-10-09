@@ -209,7 +209,7 @@ export default [
 			],
 			"@stylistic/jsx-max-props-per-line": [
 				"error", {
-					"maximum":  {
+					"maximum": {
 						"single": 1,
 						"multi": 1,
 					},
@@ -262,7 +262,7 @@ export default [
 					"beforeSelfClosing": "always",
 					"afterOpening": "never",
 					"beforeClosing": "never",
-				}
+				},
 			],
 			"@stylistic/jsx-wrap-multilines": [
 				"error", {
@@ -288,7 +288,7 @@ export default [
 						"afterColon": true,
 						"mode": "strict",
 					},
-				}
+				},
 			],
 			"@stylistic/keyword-spacing": [
 				"error", {
@@ -562,7 +562,7 @@ export default [
 				"error", {
 					"allowAllPropertiesOnSameLine": true,
 
-				}
+				},
 			],
 			"@stylistic/one-var-declaration-per-line": [
 				"error", "initializations",
