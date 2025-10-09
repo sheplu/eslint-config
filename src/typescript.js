@@ -118,6 +118,9 @@ export default [
             "@typescript-eslint/no-array-constructor": [
                 "error",
             ],
+            "@typescript-eslint/no-array-delete": [
+                "error",
+            ],
         },
     },
 ];
