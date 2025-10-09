@@ -115,6 +115,9 @@ export default [
             "@typescript-eslint/naming-convention": [
                 "error",
             ],
+            "@typescript-eslint/no-array-constructor": [
+                "error",
+            ],
         },
     },
 ];
