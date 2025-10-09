@@ -109,6 +109,9 @@ export default [
 					"countVoidThis": true,
 				}
             ],
+            "@typescript-eslint/member-ordering": [
+                "error",
+            ],
         },
     },
 ];
