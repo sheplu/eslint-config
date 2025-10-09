@@ -103,6 +103,12 @@ export default [
             "@typescript-eslint/init-declarations": [
                 "error", "always",
             ],
+            "@typescript-eslint/max-params": [
+                "error", {
+					"max": 4,
+					"countVoidThis": true,
+				}
+            ],
         },
     },
 ];
