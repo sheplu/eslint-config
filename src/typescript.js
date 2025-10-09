@@ -121,6 +121,12 @@ export default [
             "@typescript-eslint/no-array-delete": [
                 "error",
             ],
+            "@typescript-eslint/no-base-to-string": [
+                "error", {
+                    "checkUnknown": true,
+                    "ignoredTypeNames": ['Error',],
+                },
+            ],
         },
     },
 ];
