@@ -100,6 +100,9 @@ export default [
                     "allowTypedFunctionExpressions": true,
                 },
             ],
+            "@typescript-eslint/init-declarations": [
+                "error", "always",
+            ],
         },
     },
 ];
