@@ -127,6 +127,9 @@ export default [
                     "ignoredTypeNames": ['Error',],
                 },
             ],
+            "@typescript-eslint/no-confusing-non-null-assertion": [
+                "error",
+            ],
         },
     },
 ];
