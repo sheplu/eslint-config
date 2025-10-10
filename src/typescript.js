@@ -168,6 +168,12 @@ export default [
 					"allowObjectTypes": 'never',
 				},
 			],
+			"@typescript-eslint/no-explicit-any": [
+				"error", {
+					"fixToUnknown": false,
+					"ignoreRestArgs": false,
+				},
+			],
 		},
 	},
 ];
