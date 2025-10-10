@@ -154,6 +154,9 @@ export default [
 					"ignoreUnions": false,
 				},
 			],
+			"@typescript-eslint/no-dynamic-delete": [
+				"error",
+			],
 		},
 	},
 ];
