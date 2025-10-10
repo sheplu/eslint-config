@@ -142,6 +142,9 @@ export default [
 					"allow": [],
 				},
 			],
+			"@typescript-eslint/no-dupe-class-members": [
+				"error",
+			],
 		},
 	},
 ];
