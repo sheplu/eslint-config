@@ -177,6 +177,14 @@ export default [
 			"@typescript-eslint/no-extra-non-null-assertion": [
 				"error",
 			],
+			"@typescript-eslint/no-extraneous-class": [
+				"error", {
+					"allowConstructorOnly": false,
+					"allowEmpty": false,
+					"allowStaticOnly": false,
+					"allowWithDecorator": false,
+				},
+			],
 		},
 	},
 ];
