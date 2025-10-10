@@ -157,6 +157,11 @@ export default [
 			"@typescript-eslint/no-dynamic-delete": [
 				"error",
 			],
+			"@typescript-eslint/no-empty-function": [
+				"error", {
+					"allow": [],
+				},
+			],
 		},
 	},
 ];
