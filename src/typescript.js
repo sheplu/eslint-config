@@ -162,6 +162,12 @@ export default [
 					"allow": [],
 				},
 			],
+			"@typescript-eslint/no-empty-object-type": [
+				"error", { 
+					"allowInterfaces": 'never',
+					"allowObjectTypes": 'never',
+				},
+			],
 		},
 	},
 ];
