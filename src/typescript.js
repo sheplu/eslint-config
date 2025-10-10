@@ -148,6 +148,12 @@ export default [
 			"@typescript-eslint/no-duplicate-enum-values": [
 				"error",
 			],
+			"@typescript-eslint/no-duplicate-type-constituents": [
+				"error", {
+					"ignoreIntersections": false,
+					"ignoreUnions": false,
+				},
+			],
 		},
 	},
 ];
