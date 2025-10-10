@@ -185,6 +185,15 @@ export default [
 					"allowWithDecorator": false,
 				},
 			],
+			"@typescript-eslint/no-floating-promises": [
+				"error", {
+					"allowForKnownSafeCalls": [],
+					"allowForKnownSafePromises": [],
+					"checkThenables": true,
+					"ignoreIIFE": false,
+					"ignoreVoid": false,
+				},
+			],
 		},
 	},
 ];
