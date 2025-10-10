@@ -174,6 +174,9 @@ export default [
 					"ignoreRestArgs": false,
 				},
 			],
+			"@typescript-eslint/no-extra-non-null-assertion": [
+				"error",
+			],
 		},
 	},
 ];
