@@ -145,6 +145,9 @@ export default [
 			"@typescript-eslint/no-dupe-class-members": [
 				"error",
 			],
+			"@typescript-eslint/no-duplicate-enum-values": [
+				"error",
+			],
 		},
 	},
 ];
