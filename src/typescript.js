@@ -241,6 +241,11 @@ export default [
 					"ignoreTypeIndexes": false,
 				},
 			],
+			"@typescript-eslint/no-meaningless-void-operator": [
+				"error", {
+					"checkNever": false,
+				},
+			],
 		},
 	},
 ];
