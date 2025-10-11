@@ -223,6 +223,24 @@ export default [
 			"@typescript-eslint/no-loop-func": [
 				"error",
 			],
+			"@typescript-eslint/no-magic-numbers": [
+				"error", {
+					"ignore": [],
+					"ignoreArrayIndexes": false,
+					"ignoreDefaultValues": false,
+					"ignoreClassFieldInitialValues": false,
+					"enforceConst": true,
+					"detectObjects": true,
+					"ignoreEnums": false,
+					"ignoreNumericLiteralTypes": false,
+					"ignoreReadonlyClassProperties": false,
+					"ignoreTypeIndexes": false,
+					"ignoreEnums": false,
+					"ignoreNumericLiteralTypes": false,
+					"ignoreReadonlyClassProperties": false,
+					"ignoreTypeIndexes": false,
+				},
+			],
 		},
 	},
 ];
