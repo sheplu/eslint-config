@@ -209,6 +209,11 @@ export default [
 					"ignoreProperties": false,
 				},
 			],
+			"@typescript-eslint/no-invalid-this": [
+				"error", {
+					"capIsConstructor": true,
+				},
+			],
 		},
 	},
 ];
