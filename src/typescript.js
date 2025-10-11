@@ -197,6 +197,9 @@ export default [
 			"@typescript-eslint/no-for-in-array": [
 				"error",
 			],
+			"@typescript-eslint/no-implied-eval": [
+				"error",
+			],
 		},
 	},
 ];
