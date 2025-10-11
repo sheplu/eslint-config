@@ -200,6 +200,9 @@ export default [
 			"@typescript-eslint/no-implied-eval": [
 				"error",
 			],
+			"@typescript-eslint/no-import-type-side-effects": [
+				"error",
+			],
 		},
 	},
 ];
