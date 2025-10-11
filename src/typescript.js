@@ -246,6 +246,9 @@ export default [
 					"checkNever": false,
 				},
 			],
+			"@typescript-eslint/no-misused-new": [
+				"error",
+			],
 		},
 	},
 ];
