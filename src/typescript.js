@@ -220,6 +220,9 @@ export default [
 					"allowInGenericTypeArguments": false,
 				},
 			],
+			"@typescript-eslint/no-loop-func": [
+				"error",
+			],
 		},
 	},
 ];
