@@ -194,6 +194,9 @@ export default [
 					"ignoreVoid": false,
 				},
 			],
+			"@typescript-eslint/no-for-in-array": [
+				"error",
+			],
 		},
 	},
 ];
