@@ -203,6 +203,12 @@ export default [
 			"@typescript-eslint/no-import-type-side-effects": [
 				"error",
 			],
+			"@typescript-eslint/no-inferrable-types": [
+				"error", {
+					"ignoreParameters": false,
+					"ignoreProperties": false,
+				},
+			],
 		},
 	},
 ];
