@@ -263,6 +263,11 @@ export default [
 					},
 				},
 			],
+			"@typescript-eslint/no-misused-spread": [
+				"error", {
+					"allow": [],
+				},
+			],
 		},
 	},
 ];
