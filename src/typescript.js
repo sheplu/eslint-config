@@ -295,6 +295,12 @@ export default [
 			"@typescript-eslint/no-redundant-type-constituents": [
 				"error",
 			],
+			"@typescript-eslint/no-require-imports": [
+				"error", {
+					"allow": [],
+					"allowAsImport": [],
+				},
+			],
 		},
 	},
 ];
