@@ -277,6 +277,9 @@ export default [
 					"allowDefinitionFiles": true,
 				},
 			],
+			"@typescript-eslint/no-non-null-asserted-nullish-coalescing": [
+				"error",
+			],
 		},
 	},
 ];
