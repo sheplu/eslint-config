@@ -292,6 +292,9 @@ export default [
 					"ignoreDeclarationMerge": false,
 				},
 			],
+			"@typescript-eslint/no-redundant-type-constituents": [
+				"error",
+			],
 		},
 	},
 ];
