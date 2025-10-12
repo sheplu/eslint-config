@@ -271,6 +271,12 @@ export default [
 			"@typescript-eslint/no-mixed-enums": [
 				"error",
 			],
+			"@typescript-eslint/no-namespace": [
+				"error", {
+					"allowDeclarations": false,
+					"allowDefinitionFiles": true,
+				},
+			],
 		},
 	},
 ];
