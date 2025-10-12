@@ -249,6 +249,20 @@ export default [
 			"@typescript-eslint/no-misused-new": [
 				"error",
 			],
+			"@typescript-eslint/no-misused-promises": [
+				"error", {
+					"checksConditionals": true,
+					"checksSpreads": true,
+					"checksVoidReturn": {
+						"arguments": true,
+						"attributes": true,
+						"inheritedMethods": true,
+						"properties": true,
+						"returns": true,
+						"variables": true,
+					},
+				},
+			],
 		},
 	},
 ];
