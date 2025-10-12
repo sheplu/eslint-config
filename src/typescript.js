@@ -268,6 +268,9 @@ export default [
 					"allow": [],
 				},
 			],
+			"@typescript-eslint/no-mixed-enums": [
+				"error",
+			],
 		},
 	},
 ];
