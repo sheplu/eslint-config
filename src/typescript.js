@@ -286,6 +286,12 @@ export default [
 			"@typescript-eslint/no-non-null-assertion": [
 				"error",
 			],
+			"@typescript-eslint/no-redeclare": [
+				"error", {
+					"builtinGlobals": true,
+					"ignoreDeclarationMerge": false,
+				},
+			],
 		},
 	},
 ];
