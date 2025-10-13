@@ -30,14 +30,14 @@ Once installed, enable the config by creating an `eslint.config.js` file (for ES
 import myConfig from "@sheplu/eslint-config";
 
 export default defineConfig([
-	{
-		files: [ "**/*.{js,mjs,cjs}" ],
-		plugins: { "@stylistic": stylistic },
-		extends: [ myConfig ],
-		languageOptions: {
-			globals: globals.node,
-		},
-	}
+  {
+    files: [ "**/*.{js,mjs,cjs}" ],
+    plugins: { "@stylistic": stylistic },
+    extends: [ myConfig ],
+    languageOptions: {
+      globals: globals.node,
+    },
+  }
 ]);
 ```
 
@@ -48,14 +48,14 @@ Or you can also load only the specific configuration you need:
 import myConfig from "@sheplu/eslint-config/src/stylistic.js";
 
 export default defineConfig([
-	{
-		files: [ "**/*.{js,mjs,cjs}" ],
-		plugins: { "@stylistic": stylistic },
-		extends: [ myConfig ],
-		languageOptions: {
-			globals: globals.node,
-		},
-	}
+  {
+    files: [ "**/*.{js,mjs,cjs}" ],
+    plugins: { "@stylistic": stylistic },
+    extends: [ myConfig ],
+    languageOptions: {
+      globals: globals.node,
+    },
+  }
 ]);
 ```
 
@@ -74,8 +74,8 @@ Add common lint commands to your `package.json`:
 
 ## Based on
 
-* [eslint](https://github.com/eslint/eslint) 
-* [stylistic](https://github.com/eslint-stylistic/eslint-stylistic) 
+* [eslint](https://github.com/eslint/eslint)
+* [stylistic](https://github.com/eslint-stylistic/eslint-stylistic)
 * [markdown](https://github.com/eslint/markdown/tree/main)
 * [react](https://github.com/jsx-eslint/eslint-plugin-react)
 * [react-hooks](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks)
