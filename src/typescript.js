@@ -343,6 +343,9 @@ export default [
 			"@typescript-eslint/no-unnecessary-qualifier": [
 				"error",
 			],
+			"@typescript-eslint/no-unnecessary-template-expression": [
+				"error",
+			],
 		},
 	},
 ];
