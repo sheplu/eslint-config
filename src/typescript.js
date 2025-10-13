@@ -325,6 +325,12 @@ export default [
 					"allowedNames": [],
 				},
 			],
+			"@typescript-eslint/no-unnecessary-boolean-literal-compare": [
+				"error", {
+					"allowComparingNullableBooleansToFalse": false,
+					"allowComparingNullableBooleansToTrue": false,
+				},
+			],
 		},
 	},
 ];
