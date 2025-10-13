@@ -337,6 +337,9 @@ export default [
 					"checkTypePredicates": false,
 				},
 			],
+			"@typescript-eslint/no-unnecessary-parameter-property-assignment": [
+				"error",
+			],
 		},
 	},
 ];
