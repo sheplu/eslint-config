@@ -331,6 +331,12 @@ export default [
 					"allowComparingNullableBooleansToTrue": false,
 				},
 			],
+			"@typescript-eslint/no-unnecessary-condition": [
+				"error", {
+					"allowConstantLoopConditions": "never",
+					"checkTypePredicates": false,
+				},
+			],
 		},
 	},
 ];
