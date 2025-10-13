@@ -319,6 +319,12 @@ export default [
 					"ignoreFunctionTypeParameterNameValueShadow": false,
 				},
 			],
+			"@typescript-eslint/no-this-alias": [
+				"error", {
+					"allowDestructuring": false,
+					"allowedNames": [],
+				},
+			],
 		},
 	},
 ];
