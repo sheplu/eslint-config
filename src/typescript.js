@@ -340,6 +340,9 @@ export default [
 			"@typescript-eslint/no-unnecessary-parameter-property-assignment": [
 				"error",
 			],
+			"@typescript-eslint/no-unnecessary-qualifier": [
+				"error",
+			],
 		},
 	},
 ];
