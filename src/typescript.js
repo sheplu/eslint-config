@@ -301,6 +301,9 @@ export default [
 					"allowAsImport": [],
 				},
 			],
+			"@typescript-eslint/no-restricted-imports": [
+				"error",
+			],
 		},
 	},
 ];
