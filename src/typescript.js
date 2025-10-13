@@ -304,6 +304,11 @@ export default [
 			"@typescript-eslint/no-restricted-imports": [
 				"error",
 			],
+			"@typescript-eslint/no-restricted-types": [
+				"error", {
+					"types": [],
+				},
+			],
 		},
 	},
 ];
