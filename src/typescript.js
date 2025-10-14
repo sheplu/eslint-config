@@ -367,6 +367,9 @@ export default [
 			"@typescript-eslint/no-unsafe-argument": [
 				"error",
 			],
+			"@typescript-eslint/no-unsafe-assignment": [
+				"error",
+			],
 		},
 	},
 ];
