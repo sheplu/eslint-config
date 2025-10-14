@@ -361,6 +361,9 @@ export default [
 			"@typescript-eslint/no-unnecessary-type-conversion": [
 				"error",
 			],
+			"@typescript-eslint/no-unnecessary-type-parameters": [
+				"error",
+			],
 		},
 	},
 ];
