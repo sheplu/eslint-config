@@ -349,6 +349,12 @@ export default [
 			"@typescript-eslint/no-unnecessary-type-arguments": [
 				"error",
 			],
+			"@typescript-eslint/no-unnecessary-type-assertion": [
+				"error", {
+					"checkLiteralConstAssertions": false,
+					"typesToIgnore": [],
+				},
+			],
 		},
 	},
 ];
