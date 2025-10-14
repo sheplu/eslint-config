@@ -376,6 +376,9 @@ export default [
 			"@typescript-eslint/no-unsafe-declaration-merging": [
 				"error",
 			],
+			"@typescript-eslint/no-unsafe-enum-comparison": [
+				"error",
+			],
 		},
 	},
 ];
