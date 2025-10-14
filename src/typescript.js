@@ -355,6 +355,9 @@ export default [
 					"typesToIgnore": [],
 				},
 			],
+			"@typescript-eslint/no-unnecessary-type-constraint": [
+				"error",
+			],
 		},
 	},
 ];
