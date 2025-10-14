@@ -364,6 +364,9 @@ export default [
 			"@typescript-eslint/no-unnecessary-type-parameters": [
 				"error",
 			],
+			"@typescript-eslint/no-unsafe-argument": [
+				"error",
+			],
 		},
 	},
 ];
