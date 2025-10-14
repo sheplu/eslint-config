@@ -358,6 +358,9 @@ export default [
 			"@typescript-eslint/no-unnecessary-type-constraint": [
 				"error",
 			],
+			"@typescript-eslint/no-unnecessary-type-conversion": [
+				"error",
+			],
 		},
 	},
 ];
