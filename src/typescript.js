@@ -370,6 +370,9 @@ export default [
 			"@typescript-eslint/no-unsafe-assignment": [
 				"error",
 			],
+			"@typescript-eslint/no-unsafe-call": [
+				"error",
+			],
 		},
 	},
 ];
