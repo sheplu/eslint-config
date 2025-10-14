@@ -373,6 +373,9 @@ export default [
 			"@typescript-eslint/no-unsafe-call": [
 				"error",
 			],
+			"@typescript-eslint/no-unsafe-declaration-merging": [
+				"error",
+			],
 		},
 	},
 ];
