@@ -379,6 +379,9 @@ export default [
 			"@typescript-eslint/no-unsafe-enum-comparison": [
 				"error",
 			],
+			"@typescript-eslint/no-unsafe-function-type": [
+				"error",
+			],
 		},
 	},
 ];
