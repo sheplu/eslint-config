@@ -434,6 +434,9 @@ export default [
 			"@typescript-eslint/no-useless-constructor": [
 				"error",
 			],
+			"@typescript-eslint/no-useless-empty-export": [
+				"error",
+			],
 		},
 	},
 ];
