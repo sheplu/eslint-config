@@ -396,6 +396,15 @@ export default [
 			"@typescript-eslint/no-unsafe-unary-minus": [
 				"error",
 			],
+			"@typescript-eslint/no-unused-expressions": [
+				"error", {
+					"allowShortCircuit": false,
+					"allowTernary": false,
+					"allowTaggedTemplates": false,
+					"enforceForJSX": true,
+					"ignoreDirectives": false,
+				},
+			],
 		},
 	},
 ];
