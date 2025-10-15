@@ -437,6 +437,9 @@ export default [
 			"@typescript-eslint/no-useless-empty-export": [
 				"error",
 			],
+			"@typescript-eslint/no-wrapper-object-types": [
+				"error",
+			],
 		},
 	},
 ];
