@@ -393,6 +393,9 @@ export default [
 			"@typescript-eslint/no-unsafe-type-assertion": [
 				"error",
 			],
+			"@typescript-eslint/no-unsafe-unary-minus": [
+				"error",
+			],
 		},
 	},
 ];
