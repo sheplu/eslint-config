@@ -405,6 +405,21 @@ export default [
 					"ignoreDirectives": false,
 				},
 			],
+			"@typescript-eslint/no-unused-vars": [
+				"error", {
+					"vars": "all",
+					"varsIgnorePattern": "",
+					"args": "all",
+					"argsIgnorePattern": "",
+					"caughtErrors": "all",
+					"caughtErrorsIgnorePattern": "",
+					"destructuredArrayIgnorePattern": "",
+					"ignoreClassWithStaticInitBlock": false,
+					"ignoreRestSiblings": false,
+					"ignoreUsingDeclarations": false,
+					"reportUsedIgnorePattern": false,
+				},
+			],
 		},
 	},
 ];
