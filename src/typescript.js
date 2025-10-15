@@ -431,6 +431,9 @@ export default [
 					"ignoreTypeReferences": false,
 				},
 			],
+			"@typescript-eslint/no-useless-constructor": [
+				"error",
+			],
 		},
 	},
 ];
