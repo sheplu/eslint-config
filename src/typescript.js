@@ -390,6 +390,9 @@ export default [
 			"@typescript-eslint/no-unsafe-return": [
 				"error",
 			],
+			"@typescript-eslint/no-unsafe-type-assertion": [
+				"error",
+			],
 		},
 	},
 ];
