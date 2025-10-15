@@ -440,6 +440,9 @@ export default [
 			"@typescript-eslint/no-wrapper-object-types": [
 				"error",
 			],
+			"@typescript-eslint/non-nullable-type-assertion-style": [
+				"error",
+			],
 		},
 	},
 ];
