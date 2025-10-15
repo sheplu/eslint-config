@@ -382,6 +382,11 @@ export default [
 			"@typescript-eslint/no-unsafe-function-type": [
 				"error",
 			],
+			"@typescript-eslint/no-unsafe-member-access": [
+				"error", {
+					"allowOptionalChaining": false,
+				},
+			],
 		},
 	},
 ];
