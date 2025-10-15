@@ -420,6 +420,17 @@ export default [
 					"reportUsedIgnorePattern": false,
 				},
 			],
+			"@typescript-eslint/no-use-before-define": [
+				"error", {
+					"functions": true,
+					"classes": true,
+					"variables": true,
+					"allowNamedExports": false,
+					"enums": true,
+					"typedefs": true,
+					"ignoreTypeReferences": false,
+				},
+			],
 		},
 	},
 ];
