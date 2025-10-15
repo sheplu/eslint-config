@@ -387,6 +387,9 @@ export default [
 					"allowOptionalChaining": false,
 				},
 			],
+			"@typescript-eslint/no-unsafe-return": [
+				"error",
+			],
 		},
 	},
 ];
