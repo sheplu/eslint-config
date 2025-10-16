@@ -487,6 +487,11 @@ export default [
 			"@typescript-eslint/prefer-includes": [
 				"error",
 			],
+			"@typescript-eslint/prefer-literal-enum-member": [
+				"error", {
+					"allowBitwiseExpressions": false,
+				},
+			],
 		},
 	},
 ];
