@@ -457,6 +457,21 @@ export default [
 			"@typescript-eslint/prefer-as-const": [
 				"error",
 			],
+			"@typescript-eslint/prefer-destructuring": [
+				"error", {
+					"VariableDeclarator": {
+						"array": true,
+						"object": true
+					},
+					"AssignmentExpression": {
+						"array": true,
+						"object": true
+					},
+				}, {
+					"enforceForRenamedProperties": true,
+					"enforceForDeclarationWithTypeAnnotation": true,
+				},
+			],
 		},
 	},
 ];
