@@ -443,6 +443,14 @@ export default [
 			"@typescript-eslint/non-nullable-type-assertion-style": [
 				"error",
 			],
+			"@typescript-eslint/only-throw-error": [
+				"error", {
+					"allow": [],
+					"allowRethrowing": true,
+					"allowThrowingAny": false,
+					"allowThrowingUnknown": false,
+				},
+			],
 		},
 	},
 ];
