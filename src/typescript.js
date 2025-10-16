@@ -451,6 +451,9 @@ export default [
 					"allowThrowingUnknown": false,
 				},
 			],
+			"@typescript-eslint/parameter-properties": [
+				"error",
+			],
 		},
 	},
 ];
