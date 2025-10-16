@@ -478,6 +478,9 @@ export default [
 			"@typescript-eslint/prefer-find": [
 				"error",
 			],
+			"@typescript-eslint/prefer-for-of": [
+				"error",
+			],
 		},
 	},
 ];
