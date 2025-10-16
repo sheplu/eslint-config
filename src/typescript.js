@@ -454,6 +454,9 @@ export default [
 			"@typescript-eslint/parameter-properties": [
 				"error",
 			],
+			"@typescript-eslint/prefer-as-const": [
+				"error",
+			],
 		},
 	},
 ];
