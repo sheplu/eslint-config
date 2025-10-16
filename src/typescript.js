@@ -475,6 +475,9 @@ export default [
 			"@typescript-eslint/prefer-enum-initializers": [
 				"error",
 			],
+			"@typescript-eslint/prefer-find": [
+				"error",
+			],
 		},
 	},
 ];
