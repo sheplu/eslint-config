@@ -472,6 +472,9 @@ export default [
 					"enforceForDeclarationWithTypeAnnotation": true,
 				},
 			],
+			"@typescript-eslint/prefer-enum-initializers": [
+				"error",
+			],
 		},
 	},
 ];
