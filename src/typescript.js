@@ -484,6 +484,9 @@ export default [
 			"@typescript-eslint/prefer-function-type": [
 				"error",
 			],
+			"@typescript-eslint/prefer-includes": [
+				"error",
+			],
 		},
 	},
 ];
