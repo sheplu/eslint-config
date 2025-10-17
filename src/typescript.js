@@ -495,6 +495,21 @@ export default [
 			"@typescript-eslint/prefer-namespace-keyword": [
 				"error",
 			],
+			"@typescript-eslint/prefer-nullish-coalescing": [
+				"error", {
+					"ignoreBooleanCoercion": false,
+					"ignoreConditionalTests": false,
+					"ignoreIfStatements": false,
+					"ignoreMixedLogicalExpressions": false,
+					"ignorePrimitives": {
+						"bigint": false,
+						"boolean": false,
+						"number": false,
+						"string": false,
+					},
+					"ignoreTernaryTests": false,
+				},
+			]
 		},
 	},
 ];
