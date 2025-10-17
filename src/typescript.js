@@ -528,6 +528,11 @@ export default [
 					"allowThrowingUnknown": false,
 				},
 			],
+			"@typescript-eslint/prefer-readonly": [
+				"error", {
+					"onlyInlineLambdas": false,
+				},
+			],
 		},
 	},
 ];
