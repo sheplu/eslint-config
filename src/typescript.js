@@ -541,6 +541,9 @@ export default [
 					"treatMethodsAsReadonly": false,
 				},
 			],
+			"@typescript-eslint/prefer-reduce-type-parameter": [
+				"error",
+			],
 		},
 	},
 ];
