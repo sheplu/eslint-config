@@ -533,6 +533,14 @@ export default [
 					"onlyInlineLambdas": false,
 				},
 			],
+			"@typescript-eslint/prefer-readonly-parameter-types": [
+				"error", {
+					"allow": [],
+					"checkParameterProperties": true,
+					"ignoreInferredTypes": false,
+					"treatMethodsAsReadonly": false,
+				},
+			],
 		},
 	},
 ];
