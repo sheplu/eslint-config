@@ -521,6 +521,13 @@ export default [
 					"requireNullish": true,
 				},
 			],
+			"@typescript-eslint/prefer-promise-reject-errors": [
+				"error", {
+					"allowEmptyReject": false,
+					"allowThrowingAny": false,
+					"allowThrowingUnknown": false,
+				},
+			],
 		},
 	},
 ];
