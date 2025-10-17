@@ -492,6 +492,9 @@ export default [
 					"allowBitwiseExpressions": false,
 				},
 			],
+			"@typescript-eslint/prefer-namespace-keyword": [
+				"error",
+			],
 		},
 	},
 ];
