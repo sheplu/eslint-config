@@ -544,6 +544,9 @@ export default [
 			"@typescript-eslint/prefer-reduce-type-parameter": [
 				"error",
 			],
+			"@typescript-eslint/prefer-regexp-exec": [
+				"error",
+			],
 		},
 	},
 ];
