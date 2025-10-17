@@ -509,7 +509,18 @@ export default [
 					},
 					"ignoreTernaryTests": false,
 				},
-			]
+			],
+			"@typescript-eslint/prefer-optional-chain": [
+				"error", {
+					"checkAny": true,
+					"checkBigInt": true,
+					"checkBoolean": true,
+					"checkNumber": true,
+					"checkString": true,
+					"checkUnknown": true,
+					"requireNullish": true,
+				},
+			],
 		},
 	},
 ];
