@@ -550,6 +550,11 @@ export default [
 			"@typescript-eslint/prefer-return-this-type": [
 				"error",
 			],
+			"@typescript-eslint/prefer-string-starts-ends-with": [
+				"error", {
+					"allowSingleElementEquality": "never",
+				},
+			],
 		},
 	},
 ];
