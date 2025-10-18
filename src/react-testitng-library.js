@@ -30,6 +30,9 @@ export default [
             "testing-library/no-container": [
                 "error",
             ],
+            "testing-library/no-debugging-utils": [
+                "error",
+            ],
 		},
 	},
 ];
