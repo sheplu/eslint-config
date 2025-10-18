@@ -47,6 +47,9 @@ export default [
                     "allowContainerFirstChild": false,
                 },
             ],
+            "testing-library/no-promise-in-fire-event": [
+                "error",
+            ],
 		},
 	},
 ];
