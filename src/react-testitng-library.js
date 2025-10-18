@@ -6,6 +6,9 @@ export default [
 					"eventModule": ["fireEvent", "userEvent"],
 				},
 			],
+            "testing-library/await-async-queries": [
+                "error",
+            ],
 		},
 	},
 ];
