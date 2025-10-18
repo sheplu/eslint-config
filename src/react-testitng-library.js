@@ -19,6 +19,11 @@ export default [
                     "customMessage": "testIdPattern does not match ^TestId(__[A-Z]*)?$ or attribute is not data-testid",
                 },
             ],
+            "testing-library/no-await-sync-events": [
+                "error", {
+                    "eventModules": ["fire-event", "user-event"],
+                },
+            ],
 		},
 	},
 ];
