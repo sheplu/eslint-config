@@ -9,6 +9,9 @@ export default [
             "testing-library/await-async-queries": [
                 "error",
             ],
+            "testing-library/await-async-utils": [
+                "error",
+            ],
 		},
 	},
 ];
