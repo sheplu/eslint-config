@@ -24,6 +24,9 @@ export default [
                     "eventModules": ["fire-event", "user-event"],
                 },
             ],
+            "testing-library/no-await-sync-queries": [
+                "error",
+            ],
 		},
 	},
 ];
