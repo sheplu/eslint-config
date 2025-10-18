@@ -42,6 +42,11 @@ export default [
             "testing-library/no-manual-cleanup": [
                 "error",
             ],
+            "testing-library/no-node-access": [
+                "error", {
+                    "allowContainerFirstChild": false,
+                },
+            ],
 		},
 	},
 ];
