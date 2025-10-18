@@ -27,6 +27,9 @@ export default [
             "testing-library/no-await-sync-queries": [
                 "error",
             ],
+            "testing-library/no-container": [
+                "error",
+            ],
 		},
 	},
 ];
