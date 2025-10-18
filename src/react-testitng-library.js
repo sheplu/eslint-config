@@ -33,6 +33,9 @@ export default [
             "testing-library/no-debugging-utils": [
                 "error",
             ],
+            "testing-library/no-dom-import": [
+                "error", "react",
+            ],
 		},
 	},
 ];
