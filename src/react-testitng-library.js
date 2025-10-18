@@ -50,6 +50,9 @@ export default [
             "testing-library/no-promise-in-fire-event": [
                 "error",
             ],
+            "testing-library/no-render-in-lifecycle": [
+                "error",
+            ],
 		},
 	},
 ];
