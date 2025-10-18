@@ -36,6 +36,9 @@ export default [
             "testing-library/no-dom-import": [
                 "error", "react",
             ],
+            "testing-library/no-global-regexp-flag-in-query": [
+                "error",
+            ],
 		},
 	},
 ];
