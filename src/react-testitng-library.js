@@ -53,6 +53,9 @@ export default [
             "testing-library/no-render-in-lifecycle": [
                 "error",
             ],
+            "testing-library/no-test-id-queries": [
+                "error",
+            ],
 		},
 	},
 ];
