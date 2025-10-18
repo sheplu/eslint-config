@@ -39,6 +39,9 @@ export default [
             "testing-library/no-global-regexp-flag-in-query": [
                 "error",
             ],
+            "testing-library/no-manual-cleanup": [
+                "error",
+            ],
 		},
 	},
 ];
