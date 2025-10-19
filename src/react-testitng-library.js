@@ -101,6 +101,11 @@ export default [
             "testing-library/prefer-screen-queries": [
                 "error",
             ],
+            "testing-library/prefer-user-event": [
+                "error", {
+                    "allowedMethods": [],
+                },
+            ],
 		},
 	},
 ];
