@@ -88,6 +88,9 @@ export default [
                     "absence": false,
                 },
             ],
+            "testing-library/prefer-query-by-disappearance": [
+                "error",
+            ],
 		},
 	},
 ];
