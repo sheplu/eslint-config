@@ -76,6 +76,9 @@ export default [
                     "includeFindQueries": true,
                 }
             ],
+            "testing-library/prefer-find-by": [
+                "error",
+            ],
 		},
 	},
 ];
