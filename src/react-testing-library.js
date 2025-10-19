@@ -80,7 +80,7 @@ export default [
                 "error",
             ],
             "testing-library/prefer-implicit-assert": [
-                "error",
+                "off",
             ],
             "testing-library/prefer-presence-queries": [
                 "error", {
