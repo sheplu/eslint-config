@@ -70,6 +70,12 @@ export default [
             "testing-library/no-wait-for-snapshot": [
                 "error",
             ],
+            "testing-library/prefer-explicit-assert": [
+                "error", {
+                    "assertion": "toBeInTheDocument",
+                    "includeFindQueries": true,
+                }
+            ],
 		},
 	},
 ];
