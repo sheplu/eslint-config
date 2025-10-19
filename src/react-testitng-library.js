@@ -106,6 +106,9 @@ export default [
                     "allowedMethods": [],
                 },
             ],
+            "testing-library/render-result-naming-convention": [
+                "error",
+            ],
 		},
 	},
 ];
