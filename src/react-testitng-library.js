@@ -56,6 +56,11 @@ export default [
             "testing-library/no-test-id-queries": [
                 "error",
             ],
+            "testing-library/no-unnecessary-act": [
+                "error", {
+                    "isStrict": true,
+                },
+            ],
 		},
 	},
 ];
