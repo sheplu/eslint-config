@@ -79,6 +79,9 @@ export default [
             "testing-library/prefer-find-by": [
                 "error",
             ],
+            "testing-library/prefer-implicit-assert": [
+                "error",
+            ],
 		},
 	},
 ];
