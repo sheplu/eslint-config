@@ -61,6 +61,9 @@ export default [
                     "isStrict": true,
                 },
             ],
+            "testing-library/no-wait-for-multiple-assertions": [
+                "error",
+            ],
 		},
 	},
 ];
