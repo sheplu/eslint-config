@@ -91,6 +91,13 @@ export default [
             "testing-library/prefer-query-by-disappearance": [
                 "error",
             ],
+            "testing-library/prefer-query-matchers": [
+                "error", {
+                    "validEntries": [
+                        { "matcher": "toBeVisible", "query": "get" },
+                    ],
+                },
+            ],
 		},
 	},
 ];
