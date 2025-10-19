@@ -79,3 +79,4 @@ Add common lint commands to your `package.json`:
 * [markdown](https://github.com/eslint/markdown/tree/main)
 * [react](https://github.com/jsx-eslint/eslint-plugin-react)
 * [react-hooks](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks)
+* [react-testing-library](https://github.com/testing-library/eslint-plugin-testing-library/tree/main)
