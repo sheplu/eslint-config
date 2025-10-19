@@ -98,6 +98,9 @@ export default [
                     ],
                 },
             ],
+            "testing-library/prefer-screen-queries": [
+                "error",
+            ],
 		},
 	},
 ];
