@@ -82,6 +82,12 @@ export default [
             "testing-library/prefer-implicit-assert": [
                 "error",
             ],
+            "testing-library/prefer-presence-queries": [
+                "error", {
+                    "presence": true,
+                    "absence": false,
+                },
+            ],
 		},
 	},
 ];
