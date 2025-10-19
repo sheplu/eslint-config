@@ -67,6 +67,9 @@ export default [
             "testing-library/no-wait-for-side-effects": [
                 "error",
             ],
+            "testing-library/no-wait-for-snapshot": [
+                "error",
+            ],
 		},
 	},
 ];
