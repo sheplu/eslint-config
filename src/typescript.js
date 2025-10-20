@@ -599,6 +599,18 @@ export default [
 			"@typescript-eslint/return-await": [
 				"error", "always",
 			],
+			"@typescript-eslint/strict-boolean-expressions": [
+				"error", {
+					"allowAny": false,
+					"allowNullableBoolean": false,
+					"allowNullableEnum": false,
+					"allowNullableNumber": false,
+					"allowNullableObject": false,
+					"allowNullableString": false,
+					"allowNumber": false,
+					"allowString": false,
+				}
+			]
 		},
 	},
 ];
