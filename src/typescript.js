@@ -625,6 +625,11 @@ export default [
 					"types": "never",
 				},
 			],
+			"@typescript-eslint/unbound-method": [
+				"error", {
+					"ignoreStatic": false,
+				},
+			],
 		},
 	},
 ];
