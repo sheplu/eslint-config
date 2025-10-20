@@ -596,6 +596,9 @@ export default [
 					"allowRegExp": false,
 				},
 			],
+			"@typescript-eslint/return-await": [
+				"error", "always",
+			],
 		},
 	},
 ];
