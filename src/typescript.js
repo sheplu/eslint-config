@@ -573,6 +573,9 @@ export default [
 					"ignoreStringArrays": true,
 				},
 			],
+			"@typescript-eslint/require-await": [
+				"error",
+			],
 		},
 	},
 ];
