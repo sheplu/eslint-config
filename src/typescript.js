@@ -576,6 +576,15 @@ export default [
 			"@typescript-eslint/require-await": [
 				"error",
 			],
+			"@typescript-eslint/restrict-plus-operands": [
+				"error", {
+					"allowAny": false,
+					"allowBoolean": false,
+					"allowNullish": false,
+					"allowNumberAndString": false,
+					"allowRegExp": false,
+				},
+			],
 		},
 	},
 ];
