@@ -555,6 +555,16 @@ export default [
 					"allowSingleElementEquality": "never",
 				},
 			],
+			"@typescript-eslint/promise-function-async": [
+				"error", {
+					"allowAny": true,
+					"allowedPromiseNames": [],
+					"checkArrowFunctions": true,
+					"checkFunctionDeclarations": true,
+					"checkFunctionExpressions": true,
+					"checkMethodDeclarations": true,
+				},
+			],
 		},
 	},
 ];
