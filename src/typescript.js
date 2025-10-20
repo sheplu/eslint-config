@@ -609,8 +609,15 @@ export default [
 					"allowNullableString": false,
 					"allowNumber": false,
 					"allowString": false,
-				}
-			]
+				},
+			],
+			"@typescript-eslint/switch-exhaustiveness-check": [
+				"error", {
+					"allowDefaultCaseForExhaustiveSwitch": false,
+					"considerDefaultExhaustiveForUnions": false,
+					"requireDefaultForNonUnion": true,
+				},
+			],
 		},
 	},
 ];
