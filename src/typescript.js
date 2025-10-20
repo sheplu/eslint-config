@@ -585,6 +585,17 @@ export default [
 					"allowRegExp": false,
 				},
 			],
+			"@typescript-eslint/restrict-template-expressions": [
+				"error", {
+					"allow": [{ "from": "lib", "name": ["Error", "URL", "URLSearchParams"] }],
+					"allowAny": false,
+					"allowBoolean": false,
+					"allowNever": false,
+					"allowNullish": false,
+					"allowNumber": false,
+					"allowRegExp": false,
+				},
+			],
 		},
 	},
 ];
