@@ -565,6 +565,9 @@ export default [
 					"checkMethodDeclarations": true,
 				},
 			],
+			"@typescript-eslint/related-getter-setter-pairs": [
+				"error",
+			],
 		},
 	},
 ];
