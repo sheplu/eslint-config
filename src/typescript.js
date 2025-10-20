@@ -618,6 +618,13 @@ export default [
 					"requireDefaultForNonUnion": true,
 				},
 			],
+			"@typescript-eslint/triple-slash-reference": [
+				"error", {
+					"lib": "never",
+					"path": "never",
+					"types": "never",
+				},
+			],
 		},
 	},
 ];
