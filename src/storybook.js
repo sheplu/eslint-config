@@ -13,6 +13,9 @@ export default [
             "storybook/default-exports": [
                 "error",
             ],
+            "storybook/hierarchy-separator": [
+                "error",
+            ],
         },
     },
 ];
