@@ -16,6 +16,9 @@ export default [
             "storybook/hierarchy-separator": [
                 "error",
             ],
+            "storybook/meta-inline-properties": [
+                "error",
+            ],
         },
     },
 ];
