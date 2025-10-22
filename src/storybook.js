@@ -7,6 +7,9 @@ export default [
             "storybook/context-in-play-function": [
                 "error",
             ],
+            "storybook/csf-component": [
+                "error",
+            ],
         },
     },
 ];
