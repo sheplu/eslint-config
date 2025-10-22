@@ -630,6 +630,12 @@ export default [
 					"ignoreStatic": false,
 				},
 			],
+			"@typescript-eslint/unified-signatures": [
+				"error", {
+					"ignoreDifferentlyNamedParameters": false,
+					"ignoreOverloadsWithDifferentJSDoc": false,
+				},
+			],
 		},
 	},
 ];
