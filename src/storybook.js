@@ -37,6 +37,9 @@ export default [
                     "ignore": [],
                 },
             ],
+            "storybook/prefer-pascal-case": [
+                "error",
+            ],
         },
     },
 ];
