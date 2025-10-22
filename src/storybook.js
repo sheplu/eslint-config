@@ -31,6 +31,12 @@ export default [
             "storybook/no-title-property-in-meta": [
                 "error",
             ],
+            "storybook/no-uninstalled-addons": [
+                "error", {
+                    "packageJsonLocation": "./package.json",
+                    "ignore": [],
+                },
+            ],
         },
     },
 ];
