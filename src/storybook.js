@@ -25,6 +25,9 @@ export default [
             "storybook/no-redundant-story-name": [
                 "error",
             ],
+            "storybook/no-stories-of": [
+                "error",
+            ],
         },
     },
 ];
