@@ -40,6 +40,9 @@ export default [
             "storybook/prefer-pascal-case": [
                 "error",
             ],
+            "storybook/story-exports": [
+                "error",
+            ],
         },
     },
 ];
