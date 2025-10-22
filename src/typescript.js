@@ -636,6 +636,9 @@ export default [
 					"ignoreOverloadsWithDifferentJSDoc": false,
 				},
 			],
+			"@typescript-eslint/use-unknown-in-catch-callback-variable": [
+				"error",
+			],
 		},
 	},
 ];
