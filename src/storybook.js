@@ -22,6 +22,9 @@ export default [
             "storybook/meta-satisfies-type": [
                 "error",
             ],
+            "storybook/no-redundant-story-name": [
+                "error",
+            ],
         },
     },
 ];
