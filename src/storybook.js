@@ -19,6 +19,9 @@ export default [
             "storybook/meta-inline-properties": [
                 "error",
             ],
+            "storybook/meta-satisfies-type": [
+                "error",
+            ],
         },
     },
 ];
