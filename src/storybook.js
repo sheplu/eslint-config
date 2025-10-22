@@ -10,6 +10,9 @@ export default [
             "storybook/csf-component": [
                 "error",
             ],
+            "storybook/default-exports": [
+                "error",
+            ],
         },
     },
 ];
