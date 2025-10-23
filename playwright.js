@@ -16,6 +16,9 @@ export default [
                     "max": 3,
                 },
             ],
+            "playwright/no-commented-out-tests": [
+                "error",
+            ],
         },
     },
 ];
