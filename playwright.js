@@ -43,6 +43,11 @@ export default [
             "playwright/no-get-by-title": [
                 "error",
             ],
+            "playwright/no-hooks": [
+                "error", {
+                    "allow": [],
+                },
+            ],
         },
     },
 ];
