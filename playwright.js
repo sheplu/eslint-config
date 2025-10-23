@@ -6,6 +6,11 @@ export default [
                     "assertFunctionNames": [],
                 },
             ],
+            "playwright/max-expects": [
+                "error", {
+                    "max": 5,
+                },
+            ],
         },
     },
 ];
