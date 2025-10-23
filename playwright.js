@@ -40,6 +40,9 @@ export default [
             "playwright/no-force-option": [
                 "error",
             ],
+            "playwright/no-get-by-title": [
+                "error",
+            ],
         },
     },
 ];
