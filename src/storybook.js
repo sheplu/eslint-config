@@ -43,6 +43,9 @@ export default [
             "storybook/story-exports": [
                 "error",
             ],
+            "storybook/use-storybook-expect": [
+                "error",
+            ],
         },
     },
 ];
