@@ -46,6 +46,9 @@ export default [
             "storybook/use-storybook-expect": [
                 "error",
             ],
+            "storybook/use-storybook-testing-library": [
+                "error",
+            ],
         },
     },
 ];
