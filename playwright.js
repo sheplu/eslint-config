@@ -37,6 +37,9 @@ export default [
             "playwright/no-focused-test": [
                 "error",
             ],
+            "playwright/no-force-option": [
+                "error",
+            ],
         },
     },
 ];
