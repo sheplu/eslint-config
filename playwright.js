@@ -34,6 +34,9 @@ export default [
             "platwright/no-eval": [
                 "error",
             ],
+            "playwright/no-focused-test": [
+                "error",
+            ],
         },
     },
 ];
