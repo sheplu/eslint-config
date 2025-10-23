@@ -31,6 +31,9 @@ export default [
             "playwright/no-element-handle": [
                 "error",
             ],
+            "platwright/no-eval": [
+                "error",
+            ],
         },
     },
 ];
