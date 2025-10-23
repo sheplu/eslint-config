@@ -11,6 +11,11 @@ export default [
                     "max": 5,
                 },
             ],
+            "playwright/max-nested-describe": [
+                "error", {
+                    "max": 3,
+                },
+            ],
         },
     },
 ];
