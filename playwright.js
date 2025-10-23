@@ -19,6 +19,9 @@ export default [
             "playwright/no-commented-out-tests": [
                 "error",
             ],
+            "playwright/no-conditional-expect": [
+                "error",
+            ],
         },
     },
 ];
