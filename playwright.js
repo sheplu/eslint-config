@@ -25,6 +25,9 @@ export default [
             "playwright/no-conditional-in-test": [
                 "error",
             ],
+            "playwright/no-duplicate-hooks": [
+                "error",
+            ],
         },
     },
 ];
