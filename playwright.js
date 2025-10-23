@@ -28,6 +28,9 @@ export default [
             "playwright/no-duplicate-hooks": [
                 "error",
             ],
+            "playwright/no-element-handle": [
+                "error",
+            ],
         },
     },
 ];
