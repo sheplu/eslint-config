@@ -69,6 +69,9 @@ export default [
             "playwright/no-wait-for-navigation": [
                 "error",
             ],
+            "playwright/no-wait-for-selector": [
+                "error",
+            ],
         },
     },
 ];
