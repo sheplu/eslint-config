@@ -63,6 +63,9 @@ export default [
             "playwright/no-useless-await": [
                 "error",
             ],
+            "playwright/no-useless-not": [
+                "error",
+            ],
         },
     },
 ];
