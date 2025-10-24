@@ -57,6 +57,9 @@ export default [
             "playwright/no-unsafe-references": [
                 "error",
             ],
+            "playwright/no-unused-locators": [
+                "error",
+            ],
         },
     },
 ];
