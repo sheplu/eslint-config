@@ -48,6 +48,9 @@ export default [
                     "allow": [],
                 },
             ],
+            "playwright/no-nested-step": [
+                "error",
+            ],
         },
     },
 ];
