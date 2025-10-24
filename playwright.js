@@ -75,6 +75,9 @@ export default [
             "playwright/no-wait-for-timeout": [
                 "error",
             ],
+            "playwright/prefer-comparison-matcher": [
+                "error",
+            ],
         },
     },
 ];
