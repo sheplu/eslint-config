@@ -60,6 +60,9 @@ export default [
             "playwright/no-unused-locators": [
                 "error",
             ],
+            "playwright/no-useless-await": [
+                "error",
+            ],
         },
     },
 ];
