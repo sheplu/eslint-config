@@ -72,6 +72,9 @@ export default [
             "playwright/no-wait-for-selector": [
                 "error",
             ],
+            "playwright/no-wait-for-timeout": [
+                "error",
+            ],
         },
     },
 ];
