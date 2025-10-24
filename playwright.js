@@ -51,6 +51,9 @@ export default [
             "playwright/no-nested-step": [
                 "error",
             ],
+            "playwright/no-networkidle": [
+                "error",
+            ],
         },
     },
 ];
