@@ -54,6 +54,9 @@ export default [
             "playwright/no-networkidle": [
                 "error",
             ],
+            "playwright/no-unsafe-references": [
+                "error",
+            ],
         },
     },
 ];
