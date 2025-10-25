@@ -128,6 +128,9 @@ export default [
             "playwright/require-soft-assertions": [
                 "off",
             ],
+            "playwright/require-to-throw-message": [
+                "error",
+            ],
         },
     },
 ];
