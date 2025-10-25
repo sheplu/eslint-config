@@ -87,6 +87,9 @@ export default [
             "playwright/prefer-hooks-on-top": [
                 "error",
             ],
+            "playwright/prefer-locator": [
+                "error",
+            ],
         },
     },
 ];
