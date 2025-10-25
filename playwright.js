@@ -142,6 +142,12 @@ export default [
             "playwright/valid-expect-in-promise": [
                 "error",
             ],
+            "playwright/valid-expect": [
+                "error", {
+                    "minArgs": 1,
+                    "maxArgs": 2,
+                },
+            ],
         },
     },
 ];
