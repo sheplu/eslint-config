@@ -105,6 +105,9 @@ export default [
             "playwright/prefer-strict-equal": [
                 "error",
             ],
+            "playwright/prefer-to-be": [
+                "error",
+            ],
         },
     },
 ];
