@@ -139,6 +139,9 @@ export default [
             "playwright/valid-describe-callback": [
                 "error",
             ],
+            "playwright/valid-expect-in-promise": [
+                "error",
+            ],
         },
     },
 ];
