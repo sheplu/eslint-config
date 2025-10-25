@@ -148,6 +148,11 @@ export default [
                     "maxArgs": 2,
                 },
             ],
+            "playwright/valid-test-tags": [
+                "error", {
+                    "allowedTags": ["@e2e", "@regression", "@slow", "@fast"],
+                },
+            ],
         },
     },
 ];
