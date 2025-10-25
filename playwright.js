@@ -84,6 +84,9 @@ export default [
             "playwright/prefer-hooks-in-order": [
                 "error",
             ],
+            "playwright/prefer-hooks-on-top": [
+                "error",
+            ],
         },
     },
 ];
