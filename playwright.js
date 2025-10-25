@@ -111,6 +111,9 @@ export default [
             "playwright/prefer-to-contain": [
                 "error",
             ],
+            "playwright/prefer-to-have-count": [
+                "error",
+            ],
         },
     },
 ];
