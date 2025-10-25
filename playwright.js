@@ -78,6 +78,9 @@ export default [
             "playwright/prefer-comparison-matcher": [
                 "error",
             ],
+            "playwright/prefer-equality-matcher": [
+                "error",
+            ],
         },
     },
 ];
