@@ -136,6 +136,9 @@ export default [
                     "maxTopLevelDescribes": 3,
                 },
             ],
+            "playwright/valid-describe-callback": [
+                "error",
+            ],
         },
     },
 ];
