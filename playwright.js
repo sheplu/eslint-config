@@ -97,6 +97,11 @@ export default [
                     "ignoreTopLevelDescribe": false,
                 },
             ],
+            "playwright/refer-native-locators": [
+                "error", {
+                    "testIdAttribute": "data-testid",
+                },
+            ],
         },
     },
 ];
