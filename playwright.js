@@ -90,6 +90,13 @@ export default [
             "playwright/prefer-locator": [
                 "error",
             ],
+            "playwright/prefer-lowercase-title": [
+                "error", {
+                    "ignore": [],
+                    "allowedPrefixes": ["GET", "POST", "PUT", "PATCH", "DELETE"],
+                    "ignoreTopLevelDescribe": false,
+                },
+            ],
         },
     },
 ];
