@@ -81,6 +81,9 @@ export default [
             "playwright/prefer-equality-matcher": [
                 "error",
             ],
+            "playwright/prefer-hooks-in-order": [
+                "error",
+            ],
         },
     },
 ];
