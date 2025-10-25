@@ -131,6 +131,11 @@ export default [
             "playwright/require-to-throw-message": [
                 "error",
             ],
+            "playwright/require-top-level-describe": [
+                "error", {
+                    "maxTopLevelDescribes": 3,
+                },
+            ],
         },
     },
 ];
