@@ -117,6 +117,9 @@ export default [
             "playwright/prefer-to-have-length": [
                 "error",
             ],
+            "playwright/prefer-web-first-assertions": [
+                "error",
+            ],
         },
     },
 ];
