@@ -102,6 +102,9 @@ export default [
                     "testIdAttribute": "data-testid",
                 },
             ],
+            "playwright/prefer-strict-equal": [
+                "error",
+            ],
         },
     },
 ];
