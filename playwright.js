@@ -125,6 +125,9 @@ export default [
                     "allowedFunctionCalls": [],
                 },
             ],
+            "playwright/require-soft-assertions": [
+                "off",
+            ],
         },
     },
 ];
