@@ -114,6 +114,9 @@ export default [
             "playwright/prefer-to-have-count": [
                 "error",
             ],
+            "playwright/prefer-to-have-length": [
+                "error",
+            ],
         },
     },
 ];
