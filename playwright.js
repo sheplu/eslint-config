@@ -120,6 +120,11 @@ export default [
             "playwright/prefer-web-first-assertions": [
                 "error",
             ],
+            "playwright/require-hook": [
+                "error", {
+                    "allowedFunctionCalls": [],
+                },
+            ],
         },
     },
 ];
