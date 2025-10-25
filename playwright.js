@@ -108,6 +108,9 @@ export default [
             "playwright/prefer-to-be": [
                 "error",
             ],
+            "playwright/prefer-to-contain": [
+                "error",
+            ],
         },
     },
 ];
