@@ -153,6 +153,17 @@ export default [
                     "allowedTags": ["@e2e", "@regression", "@slow", "@fast"],
                 },
             ],
+            "playwright/valid-title": [
+                "error", {
+                    "ignoreSpaces": false,
+                    "ignoreTypeOfStepName": false,
+                    "ignoreTypeOfTestName": false,
+                    "ignoreTypeOfDescribeName": false,
+                    "disallowedWords": [],
+                    "mustNotMatch": {},
+                    "mustMatch": {},
+                },
+            ],
         },
     },
 ];
