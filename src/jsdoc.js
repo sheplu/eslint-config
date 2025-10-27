@@ -18,6 +18,11 @@ export default [
                     "reportUnusedDisableDirectives": true,
                 },
             ],
+            "jsdoc/check-indentation": [
+                "error", {
+                    "excludeTags": ["example"],
+                },
+            ],
 		},
 	},
 ];
