@@ -82,3 +82,4 @@ Add common lint commands to your `package.json`:
 * [react-testing-library](https://github.com/testing-library/eslint-plugin-testing-library/tree/main)
 * [storybook](https://github.com/storybookjs/eslint-plugin-storybook)
 * [playwright](https://github.com/mskelton/eslint-plugin-playwright)
+* [jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y)
