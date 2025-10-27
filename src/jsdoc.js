@@ -50,6 +50,11 @@ export default [
                     "useDefaultObjectProperties": true,
                 },
             ],
+            "jsdoc/check-property-names": [
+                "error", {
+                    "enableFixer": true,
+                },
+            ],
 		},
 	},
 ];
