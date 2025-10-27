@@ -9,6 +9,15 @@ export default [
                     "innerIndent": 1,
                 },
             ],
+            "jsdoc/check-examples": [
+                "error", {
+                    "captionRequired": true,
+                    "exampleCodeRegex": "",
+                    "rejectExampleCodeRegex": "",
+                    "paddedIndent": 4,
+                    "reportUnusedDisableDirectives": true,
+                },
+            ],
 		},
 	},
 ];
