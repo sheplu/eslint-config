@@ -38,6 +38,18 @@ export default [
                     "wrapIndent": "",
                 },
             ],
+            "jsdoc/check-param-names": [
+                "error", {
+                    "allowExtraTrailingParamDocs": false,
+                    "checkDestructured": true,
+                    "checkRestProperty": true,
+                    "checkTypesPattern": "/^(?:[oO]bject|[aA]rray|PlainObject|Generic(?:Object|Array))$/v",
+                    "disableExtraPropertyReporting": false,
+                    "disableMissingParamChecks": false,
+                    "enableFixer": true,
+                    "useDefaultObjectProperties": true,
+                },
+            ],
 		},
 	},
 ];
