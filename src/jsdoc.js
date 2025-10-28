@@ -70,6 +70,12 @@ export default [
             "jsdoc/check-template-names": [
                 "error",
             ],
+            "jsdoc/check-types": [
+                "error", {
+                    "exemptTagContexts": [],
+                    "noDefaults": false,
+                },
+            ],
 		},
 	},
 ];
