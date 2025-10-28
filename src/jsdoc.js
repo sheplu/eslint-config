@@ -55,6 +55,9 @@ export default [
                     "enableFixer": true,
                 },
             ],
+            "jsdonc/check-syntax": [
+                "error",
+            ],
 		},
 	},
 ];
