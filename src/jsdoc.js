@@ -58,6 +58,15 @@ export default [
             "jsdonc/check-syntax": [
                 "error",
             ],
+            "jsdoc/check-tag-names": [
+                "error", {
+                    "definedTags": ["note", "record"],
+                    "enableFixer": true,
+                    "inlineTags": ["link", "linkcode", "linkplain", "tutorial"],
+                    "jsxTags": true,
+                    "typed": true,
+                },
+            ],
 		},
 	},
 ];
