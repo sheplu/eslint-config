@@ -67,6 +67,9 @@ export default [
                     "typed": true,
                 },
             ],
+            "jsdoc/check-template-names": [
+                "error",
+            ],
 		},
 	},
 ];
