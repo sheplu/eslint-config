@@ -76,6 +76,14 @@ export default [
                     "noDefaults": false,
                 },
             ],
+            "jsdoc/check-values": [
+                "error", {
+                    "allowedAuthors": [],
+                    "allowedLicenses": [],
+                    "licensePattern": "",
+                    "numericOnlyVariation": false,
+                },
+            ],
 		},
 	},
 ];
