@@ -118,6 +118,11 @@ export default [
                     "fixType": "backslash"
                 },
             ],
+            "jsdoc/implements-on-classes": [
+                "error", {
+                    "contexts":["any"],
+                },
+            ],
 		},
 	},
 ];
