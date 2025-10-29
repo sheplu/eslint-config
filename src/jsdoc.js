@@ -111,6 +111,13 @@ export default [
                     "tags": [],
                 },
             ],
+            "jsdoc/escape-inline-tags": [
+                "error", {
+                    "allowedInlineTags": [],
+                    "enableFixer": true,
+                    "fixType": "backslash"
+                },
+            ],
 		},
 	},
 ];
