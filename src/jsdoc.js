@@ -143,6 +143,9 @@ export default [
                     "lines": 2,
                 },
             ],
+            "jsdoc/match-description": [
+                "error",
+            ],
 		},
 	},
 ];
