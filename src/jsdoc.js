@@ -146,6 +146,11 @@ export default [
             "jsdoc/match-description": [
                 "error",
             ],
+            "jsdoc/match-name": [
+                "error", {
+                    "match": [],
+                },
+            ],
 		},
 	},
 ];
