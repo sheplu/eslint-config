@@ -135,6 +135,14 @@ export default [
                     "uselessWords": ["a", "an", "i", "in", "of", "s", "the"],
                 },
             ],
+            "jsdoc/lines-before-block": [
+                "error", {
+                    "checkBlockStarts": true,
+                    "excludedTags": ["type"],
+                    "ignoreSameLine": false,
+                    "lines": 2,
+                },
+            ],
 		},
 	},
 ];
