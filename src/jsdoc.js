@@ -84,6 +84,28 @@ export default [
                     "numericOnlyVariation": false,
                 },
             ],
+            "jsdoc/convert-to-jsdoc-comments": [
+                "error", {
+                    "allowedPrefixes": ["@ts-", "istanbul ", "c8 ", "v8 ", "eslint", "prettier-"],
+                    "contexts": {
+                        "context": [
+                            "ArrowFunctionExpression",
+                            "FunctionDeclaration",
+                            "FunctionExpression",
+                            "TSDeclareFunction"
+                        ],
+                        "contextsAfter": [],
+                        "contextsBeforeAndAfter": [
+                            "VariableDeclarator",
+                            "TSPropertySignature",
+                            "PropertyDefinition"
+                        ],
+                    },
+                    "enableFixer": true,
+                    "enforceJsdocLineStyle": "multi",
+                    "lineOrBlockStyle": "block",
+                }
+            ],
 		},
 	},
 ];
