@@ -123,6 +123,9 @@ export default [
                     "contexts":["any"],
                 },
             ],
+            "jsdoc/imports-as-dependencies": [
+                "error",
+            ],
 		},
 	},
 ];
