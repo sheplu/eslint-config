@@ -126,6 +126,15 @@ export default [
             "jsdoc/imports-as-dependencies": [
                 "error",
             ],
+            "jsdoc/informative-docs": [
+                "error", {
+                    "aliases": {
+                        "a": ["an", "our"]
+                    },
+                    "excludedTags": [],
+                    "uselessWords": ["a", "an", "i", "in", "of", "s", "the"],
+                },
+            ],
 		},
 	},
 ];
