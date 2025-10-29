@@ -106,6 +106,11 @@ export default [
                     "lineOrBlockStyle": "block",
                 }
             ],
+            "jsdoc/empty-tags": [
+                "error", {
+                    "tags": [],
+                },
+            ],
 		},
 	},
 ];
