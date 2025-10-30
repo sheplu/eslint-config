@@ -205,6 +205,14 @@ export default [
                     "contexts": ["any"],
                 },
             ],
+            "jsdoc/no-undefined-types": [
+                "error", {
+                    "checkUsedTypedefs": true,
+                    "definedTypes": [],
+                    "disableReporting": false,
+                    "markVariablesAsUsed": false,
+                },
+            ],
 		},
 	},
 ];
