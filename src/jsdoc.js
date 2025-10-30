@@ -200,6 +200,11 @@ export default [
                     "contexts": ["any"],
                 },
             ],
+            "jsdoc/no-types": [
+                "error", {
+                    "contexts": ["any"],
+                },
+            ],
 		},
 	},
 ];
