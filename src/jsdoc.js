@@ -195,6 +195,11 @@ export default [
                     "preventAtMiddleLines": true,
                 },
             ],
+            "jsdoc/no-restricted-syntax": [
+                "error", {
+                    "contexts": ["any"],
+                },
+            ],
 		},
 	},
 ];
