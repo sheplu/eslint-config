@@ -169,6 +169,9 @@ export default [
                     "preventAllMultiAsteriskBlocks": true,
                 },
             ],
+            "jsdoc/no-blank-block-descriptions": [
+                "error",
+            ],
 		},
 	},
 ];
