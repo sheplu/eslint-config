@@ -188,6 +188,13 @@ export default [
                     "contexts": ["any"],
                 },
             ],
+            "jsdoc/no-multi-asterisks": [
+                "error", {
+                    "allowWhitespace": true,
+                    "preventAtEnd": true,
+                    "preventAtMiddleLines": true,
+                },
+            ],
 		},
 	},
 ];
