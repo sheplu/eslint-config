@@ -177,6 +177,12 @@ export default [
                     "enableFixer": true,
                 },
             ],
+            "jsdoc/no-defaults": [
+                "error", {
+                    "contexts":["any"],
+                    "noOptionalParamNames": true,
+                },
+            ],
 		},
 	},
 ];
