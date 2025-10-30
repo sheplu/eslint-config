@@ -163,6 +163,12 @@ export default [
                     "singleLineTags": ["lends", "type"],
                 },
             ],
+            "jsdoc/no-bad-blocks": [
+                "error", {
+                    "ignore": ["ts-check", "ts-expect-error", "ts-ignore", "ts-nocheck"],
+                    "preventAllMultiAsteriskBlocks": true,
+                },
+            ],
 		},
 	},
 ];
