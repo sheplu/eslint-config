@@ -151,6 +151,18 @@ export default [
                     "match": [],
                 },
             ],
+            "jsdoc/multiline-blocks": [
+                "error", {
+                    "allowMultipleTags": true,
+                    "minimumLengthForMultiline": 30,
+                    "multilineTags": ["*"],
+                    "noFinalLineText": true,
+                    "noSingleLineBlocks": false,
+                    "noZeroLineText": true,
+                    "requireSingleLineUnderCount": 40,
+                    "singleLineTags": ["lends", "type"],
+                },
+            ],
 		},
 	},
 ];
