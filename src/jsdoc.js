@@ -183,6 +183,11 @@ export default [
                     "noOptionalParamNames": true,
                 },
             ],
+            "jsdoc/no-missing-syntax": [
+                "error", {
+                    "contexts": ["any"],
+                },
+            ],
 		},
 	},
 ];
