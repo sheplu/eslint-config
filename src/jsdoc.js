@@ -172,6 +172,11 @@ export default [
             "jsdoc/no-blank-block-descriptions": [
                 "error",
             ],
+            "jsdoc/no-blank-blocks": [
+                "error", {
+                    "enableFixer": true,
+                },
+            ],
 		},
 	},
 ];
