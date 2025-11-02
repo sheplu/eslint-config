@@ -229,6 +229,13 @@ export default [
             "jsdoc/require-asterisk-prefix": [
                 "error", "always",
             ],
+            "jsdoc/require-description-complete-sentence": [
+                "error", {
+                    "abbreviations": [],
+                    "newlineBeforeCapsAssumesBadSentenceEnd": false,
+                    "tags": [],
+                },
+            ],
 		},
 	},
 ];
