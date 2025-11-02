@@ -226,6 +226,9 @@ export default [
             "jsdoc/reject-function-type": [
                 "error",
             ],
+            "jsdoc/require-asterisk-prefix": [
+                "error", "always",
+            ],
 		},
 	},
 ];
