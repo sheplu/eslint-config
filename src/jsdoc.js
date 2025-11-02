@@ -236,6 +236,16 @@ export default [
                     "tags": [],
                 },
             ],
+            "jsdoc/require-description": [
+                "error", {
+                    "checkConstructors": true,
+                    "checkGetters": true,
+                    "checkSetters": true,
+                    "descriptionStyle": "body",
+                    "exemptedBy": [],
+                    "contexts":["any"],
+                },
+            ],
 		},
 	},
 ];
