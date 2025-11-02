@@ -213,6 +213,13 @@ export default [
                     "markVariablesAsUsed": false,
                 },
             ],
+            "jsdoc/prefer-import-tag": [
+                "error", {
+                    "enableFixer": true,
+                    "exemptTypedefs": true,
+                    "outputType": "named-import",
+                },
+            ],
 		},
 	},
 ];
