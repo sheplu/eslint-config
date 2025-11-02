@@ -220,6 +220,9 @@ export default [
                     "outputType": "named-import",
                 },
             ],
+            "jsdoc/reject-any-type": [
+                "error",
+            ],
 		},
 	},
 ];
