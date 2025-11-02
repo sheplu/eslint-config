@@ -223,6 +223,9 @@ export default [
             "jsdoc/reject-any-type": [
                 "error",
             ],
+            "jsdoc/reject-function-type": [
+                "error",
+            ],
 		},
 	},
 ];
