@@ -275,6 +275,35 @@ export default [
                     },
                 },
             ],
+            "jsdoc/require-jsdoc": [
+                "error", {
+                    "checkConstructors": true,
+                    "checkGetters": true,
+                    "checkSetters": true,
+                    "contexts":["any"],
+                    "enableFixer": true,
+                    "exemptEmptyConstructors": true,
+                    "exemptEmptyFunctions": false,
+                    "exemptOverloadedImplementations": false,
+                    "fixerMessage": "Automatic JSdoc",
+                    "minLineCount": undefined,
+                    "publicOnly": {
+                        "ancestorsOnly": false,
+                        "esm": true,
+                        "cjs": true,
+                        "window": true,
+                    },
+                    "require": {
+                        "ArrowFunctionExpression": true,
+                        "ClassDeclaration": true,
+                        "ClassExpression": true,
+                        "FunctionDeclaration": true,
+                        "FunctionExpression": true,
+                        "MethodDefinition": true,
+                        "skipInterveningOverloadedDeclarations": false,
+                    },
+                }
+            ],
 		},
 	},
 ];
