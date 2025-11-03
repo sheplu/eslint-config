@@ -302,7 +302,10 @@ export default [
                         "MethodDefinition": true,
                         "skipInterveningOverloadedDeclarations": false,
                     },
-                }
+                },
+            ],
+            "jsdoc/require-next-description": [
+                "error",
             ],
 		},
 	},
