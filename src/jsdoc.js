@@ -246,6 +246,17 @@ export default [
                     "contexts":["any"],
                 },
             ],
+            "jsdoc/require-example": [
+                "error", {
+                    "checkConstructors": true,
+                    "checkGetters": true,
+                    "checkSetters": true,
+                    "enableFixer": true,
+                    "exemptedBy": [],
+                    "exemptNoArguments": false,
+                    "contexts":["any"],
+                },
+            ]
 		},
 	},
 ];
