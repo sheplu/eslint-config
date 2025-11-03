@@ -256,7 +256,18 @@ export default [
                     "exemptNoArguments": false,
                     "contexts":["any"],
                 },
-            ]
+            ],
+            "jsdoc/require-file-overview": [
+                "error", {
+                    "tags": {
+                        "file": {
+                            "initialCommentsOnly": true,
+                            "mustExist": true,
+                            "preventDuplicates": true,
+                        },
+                    },
+                },
+            ],
 		},
 	},
 ];
