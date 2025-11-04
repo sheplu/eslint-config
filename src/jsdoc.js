@@ -310,6 +310,13 @@ export default [
             "jsdoc/require-next-type": [
                 "error",
             ],
+            "jsdoc/require-param-description": [
+                "error", {
+                    "contexts":["any"],
+                    "defaultDestructuredRootDescription": "The root object",
+                    "setDefaultDestructuredRootDescription": false,
+                },
+            ],
 		},
 	},
 ];
