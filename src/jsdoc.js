@@ -317,6 +317,11 @@ export default [
                     "setDefaultDestructuredRootDescription": false,
                 },
             ],
+            "jsdoc/require-param-name": [
+                "error", {
+                    "contexts":["any"],
+                },
+            ],
 		},
 	},
 ];
