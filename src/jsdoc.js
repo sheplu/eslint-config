@@ -329,6 +329,9 @@ export default [
                     "setDefaultDestructuredRootType": false
                 },
             ],
+            "jsdoc/require-param": [
+                "error",
+            ],
 		},
 	},
 ];
