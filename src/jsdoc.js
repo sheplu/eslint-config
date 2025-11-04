@@ -322,6 +322,13 @@ export default [
                     "contexts":["any"],
                 },
             ],
+            "jsdoc/require-param-type": [
+                "error", {
+                    "contexts":["any"],
+                    "defaultDestructuredRootType": "object",
+                    "setDefaultDestructuredRootType": false
+                },
+            ],
 		},
 	},
 ];
