@@ -380,6 +380,9 @@ export default [
                     "publicOnly": false,
                 },
             ],
+            "jsdoc/require-tags": [
+                "error",
+            ],
 		},
 	},
 ];
