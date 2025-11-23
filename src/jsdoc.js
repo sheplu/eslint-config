@@ -404,6 +404,13 @@ export default [
                     "exemptedBy": ["inheritdoc"],
                 },
             ],
+            "jsdoc/require-yields-check": [
+                "error", {
+                    "checkGeneratorsOnly": false,
+                    "contexts": ["any"],
+                    "next": true,
+                },
+            ],
 		},
 	},
 ];
