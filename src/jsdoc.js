@@ -383,6 +383,9 @@ export default [
             "jsdoc/require-tags": [
                 "error",
             ],
+            "jsdoc/require-template-description": [
+                "error",
+            ],
 		},
 	},
 ];
