@@ -344,6 +344,12 @@ export default [
             "jsdoc/require-property": [
                 "error",
             ],
+            "jsdoc/require-rejects": [
+                "error", {
+                    "contexts": ["any"],
+                    "exemptedBy": ["type", "abstract", "virtual"],
+                },
+            ],
 		},
 	},
 ];
