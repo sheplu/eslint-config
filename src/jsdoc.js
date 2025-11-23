@@ -338,6 +338,9 @@ export default [
             "jsdoc/require-property-name": [
                 "error",
             ],
+            "jsdoc/require-property-type": [
+                "error",
+            ],
 		},
 	},
 ];
