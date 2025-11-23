@@ -398,6 +398,12 @@ export default [
             "jsdoc/require-throws-type": [
                 "error",
             ],
+            "jsdoc/require-throws": [
+                "error", {
+                    "contexts": ["any"],
+                    "exemptedBy": ["inheritdoc"],
+                },
+            ],
 		},
 	},
 ];
