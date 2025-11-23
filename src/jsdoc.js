@@ -358,6 +358,11 @@ export default [
                     "reportMissingReturnForUndefinedTypes": true,
                 },
             ],
+            "jsdoc/require-returns-description": [
+                "error", {
+                    "contexts": ["any"],
+                },
+            ],
 		},
 	},
 ];
