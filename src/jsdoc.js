@@ -411,6 +411,9 @@ export default [
                     "next": true,
                 },
             ],
+            "jsdoc/require-yields-description": [
+                "error",
+            ],
 		},
 	},
 ];
