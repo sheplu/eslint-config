@@ -350,6 +350,14 @@ export default [
                     "exemptedBy": ["type", "abstract", "virtual"],
                 },
             ],
+            "jsdoc/require-returns-check": [
+                "error", {
+                    "exemptAsync": false,
+                    "exemptGenerators": false,
+                    "noNativeTypes": true,
+                    "reportMissingReturnForUndefinedTypes": true,
+                },
+            ],
 		},
 	},
 ];
