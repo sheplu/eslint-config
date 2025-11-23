@@ -332,6 +332,9 @@ export default [
             "jsdoc/require-param": [
                 "error",
             ],
+            "jsdoc/require-property-description": [
+                "error",
+            ],
 		},
 	},
 ];
