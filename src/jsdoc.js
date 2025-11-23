@@ -368,6 +368,18 @@ export default [
                     "contexts": ["any"],
                 },
             ],
+            "jsdoc/require-returns": [
+                "error", {
+                    "checkConstructors": true,
+                    "checkGetters": true,
+                    "contexts": ["any"],
+                    "enableFixer": true,
+                    "exemptedBy": ["inheritdoc"],
+                    "forceRequireReturn": true,
+                    "forceReturnsWithAsync": true,
+                    "publicOnly": false,
+                },
+            ],
 		},
 	},
 ];
