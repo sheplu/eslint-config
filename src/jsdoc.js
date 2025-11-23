@@ -392,6 +392,9 @@ export default [
                     "requireSeparateTemplates": true,
                 },
             ],
+            "jsdoc/require-throws-description": [
+                "error",
+            ],
 		},
 	},
 ];
