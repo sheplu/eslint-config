@@ -386,6 +386,12 @@ export default [
             "jsdoc/require-template-description": [
                 "error",
             ],
+            "jsdoc/require-template": [
+                "error", {
+                    "exemptedBy": ["inheritdoc"],
+                    "requireSeparateTemplates": true,
+                },
+            ],
 		},
 	},
 ];
