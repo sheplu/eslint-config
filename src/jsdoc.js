@@ -363,6 +363,11 @@ export default [
                     "contexts": ["any"],
                 },
             ],
+            "jsdoc/require-returns-type": [
+                "error", {
+                    "contexts": ["any"],
+                },
+            ],
 		},
 	},
 ];
