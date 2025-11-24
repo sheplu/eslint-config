@@ -84,3 +84,4 @@ Add common lint commands to your `package.json`:
 * [playwright](https://github.com/mskelton/eslint-plugin-playwright)
 * [jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y)
 * [typescript](https://github.com/typescript-eslint/typescript-eslint)
+* [jsdoc](https://github.com/gajus/eslint-plugin-jsdoc)
