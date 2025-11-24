@@ -428,6 +428,9 @@ export default [
                     "withGeneratorTag": true,
                 },
             ],
+            "jsdoc/required-tags": [
+                "error",
+            ],
 		},
 	},
 ];
