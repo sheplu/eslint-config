@@ -417,6 +417,17 @@ export default [
             "jsdoc/require-yields-type": [
                 "error",
             ],
+            "jsdoc/require-yields": [
+                "error", {
+                    "contexts": ["any"],
+                    "exemptedBy": ["inheritdoc"],
+                    "forceRequireNext": true,
+                    "forceRequireYields": true,
+                    "next": true,
+                    "nextWithGeneratorTag": true,
+                    "withGeneratorTag": true,
+                },
+            ],
 		},
 	},
 ];
