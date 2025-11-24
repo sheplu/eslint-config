@@ -455,6 +455,12 @@ export default [
                     },
                 },
             ],
+            "jsdoc/text-escaping": [
+                "error", {
+                    "escapeHTML": false,
+                    "escapeMarkdown": false,
+                },
+            ],
 		},
 	},
 ];
