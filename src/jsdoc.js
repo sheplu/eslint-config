@@ -466,6 +466,9 @@ export default [
                     "enableFixer": true,
                 },
             ],
+            "jsdoc/ts-no-empty-object-type": [
+                "error",
+            ],
 		},
 	},
 ];
