@@ -511,6 +511,11 @@ export default [
                     "unionSpacing": " ",
                 },
             ],
+            "jsdoc/valid-types": [
+                "error", {
+                    "allowEmptyNamepaths": false,
+                },
+            ],
 		},
 	},
 ];
