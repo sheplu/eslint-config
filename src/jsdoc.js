@@ -431,6 +431,16 @@ export default [
             "jsdoc/required-tags": [
                 "error",
             ],
+            "jsdoc/sort-tags": [
+                "error", {
+                    "alphabetizeExtras": true,
+                    "linesBetween": 0,
+                    "reportIntraTagGroupSpacing": true,
+                    "reportTagGroupSpacing": true,
+                    "tagExceptions": {},
+                    "tagSequence": [],
+                },
+            ],
 		},
 	},
 ];
