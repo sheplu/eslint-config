@@ -474,6 +474,11 @@ export default [
                     "enableFixer": true,
                 },
             ],
+            "jsdoc/ts-prefer-function-type": [
+                "error", {
+                    "enableFixer": true,
+                },
+            ],
 		},
 	},
 ];
