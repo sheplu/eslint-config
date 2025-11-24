@@ -441,6 +441,20 @@ export default [
                     "tagSequence": [],
                 },
             ],
+            "jsdoc/tag-lines": [
+                "error", "always", {
+                    "applyToEndTag": true,
+                    "count": 1,
+                    "endLines": 0,
+                    "maxBlockLines": null,
+                    "startLines": 0,
+                    "tags": {
+                        "params": {
+                            "lines": "any",
+                        },
+                    },
+                },
+            ],
 		},
 	},
 ];
