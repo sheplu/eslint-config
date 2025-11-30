@@ -15,6 +15,14 @@ export default [
             "json/no-unsafe-values": [
                 "error",
             ],
+            "json/sort-keys": [
+                "error", "asc", {
+                    "caseSensitive": true,
+                    "natural": true,
+                    "minKeys": 2,
+                    "allowLineSeparatedGroups": false,
+                },
+            ],
         },
     },
 ];
