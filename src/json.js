@@ -23,6 +23,9 @@ export default [
                     "allowLineSeparatedGroups": false,
                 },
             ],
+            "json/top-level-interop": [
+                "error",
+            ],
         },
     },
 ];
