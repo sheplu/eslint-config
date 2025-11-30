@@ -12,6 +12,9 @@ export default [
                     "form": "NFC",
                 },
             ],
+            "json/no-unsafe-values": [
+                "error",
+            ],
         },
     },
 ];
