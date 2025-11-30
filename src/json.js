@@ -7,6 +7,11 @@ export default [
             "json/no-empty-keys": [
                 "error",
             ],
+            "json/no-unnormalized-keys": [
+                "error", {
+                    "form": "NFC",
+                },
+            ],
         },
     },
 ];
