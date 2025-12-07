@@ -151,6 +151,29 @@ export default [
 					environment: 'node',
 				},
 			],
+			"perfectionist/sort-interfaces": [
+				"error", {
+					type: 'natural',
+					order: 'asc',
+					fallbackSort: {
+						type: 'unsorted',
+						order: 'asc',
+					},
+					alphabet: '',
+					ignoreCase: false,
+					specialCharacters: 'keep',
+					locales: 'en-US',
+					sortBy: 'name',
+					partitionByComment: false,
+					partitionByNewLine: false,
+					newlinesBetween: 0,
+					useConfigurationIf: {
+						allNamesMatchPattern: '',
+					},
+					groups: [],
+					customGroups: [],
+				},
+			],
 		},
 	},
 ];
