@@ -107,7 +107,23 @@ export default [
 					groups: [],
 					customGroups: [],
 				},
-			]
+			],
+			"perfectionist/sort-heritage-clauses": [
+				"error", {
+					type: 'natural',
+					order: 'asc',
+					fallbackSort: {
+						type: 'unsorted',
+						order: 'asc',
+					},
+					alphabet: '',
+					ignoreCase: false,
+					specialCharacters: 'keep',
+					locales: 'en-US',
+					groups: [],
+					customGroups: [],
+				},
+			],
 		},
 	},
 ];
