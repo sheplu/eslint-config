@@ -23,6 +23,29 @@ export default [
 					customGroups: [],
 				},
 			],
+			"perfectionist/sort-classes": [
+				"error", {
+					type: 'natural',
+					order: 'asc',
+					fallbackSort: {
+						type: 'unsorted',
+						order: 'asc',
+					},
+					alphabet: '',
+					ignoreCase: false,
+					specialCharacters: 'keep',
+					locales: 'en-US',
+					partitionByComment: false,
+					partitionByNewLine: false,
+					newlinesBetween: 0,
+					ignoreCallbackDependenciesPatterns: [],
+					useConfigurationIf: {
+						allNamesMatchPattern: '',
+					},
+					groups: [],
+					customGroups: [],
+				},
+			]
 		},
 	},
 ];
