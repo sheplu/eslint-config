@@ -376,6 +376,25 @@ export default [
 					locales: 'en-US',
 				},
 			],
+			"perfectionist/sort-union-types": [
+				"error", {
+					type: 'natural',
+					order: 'asc',
+					fallbackSort: {
+						type: 'unsorted',
+						order: 'asc',
+					},
+					alphabet: '',
+					ignoreCase: false,
+					specialCharacters: 'keep',
+					locales: 'en-US',
+					partitionByComment: false,
+					partitionByNewLine: false,
+					newlinesBetween: 0,
+					groups: [],
+					customGroups: [],
+				},
+			],
 		},
 	},
 ];
