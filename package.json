@@ -42,6 +42,7 @@
   ],
   "dependencies": {
     "@sheplu/eslint-config-eslint": "^0.5.4",
-    "@sheplu/eslint-config-json": "^0.6.1"
+    "@sheplu/eslint-config-json": "^0.6.1",
+    "@sheplu/eslint-config-markdown": "^0.7.2"
   }
 }
