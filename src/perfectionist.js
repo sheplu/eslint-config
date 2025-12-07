@@ -124,6 +124,33 @@ export default [
 					customGroups: [],
 				},
 			],
+			"perfectionist/sort-imports": [
+				"error", {
+					type: 'natural',
+					order: 'asc',
+					fallbackSort: {
+						type: 'unsorted',
+						order: 'asc',
+					},
+					alphabet: '',
+					ignoreCase: false,
+					specialCharacters: 'keep',
+					locales: 'en-US',
+					internalPattern: "['^~/.+', '^@/.+']",
+					sortSideEffects: false,
+					partitionByComment: false,
+					partitionByNewLine: false,
+					newlinesBetween: 0,
+					maxLineLength: 120,
+					tsconfig: {
+						rootDir: '.',
+						filename: 'tsconfig.json',
+					},
+					groups: [],
+					customGroups: [],
+					environment: 'node',
+				},
+			],
 		},
 	},
 ];
