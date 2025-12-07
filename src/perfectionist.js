@@ -254,6 +254,26 @@ export default [
 					groups: [],
 					customGroups: [],
 				},
+			],
+			"perfectionist/sort-named-exports": [
+				"error", {
+					type: 'natural',
+					order: 'asc',
+					fallbackSort: {
+						type: 'unsorted',
+						order: 'asc',
+					},
+					alphabet: '',
+					ignoreCase: false,
+					specialCharacters: 'keep',
+					locales: 'en-US',
+					ignoreAlias: false,
+					partitionByComment: false,
+					partitionByNewLine: false,
+					newlinesBetween: 0,
+					groups: [],
+					customGroups: [],
+				},
 			]
 		},
 	},
