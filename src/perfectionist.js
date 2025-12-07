@@ -45,6 +45,28 @@ export default [
 					groups: [],
 					customGroups: [],
 				},
+			],
+			"perfectionist/sort-decorators": [
+				"error", {
+					type: 'natural',
+					order: 'asc',
+					fallbackSort: {
+						type: 'unsorted',
+						order: 'asc',
+					},
+					alphabet: '',
+					ignoreCase: false,
+					specialCharacters: 'keep',
+					locales: 'en-US',
+					sortOnClasses: true,
+					sortOnMethods: true,
+					sortOnProperties: true,
+					sortOnAccessors: true,
+					sortOnParameters: true,
+					partitionByComment: false,
+					groups: [],
+					customGroups: [],
+				},
 			]
 		},
 	},
