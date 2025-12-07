@@ -41,6 +41,6 @@
     "src/*"
   ],
   "dependencies": {
-    "@sheplu/eslint-config-eslint": "^0.5.0"
+    "@sheplu/eslint-config-eslint": "^0.5.4"
   }
 }
