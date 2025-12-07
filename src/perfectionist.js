@@ -67,7 +67,28 @@ export default [
 					groups: [],
 					customGroups: [],
 				},
-			]
+			],
+			"perfectionist/sort-enums": [
+				"error", {
+					type: 'natural',
+					order: 'asc',
+					fallbackSort: {
+						type: 'unsorted',
+						order: 'asc',
+					},
+					alphabet: '',
+					ignoreCase: false,
+					specialCharacters: 'keep',
+					locales: 'en-US',
+					sortByValue: false,
+					forceNumericSort: false,
+					partitionByComment: false,
+					partitionByNewLine: false,
+					newlinesBetween: 0,
+					groups: [],
+					customGroups: [],
+				},
+			],
 		},
 	},
 ];
