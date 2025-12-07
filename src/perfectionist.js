@@ -192,7 +192,28 @@ export default [
 					groups: [],
 					customGroups: [],
 				},
-			]
+			],
+			"perfectionist/sort-jsx-props": [
+				"error", {
+					type: 'natural',
+					order: 'asc',
+					fallbackSort: {
+						type: 'unsorted',
+						order: 'asc',
+					},
+					alphabet: '',
+					ignoreCase: false,
+					specialCharacters: 'keep',
+					locales: 'en-US',
+					partitionByNewLine: false,
+					newlinesBetween: 0,
+					useConfigurationIf: {
+						allNamesMatchPattern: '',
+					},
+					groups: [],
+					customGroups: [],
+				},
+			],
 		},
 	},
 ];
