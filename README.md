@@ -1,13 +1,13 @@
 # eslint-config
 
-A **shareable ESLint configuration** for modern JavaScript and TypeScript projects.  
-It builds on top of **ESLint’s recommended rules** and **stylistic plugin defaults**,  
-with optional presets for **React** and **Node.js**.  
+A **shareable ESLint configuration** for modern JavaScript and TypeScript projects.
+It builds on top of **ESLint’s recommended rules** and **stylistic plugin defaults**,
+with optional presets for **React** and **Node.js**.
 Designed to be simple, consistent, and Prettier-compatible.
 
 ## 🚀 Install
 
-This config only requires **eslint** and **@stylistic/eslint-plugin**.  
+This config only requires **eslint** and **@stylistic/eslint-plugin**.
 Other plugins (TypeScript, React, Prettier) are optional, depending on your project.
 
 ```bash
@@ -85,3 +85,4 @@ Add common lint commands to your `package.json`:
 * [jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y)
 * [typescript](https://github.com/typescript-eslint/typescript-eslint)
 * [jsdoc](https://github.com/gajus/eslint-plugin-jsdoc)
+* [json](https://github.com/eslint/json)
