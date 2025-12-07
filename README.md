@@ -86,3 +86,4 @@ Add common lint commands to your `package.json`:
 * [typescript](https://github.com/typescript-eslint/typescript-eslint)
 * [jsdoc](https://github.com/gajus/eslint-plugin-jsdoc)
 * [json](https://github.com/eslint/json)
+* [perfectionist](https://perfectionist.dev/rules)
