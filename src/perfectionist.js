@@ -362,6 +362,20 @@ export default [
 					customGroups: [],
 				},
 			],
+			"perfectionist/sort-switch-case": [
+				"error", {
+					type: 'natural',
+					order: 'asc',
+					fallbackSort: {
+						type: 'unsorted',
+						order: 'asc',
+					},
+					alphabet: '',
+					ignoreCase: false,
+					specialCharacters: 'keep',
+					locales: 'en-US',
+				},
+			],
 		},
 	},
 ];
