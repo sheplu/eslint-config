@@ -1,4 +1,7 @@
-import { markdownRules, defaultMarkdownConfig } from "@sheplu/eslint-config-markdown";
+import {
+	markdownRules as markdown,
+	defaultMarkdownConfig as defaultMarkdown
+} from "@sheplu/eslint-config-markdown";
 
-export const markdownRules = markdownRules;
-export const defaultMarkdownConfig = defaultMarkdownConfig;
+export const markdownRules = markdown;
+export const defaultMarkdownConfig = defaultMarkdown;
